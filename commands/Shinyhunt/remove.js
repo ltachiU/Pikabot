@@ -2,7 +2,7 @@ const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch
 const fs = require('fs');
 
 const { whitelistCheck } = require('../../files/utils/whitelist-check.js');
-const { write, backup, ch_dir, writeFile, backupFile } = require('../../files/utils.js');
+const { write, ch_dir, writeFile } = require('../../files/utils.js');
 
 module.exports = {
     name: "remove",
@@ -34,7 +34,6 @@ module.exports = {
 		let json = JSON.stringify(obj, null, 1);
 
         writeFile(`${write}channels.json`, json);
-        backupFile(`./${write}channels.json`, `${backup}channels.json`);
 		
 		message.channel.send("Esse canal foi removido! \nNão vou mais enviar mensagens aqui!");
 

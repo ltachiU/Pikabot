@@ -1,10 +1,9 @@
 const fs = require('fs');
 
 module.exports = {
-    write:  "files/database/",
-    backup: "./files/database/backup/",
-    sh_dir: "files/database/shinyhunt.json",
-    ch_dir: "files/database/channels.json",
+    write: 'files/database/',
+    sh_dir: 'files/database/shinyhunt.json',
+    ch_dir: 'files/database/channels.json',
 
     /**
      * @Pokemon

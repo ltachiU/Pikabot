@@ -43,7 +43,7 @@ module.exports = async (client, message) => {
   const channel = message.channel.id;
 
   // h.js
-  if(msg.includes("the pokémon is")) {
+  if(message.author=="716390085896962058" && msg.includes("the pokémon is")) {
     // Check channel
     if(!checkChannel(server, channel)) return;
 

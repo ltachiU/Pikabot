@@ -2,7 +2,7 @@ const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch
 const fs = require('fs');
 const { prefix } = require('../../config/config.js');
 
-const { write, backup, sh_dir, findKey, checkPokemon, writeFile, backupFile } = require('../../files/utils.js');
+const { write, sh_dir, findKey, checkPokemon, writeFile } = require('../../files/utils.js');
 
 module.exports = {
     name: "shinyhunt",
@@ -43,7 +43,6 @@ module.exports = {
             let json = JSON.stringify(obj, null, 1);
             writeFile(`${write}shinyhunt.json`, json);
 
-            backupFile(`./${write}shinyhunt.json`, `${backup}shinyhunt.json`);
             return message.channel.send(`Agora você será notificado quando um \`${pokemon}\` aparecer`);
         };
 
@@ -52,7 +51,6 @@ module.exports = {
         let json = JSON.stringify(obj, null, 1);
         writeFile(`${write}shinyhunt.json`, json);
 
-        backupFile(`./${write}shinyhunt.json`, `${backup}shinyhunt.json`);
         return message.channel.send(`Agora você será notificado quando um \`${pokemon}\` aparecer`);
 
     }

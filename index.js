@@ -16,13 +16,30 @@ const fs = require("fs");
 const client = new Client({
     partials: ["CHANNEL"],
   intents: [
-    Intents.FLAGS.GUILDS, 
-    Intents.FLAGS.GUILD_MESSAGES, 
-    Intents.FLAGS.GUILD_MESSAGE_REACTIONS,
-    Intents.FLAGS.DIRECT_MESSAGES,
-    // Intents.FLAGS.DIRECT_MESSAGE_TYPING
+      Intents.FLAGS.GUILDS, 
+      Intents.FLAGS.GUILD_MESSAGES, 
     ],
 });
+
+
+// setInterval(function(){
+//   client.user.setPresence({
+//     status: 'online',
+//     activity: {
+//         name: ".help",
+//         type: "PLAYING"
+//     }
+//   }), 5000;
+
+//   client.user.setPresence({
+//     status: 'online',
+//     activity: {
+//         name: "Seus pokemons",
+//         type: "WATCHING"
+//     }
+//   })
+
+// }, 5000);
 
 
 // Client variables to use everywhere
