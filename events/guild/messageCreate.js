@@ -42,6 +42,9 @@ module.exports = async (client, message) => {
   const server = message.guild.id;
   const channel = message.channel.id;
 
+  if(msg=="pika")
+    return message.channel.send("Pika pika");
+
   // h.js
   if(message.author=="716390085896962058" && msg.includes("the pokémon is")) {
     // Check channel
