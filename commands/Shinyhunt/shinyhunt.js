@@ -1,4 +1,3 @@
-const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch (...args));
 const fs = require('fs');
 const { prefix } = require('../../config/config.js');
 
@@ -20,34 +19,42 @@ module.exports = {
 
         let key = findKey(obj, user);
 
+        console.log(`\nKey: ${key}`)
+
+
         // View
         if(!pokemon) {
-            if(!key)
+            if(!key) {
+                console.log("NÃO DEFINIU")
                 return message.channel.send(`Você ainda não definiu seu shinyhunt \nDigite \`${prefix}sh <pokemon>\``);
+            }
+            console.log("SH");
             return message.channel.send(`Você está em uma shinyhunt de \`${key}\``);
         }
 
         if(!checkPokemon(pokemon))
             return message.channel.send(`Não conheço nenhum pokemon chamado \`${pokemon}\` \nDigite o nome do pokemon em inglês, por favor`);
 
-        if(key==pokemon) 
+        if(key==pokemon) {
+            console.log("SAME")
             return message.channel.send("Você já está em uma shinyhunt desse pokemon");
+        }
 
-        // Change
+        // Just check if is in some shinyhunt
         if(key) {
+            console.log("CHANGE");
+
             const index = obj[key].indexOf(user);
-
-            obj[key].splice(index); // Removendo de um array
-            obj[pokemon] = [user]; // Adicionando em outro
-
-            let json = JSON.stringify(obj, null, 1);
-            writeFile(`${write}shinyhunt.json`, json);
-
-            return message.channel.send(`Agora você será notificado quando um \`${pokemon}\` aparecer`);
+            obj[key].splice(index); // Removing from array
         };
 
         // Add
-        obj[pokemon] = [user];
+        if(!keys.includes(pokemon)) {
+            obj[pokemon] = [user]; // Adding in another
+        }
+        else
+            obj[pokemon].push(user);
+
         let json = JSON.stringify(obj, null, 1);
         writeFile(`${write}shinyhunt.json`, json);
 
