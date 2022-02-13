@@ -72,20 +72,24 @@ module.exports = {
 
 
     capitalize: function(string) {
+        if(!string) return false;
         return string.charAt(0).toUpperCase() + string.slice(1);
     },
 
     titleCase: function(str) {
+        if(!str) return false;
         return str.replace(/\p{L}+('\p{L}+)?/gu, function(txt) {
             return txt.charAt(0).toUpperCase() + txt.slice(1)
         })
     },
 
     clearSpaces: function(string) {
+        if(!string) return false;
         return string.replace(/ /g, '');
     },
 
     formatString: function(string) {
+        if(!string) return false;
         return string.replace(/[<>@&!'",.\/\\]/g, "")
     },
 

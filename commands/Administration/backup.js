@@ -8,7 +8,7 @@ module.exports = {
     run: async (client, message) => {
         message.channel.send({
             files: [
-                'files/database/cindy.jpg',
+                'files/database/statics/cindy.jpg',
                 'files/database/shinyhunt.json',
                 'files/database/channels.json',
             ],

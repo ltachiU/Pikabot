@@ -2,7 +2,7 @@ const { MessageEmbed } = require("discord.js");
 const ee = require("../../config/embed.json");
 
 const fs = require('fs');
-const pokemonsJson = require("../../files/database/pokemons.json");
+const pokemonsJson = require("../../files/database/statics/pokemons.json");
 const { sh_dir, capitalize, formatString, similar, findIndicesOfMax } = require('../../files/utils.js');
 
 module.exports = {

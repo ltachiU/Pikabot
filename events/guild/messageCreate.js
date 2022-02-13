@@ -66,12 +66,12 @@ module.exports = async (client, message) => {
     let obj = JSON.parse(data);
     
     // Checa se existe shinyhunt do pokemon
-    if(!obj[msg]) return;
+    const users = obj[msg];
+    if(!obj[msg] || obj[msg].length==0) return;
 
     // Check channel
     if(!checkChannel(server, channel)) return;
 
-    const users = obj[msg];
 
     let shinyhunters = "";
     for(let i=0; i<users.length; i++)

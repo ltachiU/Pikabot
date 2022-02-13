@@ -49,7 +49,7 @@ module.exports = {
         };
 
         // Add
-        if(!keys.includes(pokemon)) {
+        if(!obj.hasOwnProperty(pokemon)) {
             obj[pokemon] = [user]; // Adding in another
         }
         else
