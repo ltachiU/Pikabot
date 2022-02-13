@@ -24,7 +24,7 @@ module.exports = {
 
         let al = cmd.aliases.map((a) => `${a}`).join("`, `");
         if(al.length==0) al = "None";
-        if(cmd.aliases) embed.addField("**Aliases**", `\`${cmd.aliases.map((a) => `${a}`).join("`, `")}\``);
+        if(cmd.aliases) embed.addField("**Aliases**", `\`${al}\``);
     
         if(cmd.usage) {
             embed.addField("**Usage**", `\`${prefix}${cmd.usage}\``);

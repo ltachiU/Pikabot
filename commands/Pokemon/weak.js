@@ -25,7 +25,7 @@ module.exports = {
             
         primaryString = primaryString.toLowerCase()
         if(!types.includes(primaryString))
-            return message.channel.send(`Não achei nenhuma tipagem **${capitalize(primary)}**, digite uma tipagem existente, em inglês, por favor`);
+            return message.channel.send(`Não achei nenhuma tipagem **${capitalize(primaryString)}**, digite uma tipagem existente, em inglês, por favor`);
         const primary = chart[primaryString];
 
         // Secondary
