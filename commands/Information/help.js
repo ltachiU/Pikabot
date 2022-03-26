@@ -40,8 +40,8 @@ module.exports = {
         const embed = new MessageEmbed()
             .setColor(ee.color)
             .setThumbnail(client.user.displayAvatarURL())
-            .setTitle("HELP MENU 🦜🤙 Commands")
-            .setFooter({ text: `Para ver informações de um comando e a forma de usar, digite ${prefix}help [command]`, icon_url: [client.user.displayAvatarURL()] });
+            .setTitle("HELP MENU Commands")
+            .setFooter({ text: `Para ver informações de um comando digite ${prefix}help [command]`, icon_url: [client.user.displayAvatarURL()] });
 
         const commands = (category) => {
             return client.commands.filter((cmd) => cmd.category === category).map((cmd) => `\`${cmd.name}\``);

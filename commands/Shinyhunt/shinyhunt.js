@@ -19,31 +19,27 @@ module.exports = {
 
         let key = findKey(obj, user);
 
-        console.log(`\nKey: ${key}`)
 
 
         // View
         if(!pokemon) {
             if(!key) {
-                console.log("NÃO DEFINIU")
                 return message.channel.send(`Você ainda não definiu seu shinyhunt \nDigite \`${prefix}sh <pokemon>\``);
             }
-            console.log("SH");
             return message.channel.send(`Você está em uma shinyhunt de \`${key}\``);
         }
 
+        pokemon.toLowerCase();
+            
         if(!checkPokemon(pokemon))
             return message.channel.send(`Não conheço nenhum pokemon chamado \`${pokemon}\` \nDigite o nome do pokemon em inglês, por favor`);
 
         if(key==pokemon) {
-            console.log("SAME")
             return message.channel.send("Você já está em uma shinyhunt desse pokemon");
         }
 
         // Just check if is in some shinyhunt
         if(key) {
-            console.log("CHANGE");
-
             const index = obj[key].indexOf(user);
             obj[key].splice(index); // Removing from array
         };

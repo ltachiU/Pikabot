@@ -73,6 +73,9 @@ module.exports = {
         
             else if(value==1)
                 neutral.push(typeFormated);
+            else if(value==0.25)
+                resist.push(`**${typeFormated}**`);
+
             else if(value==0.5)
                 resist.push(typeFormated);
             else if(value==0)
@@ -81,19 +84,19 @@ module.exports = {
 
         const title = (secondary) ? `__${primaryString.toUpperCase()} / ${secondaryString.toUpperCase()}__` : info[0].toUpperCase();
 
-		let embed = new MessageEmbed()
-			.setTitle(title)
+        let embed = new MessageEmbed()
+            .setTitle(title)
             .addFields(
                 { name: "Weak", value: weak.join(", ") },
                 { name: "Neutral", value: neutral.join(", ") },
                 { name: "Resist", value: resist.join(", ") }
             )
-			.setColor(ee.color);
+            .setColor(ee.color);
         
         // Só adicioanr se tiver imunidade
         (immune.length>0) ? embed.addField("Immune", immune.join(", ")) : false;
 
-		message.channel.send({ embeds: [embed] });
+        message.channel.send({ embeds: [embed] });
 
-	},
+    },
 }
