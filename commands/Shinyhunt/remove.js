@@ -1,8 +1,6 @@
 const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch (...args));
 const fs = require('fs');
-
-const { whitelistCheck } = require('../../files/utils/whitelist-check.js');
-const { write, ch_dir, writeFile } = require('../../files/utils.js');
+const { whitelistCheck } = require('../../files/scripts/whitelist-check.js');
 
 module.exports = {
 	name: "remove",
@@ -18,7 +16,7 @@ module.exports = {
 		if(!message.member.permissions.has('MANAGE_MESSAGES') && !whitelistCheck(message.author.id))
 			return message.channel.send("Você não tem permissão pra usar esse comando! \nSeu boboca");
 
-		let data = fs.readFileSync(ch_dir, 'utf-8');
+		let data = fs.readFileSync('files/database/channels.json', 'utf-8');
 		let obj = JSON.parse(data);
 
 		if(!obj.hasOwnProperty(server)) return message.channel.send("Esse servidor não possui nenhum canal vinculado!");
@@ -33,7 +31,7 @@ module.exports = {
 		obj[server]['channels'].splice(index); // Deleta
 		let json = JSON.stringify(obj, null, 1);
 
-		writeFile(`${write}channels.json`, json);
+		fs.writeFileSync(`files/database/channels.json`, json);
 		
 		message.channel.send("Esse canal foi removido! \nNão vou mais enviar mensagens aqui!");
 

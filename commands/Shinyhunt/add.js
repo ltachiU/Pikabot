@@ -1,5 +1,5 @@
 const fs = require('fs');
-const { whitelistCheck } = require('../../files/utils/whitelist-check.js');
+const { whitelistCheck } = require('../../files/scripts/whitelist-check.js');
 
 module.exports = {
 	name: "add",

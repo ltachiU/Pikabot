@@ -3,8 +3,8 @@ const ee = require("../../config/embed.json");
 
 const fs = require('fs');
 const pokemonsJson = require("../../files/database/statics/pokemons.json");
-const { similar, findIndicesOfMax } = require('../../files/scripts/function.js');
-const { capitalize, findIndicesOfMax } = require('../../files/scripts/text-formatting.js');
+const { similar, findIndicesOfMax } = require('../../files/scripts/functions.js');
+const { capitalize } = require('../../files/scripts/text-formatting.js');
 
 module.exports = {
 	name: "find",
