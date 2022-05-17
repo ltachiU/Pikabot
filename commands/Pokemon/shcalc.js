@@ -1,15 +1,13 @@
-const { write, backup, sh_dir, writeFile, backupFile } = require('../../files/utils.js');
 const { MessageEmbed } = require('discord.js');
 const ee = require('../../config/embed.json');
-const fs = require('fs');
 
 module.exports = {
-    name: "shcalc",
-    category: "Pokemon",
-    aliases: ["calcsh", "calc"],
-    usage: "shcalc <shinyChain>",
-    description: "Vou calcular para você a sua atual chance de pegar o shiny da sua shiny hunt (Com base nos códigos do <@716390085896962058>)",
-    run: async (client, message, args) => {
+	name: "shcalc",
+	category: "Pokemon",
+	aliases: ["calcsh", "calc"],
+	usage: "shcalc <shinyChain>",
+	description: "Vou calcular para você a sua atual chance de pegar o shiny da sua shiny hunt (Com base nos códigos do <@716390085896962058>)",
+	run: async (client, message, args) => {
 
 		const shinyChain = args[0]
 
