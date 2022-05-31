@@ -13,14 +13,14 @@ module.exports = {
 	usage: "find <pokemon>",
 	description: "Não consegue lembrar o nome daquele pokemon? Digite o nome que você lembra e eu vou tentar achar",
 	run: async (client, message, args) => {
-		let shinyhunts = fs.readFileSync('files/database/shinyhunt', 'utf-8');
+		let shinyhunts = fs.readFileSync('files/database/shinyhunt.json', 'utf-8');
 		let obj = JSON.parse(shinyhunts);
 
 		// Desse jeito os valores e pokemons vão ser o mesmo index
 		var pokemons = [];
 		var values = [];
 
-		const hint = capitalize(args[0]);
+		const hint = capitalize(args[0].replace(/[<>@&!'",.\/\\]/g, ""));
 		for(let i = 0; i < pokemonsJson.length; i++) {
 			let pokemon = pokemonsJson[i]['name']['english']; // Adicionar pokemon ao array
 			let value = similar(hint, pokemon); // Adicionar porcentagem ao array

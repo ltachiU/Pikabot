@@ -4,7 +4,7 @@ const ee = require("../../config/embed.json");
 const fs = require('fs');
 const pokemonsJson = require("../../files/database/statics/pokemons.json");
 const { capitalize } = require('../../files/scripts/text-formatting.js');
-const { similar, findIndicesOfMax } = require('../../files/utils.js');
+const { similar, findIndicesOfMax } = require('../../files/scripts/functions.js');
 
 module.exports = {
 	name: "h",
@@ -15,7 +15,7 @@ module.exports = {
 	whitelistOnly: true,
 	run: async (client, message, hint) => {
 
-		let shinyhunts = fs.readFileSync('utf-8');
+		let shinyhunts = fs.readFileSync('files/database/shinyhunt.json', 'utf-8');
 		let obj = JSON.parse(shinyhunts);
 
 
@@ -23,7 +23,7 @@ module.exports = {
 		var pokemons = [];
 		var values = [];
 
-		hintFormated = capitalize(hint);
+		hintFormated = capitalize(hint.replace(/[<>@&!'",.\/\\]/g, ""));
 		for(let i = 0; i < pokemonsJson.length; i++) {
 			let pokemon = pokemonsJson[i]['name']['english']; // Adicionar pokemon ao array
 			let value = similar(hintFormated, pokemon); // Adicionar porcentagem ao array

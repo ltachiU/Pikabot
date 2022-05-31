@@ -44,7 +44,7 @@ module.exports = {
 			obj[pokemon].push(user);
 
 		let json = JSON.stringify(obj, null, 1);
-		fs.writeFileSync(`${write}shinyhunt.json`, json);
+		fs.writeFileSync(`files/database/shinyhunt.json`, json);
 
 		return message.channel.send(`Agora você será notificado quando um \`${pokemon}\` aparecer`);
 

@@ -1,3 +1,4 @@
+const fs = require('fs');
 var timeoutArray = [];
 
 module.exports = {
@@ -81,7 +82,7 @@ module.exports = {
 		return true;
 	},
 
-	similar: function(strA,strB) {
+	similar: function(strA,strB){
 		for(var result = 0, i = strA.length; i--;){
 			if(typeof strB[i] == 'undefined' || strA[i] == strB[i]);
 			else if(strA[i].toLowerCase() == strB[i].toLowerCase())
@@ -91,6 +92,7 @@ module.exports = {
 		}
 		return Math.round((1 - (result + 4*Math.abs(strA.length - strB.length))/(2*(strA.length+strB.length)))*100);
 	},
+
 
 	findIndicesOfMax: function(inp, count) { // Pegar os maiores valores de uma lista
 		var outp = [];

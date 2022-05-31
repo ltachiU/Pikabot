@@ -30,7 +30,7 @@ module.exports = async (client, message) => {
 	// h.js
 	if(message.author.id=="716390085896962058" && msg.includes("the pokémon is")) {
 		// Check channel
-		if(!checkChannel(server, channel)) return;
+		// if(!checkChannel(server, channel)) return;
 
 		// Get pokemon hint
 		const hint = msg.slice(0, -1).split(' ').at(-1); // Remove last character, Split in string, Get Last item
@@ -38,7 +38,7 @@ module.exports = async (client, message) => {
 		//+150
 		setTimeout(() => {
 			let command = client.commands.get('h');
-			command.run(client, message, capitalize(hint));
+			command.run(client, message, hint);
 		}, Math.round(client.ws.ping)+100);
 		// sleep(Math.round(client.ws.ping)+100); // Cooldown
 		return;
@@ -94,7 +94,7 @@ module.exports = async (client, message) => {
 	// if the command is now valid
 	if(command) {
 		if(command.whitelistOnly) {
-			const { whitelistCheck } = require("../../files/utils/whitelist-check.js");
+			const { whitelistCheck } = require("../../files/scripts/whitelist-check.js");
 			if(!whitelistCheck(message.author.id)) return;
 		}
 		// run the command with the parameters: client, message, args

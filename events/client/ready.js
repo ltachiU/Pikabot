@@ -4,8 +4,8 @@ module.exports = (client) => {
 	// client.user.setStatus('dnd'); // ONLINE, IDLE, DND, INVISIBLE
 
 	setInterval(function(){
-		client.user.setActivity('Vulgo Naldinho', { type: 'PLAYING' }), 5000;
-		client.user.setActivity('Beta v2.5', { type: 'WATCHING' }), 5000;
+		client.user.setActivity('Trabalhando em melhorias', { type: 'PLAYING' }), 5000;
+		client.user.setActivity('Seus shinyhunts', { type: 'WATCHING' }), 5000;
 	}, 5000);
 
 	// PLAYING
