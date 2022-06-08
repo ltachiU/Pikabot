@@ -2,7 +2,7 @@ const { MessageEmbed } = require("discord.js");
 const ee = require("../../config/embed.json");
 
 const fs = require('fs');
-const pokemonsJson = require("../../files/database/statics/pokemons.json");
+const pokedex = require("../../files/database/statics/pokedex.json");
 const { similar, findIndicesOfMax } = require('../../files/scripts/functions.js');
 const { capitalize } = require('../../files/scripts/text-formatting.js');
 
@@ -21,8 +21,8 @@ module.exports = {
 		var values = [];
 
 		const hint = capitalize(args[0].replace(/[<>@&!'",.\/\\]/g, ""));
-		for(let i = 0; i < pokemonsJson.length; i++) {
-			let pokemon = pokemonsJson[i]['name']['english']; // Adicionar pokemon ao array
+		for(let i = 0; i < pokedex.length; i++) {
+			let pokemon = pokedex[i]['name']['english']; // Adicionar pokemon ao array
 			let value = similar(hint, pokemon); // Adicionar porcentagem ao array
 
 			pokemons.push(pokemon);

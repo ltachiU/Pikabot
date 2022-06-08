@@ -1,0 +1,10407 @@
+[
+  {
+    "id": 1,
+    "name": {
+      "english": "Bulbasaur",
+      "japanese": "フシギダネ",
+      "french": "Bulbizarre"
+    },
+    "type": [
+      "Grass",
+      "Poison"
+    ]
+  },
+  {
+    "id": 2,
+    "name": {
+      "english": "Ivysaur",
+      "japanese": "フシギソウ",
+      "french": "Herbizarre"
+    },
+    "type": [
+      "Grass",
+      "Poison"
+    ]
+  },
+  {
+    "id": 3,
+    "name": {
+      "english": "Venusaur",
+      "japanese": "フシギバナ",
+      "french": "Florizarre"
+    },
+    "type": [
+      "Grass",
+      "Poison"
+    ]
+  },
+  {
+    "id": 4,
+    "name": {
+      "english": "Charmander",
+      "japanese": "ヒトカゲ",
+      "french": "Salamèche"
+    },
+    "type": [
+      "Fire"
+    ]
+  },
+  {
+    "id": 5,
+    "name": {
+      "english": "Charmeleon",
+      "japanese": "リザード",
+      "french": "Reptincel"
+    },
+    "type": [
+      "Fire"
+    ]
+  },
+  {
+    "id": 6,
+    "name": {
+      "english": "Charizard",
+      "japanese": "リザードン",
+      "french": "Dracaufeu"
+    },
+    "type": [
+      "Fire",
+      "Flying"
+    ]
+  },
+  {
+    "id": 7,
+    "name": {
+      "english": "Squirtle",
+      "japanese": "ゼニガメ",
+      "french": "Carapuce"
+    },
+    "type": [
+      "Water"
+    ]
+  },
+  {
+    "id": 8,
+    "name": {
+      "english": "Wartortle",
+      "japanese": "カメール",
+      "french": "Carabaffe"
+    },
+    "type": [
+      "Water"
+    ]
+  },
+  {
+    "id": 9,
+    "name": {
+      "english": "Blastoise",
+      "japanese": "カメックス",
+      "french": "Tortank"
+    },
+    "type": [
+      "Water"
+    ]
+  },
+  {
+    "id": 10,
+    "name": {
+      "english": "Caterpie",
+      "japanese": "キャタピー",
+      "french": "Chenipan"
+    },
+    "type": [
+      "Bug"
+    ]
+  },
+  {
+    "id": 11,
+    "name": {
+      "english": "Metapod",
+      "japanese": "トランセル",
+      "french": "Chrysacier"
+    },
+    "type": [
+      "Bug"
+    ]
+  },
+  {
+    "id": 12,
+    "name": {
+      "english": "Butterfree",
+      "japanese": "バタフリー",
+      "french": "Papilusion"
+    },
+    "type": [
+      "Bug",
+      "Flying"
+    ]
+  },
+  {
+    "id": 13,
+    "name": {
+      "english": "Weedle",
+      "japanese": "ビードル",
+      "french": "Aspicot"
+    },
+    "type": [
+      "Bug",
+      "Poison"
+    ]
+  },
+  {
+    "id": 14,
+    "name": {
+      "english": "Kakuna",
+      "japanese": "コクーン",
+      "french": "Coconfort"
+    },
+    "type": [
+      "Bug",
+      "Poison"
+    ]
+  },
+  {
+    "id": 15,
+    "name": {
+      "english": "Beedrill",
+      "japanese": "スピアー",
+      "french": "Dardargnan"
+    },
+    "type": [
+      "Bug",
+      "Poison"
+    ]
+  },
+  {
+    "id": 16,
+    "name": {
+      "english": "Pidgey",
+      "japanese": "ポッポ",
+      "french": "Roucool"
+    },
+    "type": [
+      "Normal",
+      "Flying"
+    ]
+  },
+  {
+    "id": 17,
+    "name": {
+      "english": "Pidgeotto",
+      "japanese": "ピジョン",
+      "french": "Roucoups"
+    },
+    "type": [
+      "Normal",
+      "Flying"
+    ]
+  },
+  {
+    "id": 18,
+    "name": {
+      "english": "Pidgeot",
+      "japanese": "ピジョット",
+      "french": "Roucarnage"
+    },
+    "type": [
+      "Normal",
+      "Flying"
+    ]
+  },
+  {
+    "id": 19,
+    "name": {
+      "english": "Rattata",
+      "japanese": "コラッタ",
+      "french": "Rattata"
+    },
+    "type": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 20,
+    "name": {
+      "english": "Raticate",
+      "japanese": "ラッタ",
+      "french": "Rattatac"
+    },
+    "type": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 21,
+    "name": {
+      "english": "Spearow",
+      "japanese": "オニスズメ",
+      "french": "Piafabec"
+    },
+    "type": [
+      "Normal",
+      "Flying"
+    ]
+  },
+  {
+    "id": 22,
+    "name": {
+      "english": "Fearow",
+      "japanese": "オニドリル",
+      "french": "Rapasdepic"
+    },
+    "type": [
+      "Normal",
+      "Flying"
+    ]
+  },
+  {
+    "id": 23,
+    "name": {
+      "english": "Ekans",
+      "japanese": "アーボ",
+      "french": "Abo"
+    },
+    "type": [
+      "Poison"
+    ]
+  },
+  {
+    "id": 24,
+    "name": {
+      "english": "Arbok",
+      "japanese": "アーボック",
+      "french": "Arbok"
+    },
+    "type": [
+      "Poison"
+    ]
+  },
+  {
+    "id": 25,
+    "name": {
+      "english": "Pikachu",
+      "japanese": "ピカチュウ",
+      "french": "Pikachu"
+    },
+    "type": [
+      "Electric"
+    ]
+  },
+  {
+    "id": 26,
+    "name": {
+      "english": "Raichu",
+      "japanese": "ライチュウ",
+      "french": "Raichu"
+    },
+    "type": [
+      "Electric"
+    ]
+  },
+  {
+    "id": 27,
+    "name": {
+      "english": "Sandshrew",
+      "japanese": "サンド",
+      "french": "Sabelette"
+    },
+    "type": [
+      "Ground"
+    ]
+  },
+  {
+    "id": 28,
+    "name": {
+      "english": "Sandslash",
+      "japanese": "サンドパン",
+      "french": "Sablaireau"
+    },
+    "type": [
+      "Ground"
+    ]
+  },
+  {
+    "id": 29,
+    "name": {
+      "english": "Nidoran♀",
+      "japanese": "ニドラン♀",
+      "french": "Nidoran♀"
+    },
+    "type": [
+      "Poison"
+    ]
+  },
+  {
+    "id": 30,
+    "name": {
+      "english": "Nidorina",
+      "japanese": "ニドリーナ",
+      "french": "Nidorina"
+    },
+    "type": [
+      "Poison"
+    ]
+  },
+  {
+    "id": 31,
+    "name": {
+      "english": "Nidoqueen",
+      "japanese": "ニドクイン",
+      "french": "Nidoqueen"
+    },
+    "type": [
+      "Poison",
+      "Ground"
+    ]
+  },
+  {
+    "id": 32,
+    "name": {
+      "english": "Nidoran♂",
+      "japanese": "ニドラン♂",
+      "french": "Nidoran♂"
+    },
+    "type": [
+      "Poison"
+    ]
+  },
+  {
+    "id": 33,
+    "name": {
+      "english": "Nidorino",
+      "japanese": "ニドリーノ",
+      "french": "Nidorino"
+    },
+    "type": [
+      "Poison"
+    ]
+  },
+  {
+    "id": 34,
+    "name": {
+      "english": "Nidoking",
+      "japanese": "ニドキング",
+      "french": "Nidoking"
+    },
+    "type": [
+      "Poison",
+      "Ground"
+    ]
+  },
+  {
+    "id": 35,
+    "name": {
+      "english": "Clefairy",
+      "japanese": "ピッピ",
+      "french": "Mélofée"
+    },
+    "type": [
+      "Fairy"
+    ]
+  },
+  {
+    "id": 36,
+    "name": {
+      "english": "Clefable",
+      "japanese": "ピクシー",
+      "french": "Mélodelfe"
+    },
+    "type": [
+      "Fairy"
+    ]
+  },
+  {
+    "id": 37,
+    "name": {
+      "english": "Vulpix",
+      "japanese": "ロコン",
+      "french": "Goupix"
+    },
+    "type": [
+      "Fire"
+    ]
+  },
+  {
+    "id": 38,
+    "name": {
+      "english": "Ninetales",
+      "japanese": "キュウコン",
+      "french": "Feunard"
+    },
+    "type": [
+      "Fire"
+    ]
+  },
+  {
+    "id": 39,
+    "name": {
+      "english": "Jigglypuff",
+      "japanese": "プリン",
+      "french": "Rondoudou"
+    },
+    "type": [
+      "Normal",
+      "Fairy"
+    ]
+  },
+  {
+    "id": 40,
+    "name": {
+      "english": "Wigglytuff",
+      "japanese": "プクリン",
+      "french": "Grodoudou"
+    },
+    "type": [
+      "Normal",
+      "Fairy"
+    ]
+  },
+  {
+    "id": 41,
+    "name": {
+      "english": "Zubat",
+      "japanese": "ズバット",
+      "french": "Nosferapti"
+    },
+    "type": [
+      "Poison",
+      "Flying"
+    ]
+  },
+  {
+    "id": 42,
+    "name": {
+      "english": "Golbat",
+      "japanese": "ゴルバット",
+      "french": "Nosferalto"
+    },
+    "type": [
+      "Poison",
+      "Flying"
+    ]
+  },
+  {
+    "id": 43,
+    "name": {
+      "english": "Oddish",
+      "japanese": "ナゾノクサ",
+      "french": "Mystherbe"
+    },
+    "type": [
+      "Grass",
+      "Poison"
+    ]
+  },
+  {
+    "id": 44,
+    "name": {
+      "english": "Gloom",
+      "japanese": "クサイハナ",
+      "french": "Ortide"
+    },
+    "type": [
+      "Grass",
+      "Poison"
+    ]
+  },
+  {
+    "id": 45,
+    "name": {
+      "english": "Vileplume",
+      "japanese": "ラフレシア",
+      "french": "Rafflesia"
+    },
+    "type": [
+      "Grass",
+      "Poison"
+    ]
+  },
+  {
+    "id": 46,
+    "name": {
+      "english": "Paras",
+      "japanese": "パラス",
+      "french": "Paras"
+    },
+    "type": [
+      "Bug",
+      "Grass"
+    ]
+  },
+  {
+    "id": 47,
+    "name": {
+      "english": "Parasect",
+      "japanese": "パラセクト",
+      "french": "Parasect"
+    },
+    "type": [
+      "Bug",
+      "Grass"
+    ]
+  },
+  {
+    "id": 48,
+    "name": {
+      "english": "Venonat",
+      "japanese": "コンパン",
+      "french": "Mimitoss"
+    },
+    "type": [
+      "Bug",
+      "Poison"
+    ]
+  },
+  {
+    "id": 49,
+    "name": {
+      "english": "Venomoth",
+      "japanese": "モルフォン",
+      "french": "Aéromite"
+    },
+    "type": [
+      "Bug",
+      "Poison"
+    ]
+  },
+  {
+    "id": 50,
+    "name": {
+      "english": "Diglett",
+      "japanese": "ディグダ",
+      "french": "Taupiqueur"
+    },
+    "type": [
+      "Ground"
+    ]
+  },
+  {
+    "id": 51,
+    "name": {
+      "english": "Dugtrio",
+      "japanese": "ダグトリオ",
+      "french": "Triopikeur"
+    },
+    "type": [
+      "Ground"
+    ]
+  },
+  {
+    "id": 52,
+    "name": {
+      "english": "Meowth",
+      "japanese": "ニャース",
+      "french": "Miaouss"
+    },
+    "type": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 53,
+    "name": {
+      "english": "Persian",
+      "japanese": "ペルシアン",
+      "french": "Persian"
+    },
+    "type": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 54,
+    "name": {
+      "english": "Psyduck",
+      "japanese": "コダック",
+      "french": "Psykokwak"
+    },
+    "type": [
+      "Water"
+    ]
+  },
+  {
+    "id": 55,
+    "name": {
+      "english": "Golduck",
+      "japanese": "ゴルダック",
+      "french": "Akwakwak"
+    },
+    "type": [
+      "Water"
+    ]
+  },
+  {
+    "id": 56,
+    "name": {
+      "english": "Mankey",
+      "japanese": "マンキー",
+      "french": "Férosinge"
+    },
+    "type": [
+      "Fighting"
+    ]
+  },
+  {
+    "id": 57,
+    "name": {
+      "english": "Primeape",
+      "japanese": "オコリザル",
+      "french": "Colossinge"
+    },
+    "type": [
+      "Fighting"
+    ]
+  },
+  {
+    "id": 58,
+    "name": {
+      "english": "Growlithe",
+      "japanese": "ガーディ",
+      "french": "Caninos"
+    },
+    "type": [
+      "Fire"
+    ]
+  },
+  {
+    "id": 59,
+    "name": {
+      "english": "Arcanine",
+      "japanese": "ウインディ",
+      "french": "Arcanin"
+    },
+    "type": [
+      "Fire"
+    ]
+  },
+  {
+    "id": 60,
+    "name": {
+      "english": "Poliwag",
+      "japanese": "ニョロモ",
+      "french": "Ptitard"
+    },
+    "type": [
+      "Water"
+    ]
+  },
+  {
+    "id": 61,
+    "name": {
+      "english": "Poliwhirl",
+      "japanese": "ニョロゾ",
+      "french": "Têtarte"
+    },
+    "type": [
+      "Water"
+    ]
+  },
+  {
+    "id": 62,
+    "name": {
+      "english": "Poliwrath",
+      "japanese": "ニョロボン",
+      "french": "Tartard"
+    },
+    "type": [
+      "Water",
+      "Fighting"
+    ]
+  },
+  {
+    "id": 63,
+    "name": {
+      "english": "Abra",
+      "japanese": "ケーシィ",
+      "french": "Abra"
+    },
+    "type": [
+      "Psychic"
+    ]
+  },
+  {
+    "id": 64,
+    "name": {
+      "english": "Kadabra",
+      "japanese": "ユンゲラー",
+      "french": "Kadabra"
+    },
+    "type": [
+      "Psychic"
+    ]
+  },
+  {
+    "id": 65,
+    "name": {
+      "english": "Alakazam",
+      "japanese": "フーディン",
+      "french": "Alakazam"
+    },
+    "type": [
+      "Psychic"
+    ]
+  },
+  {
+    "id": 66,
+    "name": {
+      "english": "Machop",
+      "japanese": "ワンリキー",
+      "french": "Machoc"
+    },
+    "type": [
+      "Fighting"
+    ]
+  },
+  {
+    "id": 67,
+    "name": {
+      "english": "Machoke",
+      "japanese": "ゴーリキー",
+      "french": "Machopeur"
+    },
+    "type": [
+      "Fighting"
+    ]
+  },
+  {
+    "id": 68,
+    "name": {
+      "english": "Machamp",
+      "japanese": "カイリキー",
+      "french": "Mackogneur"
+    },
+    "type": [
+      "Fighting"
+    ]
+  },
+  {
+    "id": 69,
+    "name": {
+      "english": "Bellsprout",
+      "japanese": "マダツボミ",
+      "french": "Chétiflor"
+    },
+    "type": [
+      "Grass",
+      "Poison"
+    ]
+  },
+  {
+    "id": 70,
+    "name": {
+      "english": "Weepinbell",
+      "japanese": "ウツドン",
+      "french": "Boustiflor"
+    },
+    "type": [
+      "Grass",
+      "Poison"
+    ]
+  },
+  {
+    "id": 71,
+    "name": {
+      "english": "Victreebel",
+      "japanese": "ウツボット",
+      "french": "Empiflor"
+    },
+    "type": [
+      "Grass",
+      "Poison"
+    ]
+  },
+  {
+    "id": 72,
+    "name": {
+      "english": "Tentacool",
+      "japanese": "メノクラゲ",
+      "french": "Tentacool"
+    },
+    "type": [
+      "Water",
+      "Poison"
+    ]
+  },
+  {
+    "id": 73,
+    "name": {
+      "english": "Tentacruel",
+      "japanese": "ドククラゲ",
+      "french": "Tentacruel"
+    },
+    "type": [
+      "Water",
+      "Poison"
+    ]
+  },
+  {
+    "id": 74,
+    "name": {
+      "english": "Geodude",
+      "japanese": "イシツブテ",
+      "french": "Racaillou"
+    },
+    "type": [
+      "Rock",
+      "Ground"
+    ]
+  },
+  {
+    "id": 75,
+    "name": {
+      "english": "Graveler",
+      "japanese": "ゴローン",
+      "french": "Gravalanch"
+    },
+    "type": [
+      "Rock",
+      "Ground"
+    ]
+  },
+  {
+    "id": 76,
+    "name": {
+      "english": "Golem",
+      "japanese": "ゴローニャ",
+      "french": "Grolem"
+    },
+    "type": [
+      "Rock",
+      "Ground"
+    ]
+  },
+  {
+    "id": 77,
+    "name": {
+      "english": "Ponyta",
+      "japanese": "ポニータ",
+      "french": "Ponyta"
+    },
+    "type": [
+      "Fire"
+    ]
+  },
+  {
+    "id": 78,
+    "name": {
+      "english": "Rapidash",
+      "japanese": "ギャロップ",
+      "french": "Galopa"
+    },
+    "type": [
+      "Fire"
+    ]
+  },
+  {
+    "id": 79,
+    "name": {
+      "english": "Slowpoke",
+      "japanese": "ヤドン",
+      "french": "Ramoloss"
+    },
+    "type": [
+      "Water",
+      "Psychic"
+    ]
+  },
+  {
+    "id": 80,
+    "name": {
+      "english": "Slowbro",
+      "japanese": "ヤドラン",
+      "french": "Flagadoss"
+    },
+    "type": [
+      "Water",
+      "Psychic"
+    ]
+  },
+  {
+    "id": 81,
+    "name": {
+      "english": "Magnemite",
+      "japanese": "コイル",
+      "french": "Magnéti"
+    },
+    "type": [
+      "Electric",
+      "Steel"
+    ]
+  },
+  {
+    "id": 82,
+    "name": {
+      "english": "Magneton",
+      "japanese": "レアコイル",
+      "french": "Magnéton"
+    },
+    "type": [
+      "Electric",
+      "Steel"
+    ]
+  },
+  {
+    "id": 83,
+    "name": {
+      "english": "Farfetch'd",
+      "japanese": "カモネギ",
+      "french": "Canarticho"
+    },
+    "type": [
+      "Normal",
+      "Flying"
+    ]
+  },
+  {
+    "id": 84,
+    "name": {
+      "english": "Doduo",
+      "japanese": "ドードー",
+      "french": "Doduo"
+    },
+    "type": [
+      "Normal",
+      "Flying"
+    ]
+  },
+  {
+    "id": 85,
+    "name": {
+      "english": "Dodrio",
+      "japanese": "ドードリオ",
+      "french": "Dodrio"
+    },
+    "type": [
+      "Normal",
+      "Flying"
+    ]
+  },
+  {
+    "id": 86,
+    "name": {
+      "english": "Seel",
+      "japanese": "パウワウ",
+      "french": "Otaria"
+    },
+    "type": [
+      "Water"
+    ]
+  },
+  {
+    "id": 87,
+    "name": {
+      "english": "Dewgong",
+      "japanese": "ジュゴン",
+      "french": "Lamantine"
+    },
+    "type": [
+      "Water",
+      "Ice"
+    ]
+  },
+  {
+    "id": 88,
+    "name": {
+      "english": "Grimer",
+      "japanese": "ベトベター",
+      "french": "Tadmorv"
+    },
+    "type": [
+      "Poison"
+    ]
+  },
+  {
+    "id": 89,
+    "name": {
+      "english": "Muk",
+      "japanese": "ベトベトン",
+      "french": "Grotadmorv"
+    },
+    "type": [
+      "Poison"
+    ]
+  },
+  {
+    "id": 90,
+    "name": {
+      "english": "Shellder",
+      "japanese": "シェルダー",
+      "french": "Kokiyas"
+    },
+    "type": [
+      "Water"
+    ]
+  },
+  {
+    "id": 91,
+    "name": {
+      "english": "Cloyster",
+      "japanese": "パルシェン",
+      "french": "Crustabri"
+    },
+    "type": [
+      "Water",
+      "Ice"
+    ]
+  },
+  {
+    "id": 92,
+    "name": {
+      "english": "Gastly",
+      "japanese": "ゴース",
+      "french": "Fantominus"
+    },
+    "type": [
+      "Ghost",
+      "Poison"
+    ]
+  },
+  {
+    "id": 93,
+    "name": {
+      "english": "Haunter",
+      "japanese": "ゴースト",
+      "french": "Spectrum"
+    },
+    "type": [
+      "Ghost",
+      "Poison"
+    ]
+  },
+  {
+    "id": 94,
+    "name": {
+      "english": "Gengar",
+      "japanese": "ゲンガー",
+      "french": "Ectoplasma"
+    },
+    "type": [
+      "Ghost",
+      "Poison"
+    ]
+  },
+  {
+    "id": 95,
+    "name": {
+      "english": "Onix",
+      "japanese": "イワーク",
+      "french": "Onix"
+    },
+    "type": [
+      "Rock",
+      "Ground"
+    ]
+  },
+  {
+    "id": 96,
+    "name": {
+      "english": "Drowzee",
+      "japanese": "スリープ",
+      "french": "Soporifik"
+    },
+    "type": [
+      "Psychic"
+    ]
+  },
+  {
+    "id": 97,
+    "name": {
+      "english": "Hypno",
+      "japanese": "スリーパー",
+      "french": "Hypnomade"
+    },
+    "type": [
+      "Psychic"
+    ]
+  },
+  {
+    "id": 98,
+    "name": {
+      "english": "Krabby",
+      "japanese": "クラブ",
+      "french": "Krabby"
+    },
+    "type": [
+      "Water"
+    ]
+  },
+  {
+    "id": 99,
+    "name": {
+      "english": "Kingler",
+      "japanese": "キングラー",
+      "french": "Krabboss"
+    },
+    "type": [
+      "Water"
+    ]
+  },
+  {
+    "id": 100,
+    "name": {
+      "english": "Voltorb",
+      "japanese": "ビリリダマ",
+      "french": "Voltorbe"
+    },
+    "type": [
+      "Electric"
+    ]
+  },
+  {
+    "id": 101,
+    "name": {
+      "english": "Electrode",
+      "japanese": "マルマイン",
+      "french": "Électrode"
+    },
+    "type": [
+      "Electric"
+    ]
+  },
+  {
+    "id": 102,
+    "name": {
+      "english": "Exeggcute",
+      "japanese": "タマタマ",
+      "french": "Noeunoeuf"
+    },
+    "type": [
+      "Grass",
+      "Psychic"
+    ]
+  },
+  {
+    "id": 103,
+    "name": {
+      "english": "Exeggutor",
+      "japanese": "ナッシー",
+      "french": "Noadkoko"
+    },
+    "type": [
+      "Grass",
+      "Psychic"
+    ]
+  },
+  {
+    "id": 104,
+    "name": {
+      "english": "Cubone",
+      "japanese": "カラカラ",
+      "french": "Osselait"
+    },
+    "type": [
+      "Ground"
+    ]
+  },
+  {
+    "id": 105,
+    "name": {
+      "english": "Marowak",
+      "japanese": "ガラガラ",
+      "french": "Ossatueur"
+    },
+    "type": [
+      "Ground"
+    ]
+  },
+  {
+    "id": 106,
+    "name": {
+      "english": "Hitmonlee",
+      "japanese": "サワムラー",
+      "french": "Kicklee"
+    },
+    "type": [
+      "Fighting"
+    ]
+  },
+  {
+    "id": 107,
+    "name": {
+      "english": "Hitmonchan",
+      "japanese": "エビワラー",
+      "french": "Tygnon"
+    },
+    "type": [
+      "Fighting"
+    ]
+  },
+  {
+    "id": 108,
+    "name": {
+      "english": "Lickitung",
+      "japanese": "ベロリンガ",
+      "french": "Excelangue"
+    },
+    "type": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 109,
+    "name": {
+      "english": "Koffing",
+      "japanese": "ドガース",
+      "french": "Smogo"
+    },
+    "type": [
+      "Poison"
+    ]
+  },
+  {
+    "id": 110,
+    "name": {
+      "english": "Weezing",
+      "japanese": "マタドガス",
+      "french": "Smogogo"
+    },
+    "type": [
+      "Poison"
+    ]
+  },
+  {
+    "id": 111,
+    "name": {
+      "english": "Rhyhorn",
+      "japanese": "サイホーン",
+      "french": "Rhinocorne"
+    },
+    "type": [
+      "Ground",
+      "Rock"
+    ]
+  },
+  {
+    "id": 112,
+    "name": {
+      "english": "Rhydon",
+      "japanese": "サイドン",
+      "french": "Rhinoféros"
+    },
+    "type": [
+      "Ground",
+      "Rock"
+    ]
+  },
+  {
+    "id": 113,
+    "name": {
+      "english": "Chansey",
+      "japanese": "ラッキー",
+      "french": "Leveinard"
+    },
+    "type": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 114,
+    "name": {
+      "english": "Tangela",
+      "japanese": "モンジャラ",
+      "french": "Saquedeneu"
+    },
+    "type": [
+      "Grass"
+    ]
+  },
+  {
+    "id": 115,
+    "name": {
+      "english": "Kangaskhan",
+      "japanese": "ガルーラ",
+      "french": "Kangourex"
+    },
+    "type": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 116,
+    "name": {
+      "english": "Horsea",
+      "japanese": "タッツー",
+      "french": "Hypotrempe"
+    },
+    "type": [
+      "Water"
+    ]
+  },
+  {
+    "id": 117,
+    "name": {
+      "english": "Seadra",
+      "japanese": "シードラ",
+      "french": "Hypocéan"
+    },
+    "type": [
+      "Water"
+    ]
+  },
+  {
+    "id": 118,
+    "name": {
+      "english": "Goldeen",
+      "japanese": "トサキント",
+      "french": "Poissirène"
+    },
+    "type": [
+      "Water"
+    ]
+  },
+  {
+    "id": 119,
+    "name": {
+      "english": "Seaking",
+      "japanese": "アズマオウ",
+      "french": "Poissoroy"
+    },
+    "type": [
+      "Water"
+    ]
+  },
+  {
+    "id": 120,
+    "name": {
+      "english": "Staryu",
+      "japanese": "ヒトデマン",
+      "french": "Stari"
+    },
+    "type": [
+      "Water"
+    ]
+  },
+  {
+    "id": 121,
+    "name": {
+      "english": "Starmie",
+      "japanese": "スターミー",
+      "french": "Staross"
+    },
+    "type": [
+      "Water",
+      "Psychic"
+    ]
+  },
+  {
+    "id": 122,
+    "name": {
+      "english": "Mr. Mime",
+      "japanese": "バリヤード",
+      "french": "M. Mime"
+    },
+    "type": [
+      "Psychic",
+      "Fairy"
+    ]
+  },
+  {
+    "id": 123,
+    "name": {
+      "english": "Scyther",
+      "japanese": "ストライク",
+      "french": "Insécateur"
+    },
+    "type": [
+      "Bug",
+      "Flying"
+    ]
+  },
+  {
+    "id": 124,
+    "name": {
+      "english": "Jynx",
+      "japanese": "ルージュラ",
+      "french": "Lippoutou"
+    },
+    "type": [
+      "Ice",
+      "Psychic"
+    ]
+  },
+  {
+    "id": 125,
+    "name": {
+      "english": "Electabuzz",
+      "japanese": "エレブー",
+      "french": "Élektek"
+    },
+    "type": [
+      "Electric"
+    ]
+  },
+  {
+    "id": 126,
+    "name": {
+      "english": "Magmar",
+      "japanese": "ブーバー",
+      "french": "Magmar"
+    },
+    "type": [
+      "Fire"
+    ]
+  },
+  {
+    "id": 127,
+    "name": {
+      "english": "Pinsir",
+      "japanese": "カイロス",
+      "french": "Scarabrute"
+    },
+    "type": [
+      "Bug"
+    ]
+  },
+  {
+    "id": 128,
+    "name": {
+      "english": "Tauros",
+      "japanese": "ケンタロス",
+      "french": "Tauros"
+    },
+    "type": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 129,
+    "name": {
+      "english": "Magikarp",
+      "japanese": "コイキング",
+      "french": "Magicarpe"
+    },
+    "type": [
+      "Water"
+    ]
+  },
+  {
+    "id": 130,
+    "name": {
+      "english": "Gyarados",
+      "japanese": "ギャラドス",
+      "french": "Léviator"
+    },
+    "type": [
+      "Water",
+      "Flying"
+    ]
+  },
+  {
+    "id": 131,
+    "name": {
+      "english": "Lapras",
+      "japanese": "ラプラス",
+      "french": "Lokhlass"
+    },
+    "type": [
+      "Water",
+      "Ice"
+    ]
+  },
+  {
+    "id": 132,
+    "name": {
+      "english": "Ditto",
+      "japanese": "メタモン",
+      "french": "Métamorph"
+    },
+    "type": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 133,
+    "name": {
+      "english": "Eevee",
+      "japanese": "イーブイ",
+      "french": "Évoli"
+    },
+    "type": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 134,
+    "name": {
+      "english": "Vaporeon",
+      "japanese": "シャワーズ",
+      "french": "Aquali"
+    },
+    "type": [
+      "Water"
+    ]
+  },
+  {
+    "id": 135,
+    "name": {
+      "english": "Jolteon",
+      "japanese": "サンダース",
+      "french": "Voltali"
+    },
+    "type": [
+      "Electric"
+    ]
+  },
+  {
+    "id": 136,
+    "name": {
+      "english": "Flareon",
+      "japanese": "ブースター",
+      "french": "Pyroli"
+    },
+    "type": [
+      "Fire"
+    ]
+  },
+  {
+    "id": 137,
+    "name": {
+      "english": "Porygon",
+      "japanese": "ポリゴン",
+      "french": "Porygon"
+    },
+    "type": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 138,
+    "name": {
+      "english": "Omanyte",
+      "japanese": "オムナイト",
+      "french": "Amonita"
+    },
+    "type": [
+      "Rock",
+      "Water"
+    ]
+  },
+  {
+    "id": 139,
+    "name": {
+      "english": "Omastar",
+      "japanese": "オムスター",
+      "french": "Amonistar"
+    },
+    "type": [
+      "Rock",
+      "Water"
+    ]
+  },
+  {
+    "id": 140,
+    "name": {
+      "english": "Kabuto",
+      "japanese": "カブト",
+      "french": "Kabuto"
+    },
+    "type": [
+      "Rock",
+      "Water"
+    ]
+  },
+  {
+    "id": 141,
+    "name": {
+      "english": "Kabutops",
+      "japanese": "カブトプス",
+      "french": "Kabutops"
+    },
+    "type": [
+      "Rock",
+      "Water"
+    ]
+  },
+  {
+    "id": 142,
+    "name": {
+      "english": "Aerodactyl",
+      "japanese": "プテラ",
+      "french": "Ptéra"
+    },
+    "type": [
+      "Rock",
+      "Flying"
+    ]
+  },
+  {
+    "id": 143,
+    "name": {
+      "english": "Snorlax",
+      "japanese": "カビゴン",
+      "french": "Ronflex"
+    },
+    "type": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 144,
+    "name": {
+      "english": "Articuno",
+      "japanese": "フリーザー",
+      "french": "Artikodin"
+    },
+    "type": [
+      "Ice",
+      "Flying"
+    ]
+  },
+  {
+    "id": 145,
+    "name": {
+      "english": "Zapdos",
+      "japanese": "サンダー",
+      "french": "Électhor"
+    },
+    "type": [
+      "Electric",
+      "Flying"
+    ]
+  },
+  {
+    "id": 146,
+    "name": {
+      "english": "Moltres",
+      "japanese": "ファイヤー",
+      "french": "Sulfura"
+    },
+    "type": [
+      "Fire",
+      "Flying"
+    ]
+  },
+  {
+    "id": 147,
+    "name": {
+      "english": "Dratini",
+      "japanese": "ミニリュウ",
+      "french": "Minidraco"
+    },
+    "type": [
+      "Dragon"
+    ]
+  },
+  {
+    "id": 148,
+    "name": {
+      "english": "Dragonair",
+      "japanese": "ハクリュー",
+      "french": "Draco"
+    },
+    "type": [
+      "Dragon"
+    ]
+  },
+  {
+    "id": 149,
+    "name": {
+      "english": "Dragonite",
+      "japanese": "カイリュー",
+      "french": "Dracolosse"
+    },
+    "type": [
+      "Dragon",
+      "Flying"
+    ]
+  },
+  {
+    "id": 150,
+    "name": {
+      "english": "Mewtwo",
+      "japanese": "ミュウツー",
+      "french": "Mewtwo"
+    },
+    "type": [
+      "Psychic"
+    ]
+  },
+  {
+    "id": 151,
+    "name": {
+      "english": "Mew",
+      "japanese": "ミュウ",
+      "french": "Mew"
+    },
+    "type": [
+      "Psychic"
+    ]
+  },
+  {
+    "id": 152,
+    "name": {
+      "english": "Chikorita",
+      "japanese": "チコリータ",
+      "french": "Germignon"
+    },
+    "type": [
+      "Grass"
+    ]
+  },
+  {
+    "id": 153,
+    "name": {
+      "english": "Bayleef",
+      "japanese": "ベイリーフ",
+      "french": "Macronium"
+    },
+    "type": [
+      "Grass"
+    ]
+  },
+  {
+    "id": 154,
+    "name": {
+      "english": "Meganium",
+      "japanese": "メガニウム",
+      "french": "Méganium"
+    },
+    "type": [
+      "Grass"
+    ]
+  },
+  {
+    "id": 155,
+    "name": {
+      "english": "Cyndaquil",
+      "japanese": "ヒノアラシ",
+      "french": "Héricendre"
+    },
+    "type": [
+      "Fire"
+    ]
+  },
+  {
+    "id": 156,
+    "name": {
+      "english": "Quilava",
+      "japanese": "マグマラシ",
+      "french": "Feurisson"
+    },
+    "type": [
+      "Fire"
+    ]
+  },
+  {
+    "id": 157,
+    "name": {
+      "english": "Typhlosion",
+      "japanese": "バクフーン",
+      "french": "Typhlosion"
+    },
+    "type": [
+      "Fire"
+    ]
+  },
+  {
+    "id": 158,
+    "name": {
+      "english": "Totodile",
+      "japanese": "ワニノコ",
+      "french": "Kaiminus"
+    },
+    "type": [
+      "Water"
+    ]
+  },
+  {
+    "id": 159,
+    "name": {
+      "english": "Croconaw",
+      "japanese": "アリゲイツ",
+      "french": "Crocrodil"
+    },
+    "type": [
+      "Water"
+    ]
+  },
+  {
+    "id": 160,
+    "name": {
+      "english": "Feraligatr",
+      "japanese": "オーダイル",
+      "french": "Aligatueur"
+    },
+    "type": [
+      "Water"
+    ]
+  },
+  {
+    "id": 161,
+    "name": {
+      "english": "Sentret",
+      "japanese": "オタチ",
+      "french": "Fouinette"
+    },
+    "type": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 162,
+    "name": {
+      "english": "Furret",
+      "japanese": "オオタチ",
+      "french": "Fouinar"
+    },
+    "type": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 163,
+    "name": {
+      "english": "Hoothoot",
+      "japanese": "ホーホー",
+      "french": "Hoothoot"
+    },
+    "type": [
+      "Normal",
+      "Flying"
+    ]
+  },
+  {
+    "id": 164,
+    "name": {
+      "english": "Noctowl",
+      "japanese": "ヨルノズク",
+      "french": "Noarfang"
+    },
+    "type": [
+      "Normal",
+      "Flying"
+    ]
+  },
+  {
+    "id": 165,
+    "name": {
+      "english": "Ledyba",
+      "japanese": "レディバ",
+      "french": "Coxy"
+    },
+    "type": [
+      "Bug",
+      "Flying"
+    ]
+  },
+  {
+    "id": 166,
+    "name": {
+      "english": "Ledian",
+      "japanese": "レディアン",
+      "french": "Coxyclaque"
+    },
+    "type": [
+      "Bug",
+      "Flying"
+    ]
+  },
+  {
+    "id": 167,
+    "name": {
+      "english": "Spinarak",
+      "japanese": "イトマル",
+      "french": "Mimigal"
+    },
+    "type": [
+      "Bug",
+      "Poison"
+    ]
+  },
+  {
+    "id": 168,
+    "name": {
+      "english": "Ariados",
+      "japanese": "アリアドス",
+      "french": "Migalos"
+    },
+    "type": [
+      "Bug",
+      "Poison"
+    ]
+  },
+  {
+    "id": 169,
+    "name": {
+      "english": "Crobat",
+      "japanese": "クロバット",
+      "french": "Nostenfer"
+    },
+    "type": [
+      "Poison",
+      "Flying"
+    ]
+  },
+  {
+    "id": 170,
+    "name": {
+      "english": "Chinchou",
+      "japanese": "チョンチー",
+      "french": "Loupio"
+    },
+    "type": [
+      "Water",
+      "Electric"
+    ]
+  },
+  {
+    "id": 171,
+    "name": {
+      "english": "Lanturn",
+      "japanese": "ランターン",
+      "french": "Lanturn"
+    },
+    "type": [
+      "Water",
+      "Electric"
+    ]
+  },
+  {
+    "id": 172,
+    "name": {
+      "english": "Pichu",
+      "japanese": "ピチュー",
+      "french": "Pichu"
+    },
+    "type": [
+      "Electric"
+    ]
+  },
+  {
+    "id": 173,
+    "name": {
+      "english": "Cleffa",
+      "japanese": "ピィ",
+      "french": "Mélo"
+    },
+    "type": [
+      "Fairy"
+    ]
+  },
+  {
+    "id": 174,
+    "name": {
+      "english": "Igglybuff",
+      "japanese": "ププリン",
+      "french": "Toudoudou"
+    },
+    "type": [
+      "Normal",
+      "Fairy"
+    ]
+  },
+  {
+    "id": 175,
+    "name": {
+      "english": "Togepi",
+      "japanese": "トゲピー",
+      "french": "Togepi"
+    },
+    "type": [
+      "Fairy"
+    ]
+  },
+  {
+    "id": 176,
+    "name": {
+      "english": "Togetic",
+      "japanese": "トゲチック",
+      "french": "Togetic"
+    },
+    "type": [
+      "Fairy",
+      "Flying"
+    ]
+  },
+  {
+    "id": 177,
+    "name": {
+      "english": "Natu",
+      "japanese": "ネイティ",
+      "french": "Natu"
+    },
+    "type": [
+      "Psychic",
+      "Flying"
+    ]
+  },
+  {
+    "id": 178,
+    "name": {
+      "english": "Xatu",
+      "japanese": "ネイティオ",
+      "french": "Xatu"
+    },
+    "type": [
+      "Psychic",
+      "Flying"
+    ]
+  },
+  {
+    "id": 179,
+    "name": {
+      "english": "Mareep",
+      "japanese": "メリープ",
+      "french": "Wattouat"
+    },
+    "type": [
+      "Electric"
+    ]
+  },
+  {
+    "id": 180,
+    "name": {
+      "english": "Flaaffy",
+      "japanese": "モココ",
+      "french": "Lainergie"
+    },
+    "type": [
+      "Electric"
+    ]
+  },
+  {
+    "id": 181,
+    "name": {
+      "english": "Ampharos",
+      "japanese": "デンリュウ",
+      "french": "Pharamp"
+    },
+    "type": [
+      "Electric"
+    ]
+  },
+  {
+    "id": 182,
+    "name": {
+      "english": "Bellossom",
+      "japanese": "キレイハナ",
+      "french": "Joliflor"
+    },
+    "type": [
+      "Grass"
+    ]
+  },
+  {
+    "id": 183,
+    "name": {
+      "english": "Marill",
+      "japanese": "マリル",
+      "french": "Marill"
+    },
+    "type": [
+      "Water",
+      "Fairy"
+    ]
+  },
+  {
+    "id": 184,
+    "name": {
+      "english": "Azumarill",
+      "japanese": "マリルリ",
+      "french": "Azumarill"
+    },
+    "type": [
+      "Water",
+      "Fairy"
+    ]
+  },
+  {
+    "id": 185,
+    "name": {
+      "english": "Sudowoodo",
+      "japanese": "ウソッキー",
+      "french": "Simularbre"
+    },
+    "type": [
+      "Rock"
+    ]
+  },
+  {
+    "id": 186,
+    "name": {
+      "english": "Politoed",
+      "japanese": "ニョロトノ",
+      "french": "Tarpaud"
+    },
+    "type": [
+      "Water"
+    ]
+  },
+  {
+    "id": 187,
+    "name": {
+      "english": "Hoppip",
+      "japanese": "ハネッコ",
+      "french": "Granivol"
+    },
+    "type": [
+      "Grass",
+      "Flying"
+    ]
+  },
+  {
+    "id": 188,
+    "name": {
+      "english": "Skiploom",
+      "japanese": "ポポッコ",
+      "french": "Floravol"
+    },
+    "type": [
+      "Grass",
+      "Flying"
+    ]
+  },
+  {
+    "id": 189,
+    "name": {
+      "english": "Jumpluff",
+      "japanese": "ワタッコ",
+      "french": "Cotovol"
+    },
+    "type": [
+      "Grass",
+      "Flying"
+    ]
+  },
+  {
+    "id": 190,
+    "name": {
+      "english": "Aipom",
+      "japanese": "エイパム",
+      "french": "Capumain"
+    },
+    "type": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 191,
+    "name": {
+      "english": "Sunkern",
+      "japanese": "ヒマナッツ",
+      "french": "Tournegrin"
+    },
+    "type": [
+      "Grass"
+    ]
+  },
+  {
+    "id": 192,
+    "name": {
+      "english": "Sunflora",
+      "japanese": "キマワリ",
+      "french": "Héliatronc"
+    },
+    "type": [
+      "Grass"
+    ]
+  },
+  {
+    "id": 193,
+    "name": {
+      "english": "Yanma",
+      "japanese": "ヤンヤンマ",
+      "french": "Yanma"
+    },
+    "type": [
+      "Bug",
+      "Flying"
+    ]
+  },
+  {
+    "id": 194,
+    "name": {
+      "english": "Wooper",
+      "japanese": "ウパー",
+      "french": "Axoloto"
+    },
+    "type": [
+      "Water",
+      "Ground"
+    ]
+  },
+  {
+    "id": 195,
+    "name": {
+      "english": "Quagsire",
+      "japanese": "ヌオー",
+      "french": "Maraiste"
+    },
+    "type": [
+      "Water",
+      "Ground"
+    ]
+  },
+  {
+    "id": 196,
+    "name": {
+      "english": "Espeon",
+      "japanese": "エーフィ",
+      "french": "Mentali"
+    },
+    "type": [
+      "Psychic"
+    ]
+  },
+  {
+    "id": 197,
+    "name": {
+      "english": "Umbreon",
+      "japanese": "ブラッキー",
+      "french": "Noctali"
+    },
+    "type": [
+      "Dark"
+    ]
+  },
+  {
+    "id": 198,
+    "name": {
+      "english": "Murkrow",
+      "japanese": "ヤミカラス",
+      "french": "Cornèbre"
+    },
+    "type": [
+      "Dark",
+      "Flying"
+    ]
+  },
+  {
+    "id": 199,
+    "name": {
+      "english": "Slowking",
+      "japanese": "ヤドキング",
+      "french": "Roigada"
+    },
+    "type": [
+      "Water",
+      "Psychic"
+    ]
+  },
+  {
+    "id": 200,
+    "name": {
+      "english": "Misdreavus",
+      "japanese": "ムウマ",
+      "french": "Feuforêve"
+    },
+    "type": [
+      "Ghost"
+    ]
+  },
+  {
+    "id": 201,
+    "name": {
+      "english": "Unown",
+      "japanese": "アンノーン",
+      "french": "Zarbi"
+    },
+    "type": [
+      "Psychic"
+    ]
+  },
+  {
+    "id": 202,
+    "name": {
+      "english": "Wobbuffet",
+      "japanese": "ソーナンス",
+      "french": "Qulbutoké"
+    },
+    "type": [
+      "Psychic"
+    ]
+  },
+  {
+    "id": 203,
+    "name": {
+      "english": "Girafarig",
+      "japanese": "キリンリキ",
+      "french": "Girafarig"
+    },
+    "type": [
+      "Normal",
+      "Psychic"
+    ]
+  },
+  {
+    "id": 204,
+    "name": {
+      "english": "Pineco",
+      "japanese": "クヌギダマ",
+      "french": "Pomdepik"
+    },
+    "type": [
+      "Bug"
+    ]
+  },
+  {
+    "id": 205,
+    "name": {
+      "english": "Forretress",
+      "japanese": "フォレトス",
+      "french": "Foretress"
+    },
+    "type": [
+      "Bug",
+      "Steel"
+    ]
+  },
+  {
+    "id": 206,
+    "name": {
+      "english": "Dunsparce",
+      "japanese": "ノコッチ",
+      "french": "Insolourdo"
+    },
+    "type": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 207,
+    "name": {
+      "english": "Gligar",
+      "japanese": "グライガー",
+      "french": "Scorplane"
+    },
+    "type": [
+      "Ground",
+      "Flying"
+    ]
+  },
+  {
+    "id": 208,
+    "name": {
+      "english": "Steelix",
+      "japanese": "ハガネール",
+      "french": "Steelix"
+    },
+    "type": [
+      "Steel",
+      "Ground"
+    ]
+  },
+  {
+    "id": 209,
+    "name": {
+      "english": "Snubbull",
+      "japanese": "ブルー",
+      "french": "Snubbull"
+    },
+    "type": [
+      "Fairy"
+    ]
+  },
+  {
+    "id": 210,
+    "name": {
+      "english": "Granbull",
+      "japanese": "グランブル",
+      "french": "Granbull"
+    },
+    "type": [
+      "Fairy"
+    ]
+  },
+  {
+    "id": 211,
+    "name": {
+      "english": "Qwilfish",
+      "japanese": "ハリーセン",
+      "french": "Qwilfish"
+    },
+    "type": [
+      "Water",
+      "Poison"
+    ]
+  },
+  {
+    "id": 212,
+    "name": {
+      "english": "Scizor",
+      "japanese": "ハッサム",
+      "french": "Cizayox"
+    },
+    "type": [
+      "Bug",
+      "Steel"
+    ]
+  },
+  {
+    "id": 213,
+    "name": {
+      "english": "Shuckle",
+      "japanese": "ツボツボ",
+      "french": "Caratroc"
+    },
+    "type": [
+      "Bug",
+      "Rock"
+    ]
+  },
+  {
+    "id": 214,
+    "name": {
+      "english": "Heracross",
+      "japanese": "ヘラクロス",
+      "french": "Scarhino"
+    },
+    "type": [
+      "Bug",
+      "Fighting"
+    ]
+  },
+  {
+    "id": 215,
+    "name": {
+      "english": "Sneasel",
+      "japanese": "ニューラ",
+      "french": "Farfuret"
+    },
+    "type": [
+      "Dark",
+      "Ice"
+    ]
+  },
+  {
+    "id": 216,
+    "name": {
+      "english": "Teddiursa",
+      "japanese": "ヒメグマ",
+      "french": "Teddiursa"
+    },
+    "type": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 217,
+    "name": {
+      "english": "Ursaring",
+      "japanese": "リングマ",
+      "french": "Ursaring"
+    },
+    "type": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 218,
+    "name": {
+      "english": "Slugma",
+      "japanese": "マグマッグ",
+      "french": "Limagma"
+    },
+    "type": [
+      "Fire"
+    ]
+  },
+  {
+    "id": 219,
+    "name": {
+      "english": "Magcargo",
+      "japanese": "マグカルゴ",
+      "french": "Volcaropod"
+    },
+    "type": [
+      "Fire",
+      "Rock"
+    ]
+  },
+  {
+    "id": 220,
+    "name": {
+      "english": "Swinub",
+      "japanese": "ウリムー",
+      "french": "Marcacrin"
+    },
+    "type": [
+      "Ice",
+      "Ground"
+    ]
+  },
+  {
+    "id": 221,
+    "name": {
+      "english": "Piloswine",
+      "japanese": "イノムー",
+      "french": "Cochignon"
+    },
+    "type": [
+      "Ice",
+      "Ground"
+    ]
+  },
+  {
+    "id": 222,
+    "name": {
+      "english": "Corsola",
+      "japanese": "サニーゴ",
+      "french": "Corayon"
+    },
+    "type": [
+      "Water",
+      "Rock"
+    ]
+  },
+  {
+    "id": 223,
+    "name": {
+      "english": "Remoraid",
+      "japanese": "テッポウオ",
+      "french": "Rémoraid"
+    },
+    "type": [
+      "Water"
+    ]
+  },
+  {
+    "id": 224,
+    "name": {
+      "english": "Octillery",
+      "japanese": "オクタン",
+      "french": "Octillery"
+    },
+    "type": [
+      "Water"
+    ]
+  },
+  {
+    "id": 225,
+    "name": {
+      "english": "Delibird",
+      "japanese": "デリバード",
+      "french": "Cadoizo"
+    },
+    "type": [
+      "Ice",
+      "Flying"
+    ]
+  },
+  {
+    "id": 226,
+    "name": {
+      "english": "Mantine",
+      "japanese": "マンタイン",
+      "french": "Démanta"
+    },
+    "type": [
+      "Water",
+      "Flying"
+    ]
+  },
+  {
+    "id": 227,
+    "name": {
+      "english": "Skarmory",
+      "japanese": "エアームド",
+      "french": "Airmure"
+    },
+    "type": [
+      "Steel",
+      "Flying"
+    ]
+  },
+  {
+    "id": 228,
+    "name": {
+      "english": "Houndour",
+      "japanese": "デルビル",
+      "french": "Malosse"
+    },
+    "type": [
+      "Dark",
+      "Fire"
+    ]
+  },
+  {
+    "id": 229,
+    "name": {
+      "english": "Houndoom",
+      "japanese": "ヘルガー",
+      "french": "Démolosse"
+    },
+    "type": [
+      "Dark",
+      "Fire"
+    ]
+  },
+  {
+    "id": 230,
+    "name": {
+      "english": "Kingdra",
+      "japanese": "キングドラ",
+      "french": "Hyporoi"
+    },
+    "type": [
+      "Water",
+      "Dragon"
+    ]
+  },
+  {
+    "id": 231,
+    "name": {
+      "english": "Phanpy",
+      "japanese": "ゴマゾウ",
+      "french": "Phanpy"
+    },
+    "type": [
+      "Ground"
+    ]
+  },
+  {
+    "id": 232,
+    "name": {
+      "english": "Donphan",
+      "japanese": "ドンファン",
+      "french": "Donphan"
+    },
+    "type": [
+      "Ground"
+    ]
+  },
+  {
+    "id": 233,
+    "name": {
+      "english": "Porygon2",
+      "japanese": "ポリゴン２",
+      "french": "Porygon2"
+    },
+    "type": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 234,
+    "name": {
+      "english": "Stantler",
+      "japanese": "オドシシ",
+      "french": "Cerfrousse"
+    },
+    "type": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 235,
+    "name": {
+      "english": "Smeargle",
+      "japanese": "ドーブル",
+      "french": "Queulorior"
+    },
+    "type": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 236,
+    "name": {
+      "english": "Tyrogue",
+      "japanese": "バルキー",
+      "french": "Debugant"
+    },
+    "type": [
+      "Fighting"
+    ]
+  },
+  {
+    "id": 237,
+    "name": {
+      "english": "Hitmontop",
+      "japanese": "カポエラー",
+      "french": "Kapoera"
+    },
+    "type": [
+      "Fighting"
+    ]
+  },
+  {
+    "id": 238,
+    "name": {
+      "english": "Smoochum",
+      "japanese": "ムチュール",
+      "french": "Lippouti"
+    },
+    "type": [
+      "Ice",
+      "Psychic"
+    ]
+  },
+  {
+    "id": 239,
+    "name": {
+      "english": "Elekid",
+      "japanese": "エレキッド",
+      "french": "Élekid"
+    },
+    "type": [
+      "Electric"
+    ]
+  },
+  {
+    "id": 240,
+    "name": {
+      "english": "Magby",
+      "japanese": "ブビィ",
+      "french": "Magby"
+    },
+    "type": [
+      "Fire"
+    ]
+  },
+  {
+    "id": 241,
+    "name": {
+      "english": "Miltank",
+      "japanese": "ミルタンク",
+      "french": "Écrémeuh"
+    },
+    "type": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 242,
+    "name": {
+      "english": "Blissey",
+      "japanese": "ハピナス",
+      "french": "Leuphorie"
+    },
+    "type": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 243,
+    "name": {
+      "english": "Raikou",
+      "japanese": "ライコウ",
+      "french": "Raikou"
+    },
+    "type": [
+      "Electric"
+    ]
+  },
+  {
+    "id": 244,
+    "name": {
+      "english": "Entei",
+      "japanese": "エンテイ",
+      "french": "Entei"
+    },
+    "type": [
+      "Fire"
+    ]
+  },
+  {
+    "id": 245,
+    "name": {
+      "english": "Suicune",
+      "japanese": "スイクン",
+      "french": "Suicune"
+    },
+    "type": [
+      "Water"
+    ]
+  },
+  {
+    "id": 246,
+    "name": {
+      "english": "Larvitar",
+      "japanese": "ヨーギラス",
+      "french": "Embrylex"
+    },
+    "type": [
+      "Rock",
+      "Ground"
+    ]
+  },
+  {
+    "id": 247,
+    "name": {
+      "english": "Pupitar",
+      "japanese": "サナギラス",
+      "french": "Ymphect"
+    },
+    "type": [
+      "Rock",
+      "Ground"
+    ]
+  },
+  {
+    "id": 248,
+    "name": {
+      "english": "Tyranitar",
+      "japanese": "バンギラス",
+      "french": "Tyranocif"
+    },
+    "type": [
+      "Rock",
+      "Dark"
+    ]
+  },
+  {
+    "id": 249,
+    "name": {
+      "english": "Lugia",
+      "japanese": "ルギア",
+      "french": "Lugia"
+    },
+    "type": [
+      "Psychic",
+      "Flying"
+    ]
+  },
+  {
+    "id": 250,
+    "name": {
+      "english": "Ho-Oh",
+      "japanese": "ホウオウ",
+      "french": "Ho-Oh"
+    },
+    "type": [
+      "Fire",
+      "Flying"
+    ]
+  },
+  {
+    "id": 251,
+    "name": {
+      "english": "Celebi",
+      "japanese": "セレビィ",
+      "french": "Celebi"
+    },
+    "type": [
+      "Psychic",
+      "Grass"
+    ]
+  },
+  {
+    "id": 252,
+    "name": {
+      "english": "Treecko",
+      "japanese": "キモリ",
+      "french": "Arcko"
+    },
+    "type": [
+      "Grass"
+    ]
+  },
+  {
+    "id": 253,
+    "name": {
+      "english": "Grovyle",
+      "japanese": "ジュプトル",
+      "french": "Massko"
+    },
+    "type": [
+      "Grass"
+    ]
+  },
+  {
+    "id": 254,
+    "name": {
+      "english": "Sceptile",
+      "japanese": "ジュカイン",
+      "french": "Jungko"
+    },
+    "type": [
+      "Grass"
+    ]
+  },
+  {
+    "id": 255,
+    "name": {
+      "english": "Torchic",
+      "japanese": "アチャモ",
+      "french": "Poussifeu"
+    },
+    "type": [
+      "Fire"
+    ]
+  },
+  {
+    "id": 256,
+    "name": {
+      "english": "Combusken",
+      "japanese": "ワカシャモ",
+      "french": "Galifeu"
+    },
+    "type": [
+      "Fire",
+      "Fighting"
+    ]
+  },
+  {
+    "id": 257,
+    "name": {
+      "english": "Blaziken",
+      "japanese": "バシャーモ",
+      "french": "Braségali"
+    },
+    "type": [
+      "Fire",
+      "Fighting"
+    ]
+  },
+  {
+    "id": 258,
+    "name": {
+      "english": "Mudkip",
+      "japanese": "ミズゴロウ",
+      "french": "Gobou"
+    },
+    "type": [
+      "Water"
+    ]
+  },
+  {
+    "id": 259,
+    "name": {
+      "english": "Marshtomp",
+      "japanese": "ヌマクロー",
+      "french": "Flobio"
+    },
+    "type": [
+      "Water",
+      "Ground"
+    ]
+  },
+  {
+    "id": 260,
+    "name": {
+      "english": "Swampert",
+      "japanese": "ラグラージ",
+      "french": "Laggron"
+    },
+    "type": [
+      "Water",
+      "Ground"
+    ]
+  },
+  {
+    "id": 261,
+    "name": {
+      "english": "Poochyena",
+      "japanese": "ポチエナ",
+      "french": "Medhyèna"
+    },
+    "type": [
+      "Dark"
+    ]
+  },
+  {
+    "id": 262,
+    "name": {
+      "english": "Mightyena",
+      "japanese": "グラエナ",
+      "french": "Grahyèna"
+    },
+    "type": [
+      "Dark"
+    ]
+  },
+  {
+    "id": 263,
+    "name": {
+      "english": "Zigzagoon",
+      "japanese": "ジグザグマ",
+      "french": "Zigzaton"
+    },
+    "type": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 264,
+    "name": {
+      "english": "Linoone",
+      "japanese": "マッスグマ",
+      "french": "Linéon"
+    },
+    "type": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 265,
+    "name": {
+      "english": "Wurmple",
+      "japanese": "ケムッソ",
+      "french": "Chenipotte"
+    },
+    "type": [
+      "Bug"
+    ]
+  },
+  {
+    "id": 266,
+    "name": {
+      "english": "Silcoon",
+      "japanese": "カラサリス",
+      "french": "Armulys"
+    },
+    "type": [
+      "Bug"
+    ]
+  },
+  {
+    "id": 267,
+    "name": {
+      "english": "Beautifly",
+      "japanese": "アゲハント",
+      "french": "Charmillon"
+    },
+    "type": [
+      "Bug",
+      "Flying"
+    ]
+  },
+  {
+    "id": 268,
+    "name": {
+      "english": "Cascoon",
+      "japanese": "マユルド",
+      "french": "Blindalys"
+    },
+    "type": [
+      "Bug"
+    ]
+  },
+  {
+    "id": 269,
+    "name": {
+      "english": "Dustox",
+      "japanese": "ドクケイル",
+      "french": "Papinox"
+    },
+    "type": [
+      "Bug",
+      "Poison"
+    ]
+  },
+  {
+    "id": 270,
+    "name": {
+      "english": "Lotad",
+      "japanese": "ハスボー",
+      "french": "Nénupiot"
+    },
+    "type": [
+      "Water",
+      "Grass"
+    ]
+  },
+  {
+    "id": 271,
+    "name": {
+      "english": "Lombre",
+      "japanese": "ハスブレロ",
+      "french": "Lombre"
+    },
+    "type": [
+      "Water",
+      "Grass"
+    ]
+  },
+  {
+    "id": 272,
+    "name": {
+      "english": "Ludicolo",
+      "japanese": "ルンパッパ",
+      "french": "Ludicolo"
+    },
+    "type": [
+      "Water",
+      "Grass"
+    ]
+  },
+  {
+    "id": 273,
+    "name": {
+      "english": "Seedot",
+      "japanese": "タネボー",
+      "french": "Grainipiot"
+    },
+    "type": [
+      "Grass"
+    ]
+  },
+  {
+    "id": 274,
+    "name": {
+      "english": "Nuzleaf",
+      "japanese": "コノハナ",
+      "french": "Pifeuil"
+    },
+    "type": [
+      "Grass",
+      "Dark"
+    ]
+  },
+  {
+    "id": 275,
+    "name": {
+      "english": "Shiftry",
+      "japanese": "ダーテング",
+      "french": "Tengalice"
+    },
+    "type": [
+      "Grass",
+      "Dark"
+    ]
+  },
+  {
+    "id": 276,
+    "name": {
+      "english": "Taillow",
+      "japanese": "スバメ",
+      "french": "Nirondelle"
+    },
+    "type": [
+      "Normal",
+      "Flying"
+    ]
+  },
+  {
+    "id": 277,
+    "name": {
+      "english": "Swellow",
+      "japanese": "オオスバメ",
+      "french": "Hélédelle"
+    },
+    "type": [
+      "Normal",
+      "Flying"
+    ]
+  },
+  {
+    "id": 278,
+    "name": {
+      "english": "Wingull",
+      "japanese": "キャモメ",
+      "french": "Goélise"
+    },
+    "type": [
+      "Water",
+      "Flying"
+    ]
+  },
+  {
+    "id": 279,
+    "name": {
+      "english": "Pelipper",
+      "japanese": "ペリッパー",
+      "french": "Bekipan"
+    },
+    "type": [
+      "Water",
+      "Flying"
+    ]
+  },
+  {
+    "id": 280,
+    "name": {
+      "english": "Ralts",
+      "japanese": "ラルトス",
+      "french": "Tarsal"
+    },
+    "type": [
+      "Psychic",
+      "Fairy"
+    ]
+  },
+  {
+    "id": 281,
+    "name": {
+      "english": "Kirlia",
+      "japanese": "キルリア",
+      "french": "Kirlia"
+    },
+    "type": [
+      "Psychic",
+      "Fairy"
+    ]
+  },
+  {
+    "id": 282,
+    "name": {
+      "english": "Gardevoir",
+      "japanese": "サーナイト",
+      "french": "Gardevoir"
+    },
+    "type": [
+      "Psychic",
+      "Fairy"
+    ]
+  },
+  {
+    "id": 283,
+    "name": {
+      "english": "Surskit",
+      "japanese": "アメタマ",
+      "french": "Arakdo"
+    },
+    "type": [
+      "Bug",
+      "Water"
+    ]
+  },
+  {
+    "id": 284,
+    "name": {
+      "english": "Masquerain",
+      "japanese": "アメモース",
+      "french": "Maskadra"
+    },
+    "type": [
+      "Bug",
+      "Flying"
+    ]
+  },
+  {
+    "id": 285,
+    "name": {
+      "english": "Shroomish",
+      "japanese": "キノココ",
+      "french": "Balignon"
+    },
+    "type": [
+      "Grass"
+    ]
+  },
+  {
+    "id": 286,
+    "name": {
+      "english": "Breloom",
+      "japanese": "キノガッサ",
+      "french": "Chapignon"
+    },
+    "type": [
+      "Grass",
+      "Fighting"
+    ]
+  },
+  {
+    "id": 287,
+    "name": {
+      "english": "Slakoth",
+      "japanese": "ナマケロ",
+      "french": "Parecool"
+    },
+    "type": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 288,
+    "name": {
+      "english": "Vigoroth",
+      "japanese": "ヤルキモノ",
+      "french": "Vigoroth"
+    },
+    "type": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 289,
+    "name": {
+      "english": "Slaking",
+      "japanese": "ケッキング",
+      "french": "Monaflèmit"
+    },
+    "type": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 290,
+    "name": {
+      "english": "Nincada",
+      "japanese": "ツチニン",
+      "french": "Ningale"
+    },
+    "type": [
+      "Bug",
+      "Ground"
+    ]
+  },
+  {
+    "id": 291,
+    "name": {
+      "english": "Ninjask",
+      "japanese": "テッカニン",
+      "french": "Ninjask"
+    },
+    "type": [
+      "Bug",
+      "Flying"
+    ]
+  },
+  {
+    "id": 292,
+    "name": {
+      "english": "Shedinja",
+      "japanese": "ヌケニン",
+      "french": "Munja"
+    },
+    "type": [
+      "Bug",
+      "Ghost"
+    ]
+  },
+  {
+    "id": 293,
+    "name": {
+      "english": "Whismur",
+      "japanese": "ゴニョニョ",
+      "french": "Chuchmur"
+    },
+    "type": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 294,
+    "name": {
+      "english": "Loudred",
+      "japanese": "ドゴーム",
+      "french": "Ramboum"
+    },
+    "type": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 295,
+    "name": {
+      "english": "Exploud",
+      "japanese": "バクオング",
+      "french": "Brouhabam"
+    },
+    "type": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 296,
+    "name": {
+      "english": "Makuhita",
+      "japanese": "マクノシタ",
+      "french": "Makuhita"
+    },
+    "type": [
+      "Fighting"
+    ]
+  },
+  {
+    "id": 297,
+    "name": {
+      "english": "Hariyama",
+      "japanese": "ハリテヤマ",
+      "french": "Hariyama"
+    },
+    "type": [
+      "Fighting"
+    ]
+  },
+  {
+    "id": 298,
+    "name": {
+      "english": "Azurill",
+      "japanese": "ルリリ",
+      "french": "Azurill"
+    },
+    "type": [
+      "Normal",
+      "Fairy"
+    ]
+  },
+  {
+    "id": 299,
+    "name": {
+      "english": "Nosepass",
+      "japanese": "ノズパス",
+      "french": "Tarinor"
+    },
+    "type": [
+      "Rock"
+    ]
+  },
+  {
+    "id": 300,
+    "name": {
+      "english": "Skitty",
+      "japanese": "エネコ",
+      "french": "Skitty"
+    },
+    "type": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 301,
+    "name": {
+      "english": "Delcatty",
+      "japanese": "エネコロロ",
+      "french": "Delcatty"
+    },
+    "type": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 302,
+    "name": {
+      "english": "Sableye",
+      "japanese": "ヤミラミ",
+      "french": "Ténéfix"
+    },
+    "type": [
+      "Dark",
+      "Ghost"
+    ]
+  },
+  {
+    "id": 303,
+    "name": {
+      "english": "Mawile",
+      "japanese": "クチート",
+      "french": "Mysdibule"
+    },
+    "type": [
+      "Steel",
+      "Fairy"
+    ]
+  },
+  {
+    "id": 304,
+    "name": {
+      "english": "Aron",
+      "japanese": "ココドラ",
+      "french": "Galekid"
+    },
+    "type": [
+      "Steel",
+      "Rock"
+    ]
+  },
+  {
+    "id": 305,
+    "name": {
+      "english": "Lairon",
+      "japanese": "コドラ",
+      "french": "Galegon"
+    },
+    "type": [
+      "Steel",
+      "Rock"
+    ]
+  },
+  {
+    "id": 306,
+    "name": {
+      "english": "Aggron",
+      "japanese": "ボスゴドラ",
+      "french": "Galeking"
+    },
+    "type": [
+      "Steel",
+      "Rock"
+    ]
+  },
+  {
+    "id": 307,
+    "name": {
+      "english": "Meditite",
+      "japanese": "アサナン",
+      "french": "Méditikka"
+    },
+    "type": [
+      "Fighting",
+      "Psychic"
+    ]
+  },
+  {
+    "id": 308,
+    "name": {
+      "english": "Medicham",
+      "japanese": "チャーレム",
+      "french": "Charmina"
+    },
+    "type": [
+      "Fighting",
+      "Psychic"
+    ]
+  },
+  {
+    "id": 309,
+    "name": {
+      "english": "Electrike",
+      "japanese": "ラクライ",
+      "french": "Dynavolt"
+    },
+    "type": [
+      "Electric"
+    ]
+  },
+  {
+    "id": 310,
+    "name": {
+      "english": "Manectric",
+      "japanese": "ライボルト",
+      "french": "Élecsprint"
+    },
+    "type": [
+      "Electric"
+    ]
+  },
+  {
+    "id": 311,
+    "name": {
+      "english": "Plusle",
+      "japanese": "プラスル",
+      "french": "Posipi"
+    },
+    "type": [
+      "Electric"
+    ]
+  },
+  {
+    "id": 312,
+    "name": {
+      "english": "Minun",
+      "japanese": "マイナン",
+      "french": "Négapi"
+    },
+    "type": [
+      "Electric"
+    ]
+  },
+  {
+    "id": 313,
+    "name": {
+      "english": "Volbeat",
+      "japanese": "バルビート",
+      "french": "Muciole"
+    },
+    "type": [
+      "Bug"
+    ]
+  },
+  {
+    "id": 314,
+    "name": {
+      "english": "Illumise",
+      "japanese": "イルミーゼ",
+      "french": "Lumivole"
+    },
+    "type": [
+      "Bug"
+    ]
+  },
+  {
+    "id": 315,
+    "name": {
+      "english": "Roselia",
+      "japanese": "ロゼリア",
+      "french": "Rosélia"
+    },
+    "type": [
+      "Grass",
+      "Poison"
+    ]
+  },
+  {
+    "id": 316,
+    "name": {
+      "english": "Gulpin",
+      "japanese": "ゴクリン",
+      "french": "Gloupti"
+    },
+    "type": [
+      "Poison"
+    ]
+  },
+  {
+    "id": 317,
+    "name": {
+      "english": "Swalot",
+      "japanese": "マルノーム",
+      "french": "Avaltout"
+    },
+    "type": [
+      "Poison"
+    ]
+  },
+  {
+    "id": 318,
+    "name": {
+      "english": "Carvanha",
+      "japanese": "キバニア",
+      "french": "Carvanha"
+    },
+    "type": [
+      "Water",
+      "Dark"
+    ]
+  },
+  {
+    "id": 319,
+    "name": {
+      "english": "Sharpedo",
+      "japanese": "サメハダー",
+      "french": "Sharpedo"
+    },
+    "type": [
+      "Water",
+      "Dark"
+    ]
+  },
+  {
+    "id": 320,
+    "name": {
+      "english": "Wailmer",
+      "japanese": "ホエルコ",
+      "french": "Wailmer"
+    },
+    "type": [
+      "Water"
+    ]
+  },
+  {
+    "id": 321,
+    "name": {
+      "english": "Wailord",
+      "japanese": "ホエルオー",
+      "french": "Wailord"
+    },
+    "type": [
+      "Water"
+    ]
+  },
+  {
+    "id": 322,
+    "name": {
+      "english": "Numel",
+      "japanese": "ドンメル",
+      "french": "Chamallot"
+    },
+    "type": [
+      "Fire",
+      "Ground"
+    ]
+  },
+  {
+    "id": 323,
+    "name": {
+      "english": "Camerupt",
+      "japanese": "バクーダ",
+      "french": "Camérupt"
+    },
+    "type": [
+      "Fire",
+      "Ground"
+    ]
+  },
+  {
+    "id": 324,
+    "name": {
+      "english": "Torkoal",
+      "japanese": "コータス",
+      "french": "Chartor"
+    },
+    "type": [
+      "Fire"
+    ]
+  },
+  {
+    "id": 325,
+    "name": {
+      "english": "Spoink",
+      "japanese": "バネブー",
+      "french": "Spoink"
+    },
+    "type": [
+      "Psychic"
+    ]
+  },
+  {
+    "id": 326,
+    "name": {
+      "english": "Grumpig",
+      "japanese": "ブーピッグ",
+      "french": "Groret"
+    },
+    "type": [
+      "Psychic"
+    ]
+  },
+  {
+    "id": 327,
+    "name": {
+      "english": "Spinda",
+      "japanese": "パッチール",
+      "french": "Spinda"
+    },
+    "type": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 328,
+    "name": {
+      "english": "Trapinch",
+      "japanese": "ナックラー",
+      "french": "Kraknoix"
+    },
+    "type": [
+      "Ground"
+    ]
+  },
+  {
+    "id": 329,
+    "name": {
+      "english": "Vibrava",
+      "japanese": "ビブラーバ",
+      "french": "Vibraninf"
+    },
+    "type": [
+      "Ground",
+      "Dragon"
+    ]
+  },
+  {
+    "id": 330,
+    "name": {
+      "english": "Flygon",
+      "japanese": "フライゴン",
+      "french": "Libégon"
+    },
+    "type": [
+      "Ground",
+      "Dragon"
+    ]
+  },
+  {
+    "id": 331,
+    "name": {
+      "english": "Cacnea",
+      "japanese": "サボネア",
+      "french": "Cacnea"
+    },
+    "type": [
+      "Grass"
+    ]
+  },
+  {
+    "id": 332,
+    "name": {
+      "english": "Cacturne",
+      "japanese": "ノクタス",
+      "french": "Cacturne"
+    },
+    "type": [
+      "Grass",
+      "Dark"
+    ]
+  },
+  {
+    "id": 333,
+    "name": {
+      "english": "Swablu",
+      "japanese": "チルット",
+      "french": "Tylton"
+    },
+    "type": [
+      "Normal",
+      "Flying"
+    ]
+  },
+  {
+    "id": 334,
+    "name": {
+      "english": "Altaria",
+      "japanese": "チルタリス",
+      "french": "Altaria"
+    },
+    "type": [
+      "Dragon",
+      "Flying"
+    ]
+  },
+  {
+    "id": 335,
+    "name": {
+      "english": "Zangoose",
+      "japanese": "ザングース",
+      "french": "Mangriff"
+    },
+    "type": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 336,
+    "name": {
+      "english": "Seviper",
+      "japanese": "ハブネーク",
+      "french": "Séviper"
+    },
+    "type": [
+      "Poison"
+    ]
+  },
+  {
+    "id": 337,
+    "name": {
+      "english": "Lunatone",
+      "japanese": "ルナトーン",
+      "french": "Séléroc"
+    },
+    "type": [
+      "Rock",
+      "Psychic"
+    ]
+  },
+  {
+    "id": 338,
+    "name": {
+      "english": "Solrock",
+      "japanese": "ソルロック",
+      "french": "Solaroc"
+    },
+    "type": [
+      "Rock",
+      "Psychic"
+    ]
+  },
+  {
+    "id": 339,
+    "name": {
+      "english": "Barboach",
+      "japanese": "ドジョッチ",
+      "french": "Barloche"
+    },
+    "type": [
+      "Water",
+      "Ground"
+    ]
+  },
+  {
+    "id": 340,
+    "name": {
+      "english": "Whiscash",
+      "japanese": "ナマズン",
+      "french": "Barbicha"
+    },
+    "type": [
+      "Water",
+      "Ground"
+    ]
+  },
+  {
+    "id": 341,
+    "name": {
+      "english": "Corphish",
+      "japanese": "ヘイガニ",
+      "french": "Écrapince"
+    },
+    "type": [
+      "Water"
+    ]
+  },
+  {
+    "id": 342,
+    "name": {
+      "english": "Crawdaunt",
+      "japanese": "シザリガー",
+      "french": "Colhomard"
+    },
+    "type": [
+      "Water",
+      "Dark"
+    ]
+  },
+  {
+    "id": 343,
+    "name": {
+      "english": "Baltoy",
+      "japanese": "ヤジロン",
+      "french": "Balbuto"
+    },
+    "type": [
+      "Ground",
+      "Psychic"
+    ]
+  },
+  {
+    "id": 344,
+    "name": {
+      "english": "Claydol",
+      "japanese": "ネンドール",
+      "french": "Kaorine"
+    },
+    "type": [
+      "Ground",
+      "Psychic"
+    ]
+  },
+  {
+    "id": 345,
+    "name": {
+      "english": "Lileep",
+      "japanese": "リリーラ",
+      "french": "Lilia"
+    },
+    "type": [
+      "Rock",
+      "Grass"
+    ]
+  },
+  {
+    "id": 346,
+    "name": {
+      "english": "Cradily",
+      "japanese": "ユレイドル",
+      "french": "Vacilys"
+    },
+    "type": [
+      "Rock",
+      "Grass"
+    ]
+  },
+  {
+    "id": 347,
+    "name": {
+      "english": "Anorith",
+      "japanese": "アノプス",
+      "french": "Anorith"
+    },
+    "type": [
+      "Rock",
+      "Bug"
+    ]
+  },
+  {
+    "id": 348,
+    "name": {
+      "english": "Armaldo",
+      "japanese": "アーマルド",
+      "french": "Armaldo"
+    },
+    "type": [
+      "Rock",
+      "Bug"
+    ]
+  },
+  {
+    "id": 349,
+    "name": {
+      "english": "Feebas",
+      "japanese": "ヒンバス",
+      "french": "Barpau"
+    },
+    "type": [
+      "Water"
+    ]
+  },
+  {
+    "id": 350,
+    "name": {
+      "english": "Milotic",
+      "japanese": "ミロカロス",
+      "french": "Milobellus"
+    },
+    "type": [
+      "Water"
+    ]
+  },
+  {
+    "id": 351,
+    "name": {
+      "english": "Castform",
+      "japanese": "ポワルン",
+      "french": "Morphéo"
+    },
+    "type": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 352,
+    "name": {
+      "english": "Kecleon",
+      "japanese": "カクレオン",
+      "french": "Kecleon"
+    },
+    "type": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 353,
+    "name": {
+      "english": "Shuppet",
+      "japanese": "カゲボウズ",
+      "french": "Polichombr"
+    },
+    "type": [
+      "Ghost"
+    ]
+  },
+  {
+    "id": 354,
+    "name": {
+      "english": "Banette",
+      "japanese": "ジュペッタ",
+      "french": "Branette"
+    },
+    "type": [
+      "Ghost"
+    ]
+  },
+  {
+    "id": 355,
+    "name": {
+      "english": "Duskull",
+      "japanese": "ヨマワル",
+      "french": "Skelénox"
+    },
+    "type": [
+      "Ghost"
+    ]
+  },
+  {
+    "id": 356,
+    "name": {
+      "english": "Dusclops",
+      "japanese": "サマヨール",
+      "french": "Téraclope"
+    },
+    "type": [
+      "Ghost"
+    ]
+  },
+  {
+    "id": 357,
+    "name": {
+      "english": "Tropius",
+      "japanese": "トロピウス",
+      "french": "Tropius"
+    },
+    "type": [
+      "Grass",
+      "Flying"
+    ]
+  },
+  {
+    "id": 358,
+    "name": {
+      "english": "Chimecho",
+      "japanese": "チリーン",
+      "french": "Éoko"
+    },
+    "type": [
+      "Psychic"
+    ]
+  },
+  {
+    "id": 359,
+    "name": {
+      "english": "Absol",
+      "japanese": "アブソル",
+      "french": "Absol"
+    },
+    "type": [
+      "Dark"
+    ]
+  },
+  {
+    "id": 360,
+    "name": {
+      "english": "Wynaut",
+      "japanese": "ソーナノ",
+      "french": "Okéoké"
+    },
+    "type": [
+      "Psychic"
+    ]
+  },
+  {
+    "id": 361,
+    "name": {
+      "english": "Snorunt",
+      "japanese": "ユキワラシ",
+      "french": "Stalgamin"
+    },
+    "type": [
+      "Ice"
+    ]
+  },
+  {
+    "id": 362,
+    "name": {
+      "english": "Glalie",
+      "japanese": "オニゴーリ",
+      "french": "Oniglali"
+    },
+    "type": [
+      "Ice"
+    ]
+  },
+  {
+    "id": 363,
+    "name": {
+      "english": "Spheal",
+      "japanese": "タマザラシ",
+      "french": "Obalie"
+    },
+    "type": [
+      "Ice",
+      "Water"
+    ]
+  },
+  {
+    "id": 364,
+    "name": {
+      "english": "Sealeo",
+      "japanese": "トドグラー",
+      "french": "Phogleur"
+    },
+    "type": [
+      "Ice",
+      "Water"
+    ]
+  },
+  {
+    "id": 365,
+    "name": {
+      "english": "Walrein",
+      "japanese": "トドゼルガ",
+      "french": "Kaimorse"
+    },
+    "type": [
+      "Ice",
+      "Water"
+    ]
+  },
+  {
+    "id": 366,
+    "name": {
+      "english": "Clamperl",
+      "japanese": "パールル",
+      "french": "Coquiperl"
+    },
+    "type": [
+      "Water"
+    ]
+  },
+  {
+    "id": 367,
+    "name": {
+      "english": "Huntail",
+      "japanese": "ハンテール",
+      "french": "Serpang"
+    },
+    "type": [
+      "Water"
+    ]
+  },
+  {
+    "id": 368,
+    "name": {
+      "english": "Gorebyss",
+      "japanese": "サクラビス",
+      "french": "Rosabyss"
+    },
+    "type": [
+      "Water"
+    ]
+  },
+  {
+    "id": 369,
+    "name": {
+      "english": "Relicanth",
+      "japanese": "ジーランス",
+      "french": "Relicanth"
+    },
+    "type": [
+      "Water",
+      "Rock"
+    ]
+  },
+  {
+    "id": 370,
+    "name": {
+      "english": "Luvdisc",
+      "japanese": "ラブカス",
+      "french": "Lovdisc"
+    },
+    "type": [
+      "Water"
+    ]
+  },
+  {
+    "id": 371,
+    "name": {
+      "english": "Bagon",
+      "japanese": "タツベイ",
+      "french": "Draby"
+    },
+    "type": [
+      "Dragon"
+    ]
+  },
+  {
+    "id": 372,
+    "name": {
+      "english": "Shelgon",
+      "japanese": "コモルー",
+      "french": "Drackhaus"
+    },
+    "type": [
+      "Dragon"
+    ]
+  },
+  {
+    "id": 373,
+    "name": {
+      "english": "Salamence",
+      "japanese": "ボーマンダ",
+      "french": "Drattak"
+    },
+    "type": [
+      "Dragon",
+      "Flying"
+    ]
+  },
+  {
+    "id": 374,
+    "name": {
+      "english": "Beldum",
+      "japanese": "ダンバル",
+      "french": "Terhal"
+    },
+    "type": [
+      "Steel",
+      "Psychic"
+    ]
+  },
+  {
+    "id": 375,
+    "name": {
+      "english": "Metang",
+      "japanese": "メタング",
+      "french": "Métang"
+    },
+    "type": [
+      "Steel",
+      "Psychic"
+    ]
+  },
+  {
+    "id": 376,
+    "name": {
+      "english": "Metagross",
+      "japanese": "メタグロス",
+      "french": "Métalosse"
+    },
+    "type": [
+      "Steel",
+      "Psychic"
+    ]
+  },
+  {
+    "id": 377,
+    "name": {
+      "english": "Regirock",
+      "japanese": "レジロック",
+      "french": "Regirock"
+    },
+    "type": [
+      "Rock"
+    ]
+  },
+  {
+    "id": 378,
+    "name": {
+      "english": "Regice",
+      "japanese": "レジアイス",
+      "french": "Regice"
+    },
+    "type": [
+      "Ice"
+    ]
+  },
+  {
+    "id": 379,
+    "name": {
+      "english": "Registeel",
+      "japanese": "レジスチル",
+      "french": "Registeel"
+    },
+    "type": [
+      "Steel"
+    ]
+  },
+  {
+    "id": 380,
+    "name": {
+      "english": "Latias",
+      "japanese": "ラティアス",
+      "french": "Latias"
+    },
+    "type": [
+      "Dragon",
+      "Psychic"
+    ]
+  },
+  {
+    "id": 381,
+    "name": {
+      "english": "Latios",
+      "japanese": "ラティオス",
+      "french": "Latios"
+    },
+    "type": [
+      "Dragon",
+      "Psychic"
+    ]
+  },
+  {
+    "id": 382,
+    "name": {
+      "english": "Kyogre",
+      "japanese": "カイオーガ",
+      "french": "Kyogre"
+    },
+    "type": [
+      "Water"
+    ]
+  },
+  {
+    "id": 383,
+    "name": {
+      "english": "Groudon",
+      "japanese": "グラードン",
+      "french": "Groudon"
+    },
+    "type": [
+      "Ground"
+    ]
+  },
+  {
+    "id": 384,
+    "name": {
+      "english": "Rayquaza",
+      "japanese": "レックウザ",
+      "french": "Rayquaza"
+    },
+    "type": [
+      "Dragon",
+      "Flying"
+    ]
+  },
+  {
+    "id": 385,
+    "name": {
+      "english": "Jirachi",
+      "japanese": "ジラーチ",
+      "french": "Jirachi"
+    },
+    "type": [
+      "Steel",
+      "Psychic"
+    ]
+  },
+  {
+    "id": 386,
+    "name": {
+      "english": "Deoxys",
+      "japanese": "デオキシス",
+      "french": "Deoxys"
+    },
+    "type": [
+      "Psychic"
+    ]
+  },
+  {
+    "id": 387,
+    "name": {
+      "english": "Turtwig",
+      "japanese": "ナエトル",
+      "french": "Tortipouss"
+    },
+    "type": [
+      "Grass"
+    ]
+  },
+  {
+    "id": 388,
+    "name": {
+      "english": "Grotle",
+      "japanese": "ハヤシガメ",
+      "french": "Boskara"
+    },
+    "type": [
+      "Grass"
+    ]
+  },
+  {
+    "id": 389,
+    "name": {
+      "english": "Torterra",
+      "japanese": "ドダイトス",
+      "french": "Torterra"
+    },
+    "type": [
+      "Grass",
+      "Ground"
+    ]
+  },
+  {
+    "id": 390,
+    "name": {
+      "english": "Chimchar",
+      "japanese": "ヒコザル",
+      "french": "Ouisticram"
+    },
+    "type": [
+      "Fire"
+    ]
+  },
+  {
+    "id": 391,
+    "name": {
+      "english": "Monferno",
+      "japanese": "モウカザル",
+      "french": "Chimpenfeu"
+    },
+    "type": [
+      "Fire",
+      "Fighting"
+    ]
+  },
+  {
+    "id": 392,
+    "name": {
+      "english": "Infernape",
+      "japanese": "ゴウカザル",
+      "french": "Simiabraz"
+    },
+    "type": [
+      "Fire",
+      "Fighting"
+    ]
+  },
+  {
+    "id": 393,
+    "name": {
+      "english": "Piplup",
+      "japanese": "ポッチャマ",
+      "french": "Tiplouf"
+    },
+    "type": [
+      "Water"
+    ]
+  },
+  {
+    "id": 394,
+    "name": {
+      "english": "Prinplup",
+      "japanese": "ポッタイシ",
+      "french": "Prinplouf"
+    },
+    "type": [
+      "Water"
+    ]
+  },
+  {
+    "id": 395,
+    "name": {
+      "english": "Empoleon",
+      "japanese": "エンペルト",
+      "french": "Pingoléon"
+    },
+    "type": [
+      "Water",
+      "Steel"
+    ]
+  },
+  {
+    "id": 396,
+    "name": {
+      "english": "Starly",
+      "japanese": "ムックル",
+      "french": "Étourmi"
+    },
+    "type": [
+      "Normal",
+      "Flying"
+    ]
+  },
+  {
+    "id": 397,
+    "name": {
+      "english": "Staravia",
+      "japanese": "ムクバード",
+      "french": "Étourvol"
+    },
+    "type": [
+      "Normal",
+      "Flying"
+    ]
+  },
+  {
+    "id": 398,
+    "name": {
+      "english": "Staraptor",
+      "japanese": "ムクホーク",
+      "french": "Étouraptor"
+    },
+    "type": [
+      "Normal",
+      "Flying"
+    ]
+  },
+  {
+    "id": 399,
+    "name": {
+      "english": "Bidoof",
+      "japanese": "ビッパ",
+      "french": "Keunotor"
+    },
+    "type": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 400,
+    "name": {
+      "english": "Bibarel",
+      "japanese": "ビーダル",
+      "french": "Castorno"
+    },
+    "type": [
+      "Normal",
+      "Water"
+    ]
+  },
+  {
+    "id": 401,
+    "name": {
+      "english": "Kricketot",
+      "japanese": "コロボーシ",
+      "french": "Crikzik"
+    },
+    "type": [
+      "Bug"
+    ]
+  },
+  {
+    "id": 402,
+    "name": {
+      "english": "Kricketune",
+      "japanese": "コロトック",
+      "french": "Mélokrik"
+    },
+    "type": [
+      "Bug"
+    ]
+  },
+  {
+    "id": 403,
+    "name": {
+      "english": "Shinx",
+      "japanese": "コリンク",
+      "french": "Lixy"
+    },
+    "type": [
+      "Electric"
+    ]
+  },
+  {
+    "id": 404,
+    "name": {
+      "english": "Luxio",
+      "japanese": "ルクシオ",
+      "french": "Luxio"
+    },
+    "type": [
+      "Electric"
+    ]
+  },
+  {
+    "id": 405,
+    "name": {
+      "english": "Luxray",
+      "japanese": "レントラー",
+      "french": "Luxray"
+    },
+    "type": [
+      "Electric"
+    ]
+  },
+  {
+    "id": 406,
+    "name": {
+      "english": "Budew",
+      "japanese": "スボミー",
+      "french": "Rozbouton"
+    },
+    "type": [
+      "Grass",
+      "Poison"
+    ]
+  },
+  {
+    "id": 407,
+    "name": {
+      "english": "Roserade",
+      "japanese": "ロズレイド",
+      "french": "Roserade"
+    },
+    "type": [
+      "Grass",
+      "Poison"
+    ]
+  },
+  {
+    "id": 408,
+    "name": {
+      "english": "Cranidos",
+      "japanese": "ズガイドス",
+      "french": "Kranidos"
+    },
+    "type": [
+      "Rock"
+    ]
+  },
+  {
+    "id": 409,
+    "name": {
+      "english": "Rampardos",
+      "japanese": "ラムパルド",
+      "french": "Charkos"
+    },
+    "type": [
+      "Rock"
+    ]
+  },
+  {
+    "id": 410,
+    "name": {
+      "english": "Shieldon",
+      "japanese": "タテトプス",
+      "french": "Dinoclier"
+    },
+    "type": [
+      "Rock",
+      "Steel"
+    ]
+  },
+  {
+    "id": 411,
+    "name": {
+      "english": "Bastiodon",
+      "japanese": "トリデプス",
+      "french": "Bastiodon"
+    },
+    "type": [
+      "Rock",
+      "Steel"
+    ]
+  },
+  {
+    "id": 412,
+    "name": {
+      "english": "Burmy",
+      "japanese": "ミノムッチ",
+      "french": "Cheniti"
+    },
+    "type": [
+      "Bug"
+    ]
+  },
+  {
+    "id": 413,
+    "name": {
+      "english": "Wormadam",
+      "japanese": "ミノマダム",
+      "french": "Cheniselle"
+    },
+    "type": [
+      "Bug",
+      "Grass"
+    ]
+  },
+  {
+    "id": 414,
+    "name": {
+      "english": "Mothim",
+      "japanese": "ガーメイル",
+      "french": "Papilord"
+    },
+    "type": [
+      "Bug",
+      "Flying"
+    ]
+  },
+  {
+    "id": 415,
+    "name": {
+      "english": "Combee",
+      "japanese": "ミツハニー",
+      "french": "Apitrini"
+    },
+    "type": [
+      "Bug",
+      "Flying"
+    ]
+  },
+  {
+    "id": 416,
+    "name": {
+      "english": "Vespiquen",
+      "japanese": "ビークイン",
+      "french": "Apireine"
+    },
+    "type": [
+      "Bug",
+      "Flying"
+    ]
+  },
+  {
+    "id": 417,
+    "name": {
+      "english": "Pachirisu",
+      "japanese": "パチリス",
+      "french": "Pachirisu"
+    },
+    "type": [
+      "Electric"
+    ]
+  },
+  {
+    "id": 418,
+    "name": {
+      "english": "Buizel",
+      "japanese": "ブイゼル",
+      "french": "Mustébouée"
+    },
+    "type": [
+      "Water"
+    ]
+  },
+  {
+    "id": 419,
+    "name": {
+      "english": "Floatzel",
+      "japanese": "フローゼル",
+      "french": "Mustéflott"
+    },
+    "type": [
+      "Water"
+    ]
+  },
+  {
+    "id": 420,
+    "name": {
+      "english": "Cherubi",
+      "japanese": "チェリンボ",
+      "french": "Ceribou"
+    },
+    "type": [
+      "Grass"
+    ]
+  },
+  {
+    "id": 421,
+    "name": {
+      "english": "Cherrim",
+      "japanese": "チェリム",
+      "french": "Ceriflor"
+    },
+    "type": [
+      "Grass"
+    ]
+  },
+  {
+    "id": 422,
+    "name": {
+      "english": "Shellos",
+      "japanese": "カラナクシ",
+      "french": "Sancoki"
+    },
+    "type": [
+      "Water"
+    ]
+  },
+  {
+    "id": 423,
+    "name": {
+      "english": "Gastrodon",
+      "japanese": "トリトドン",
+      "french": "Tritosor"
+    },
+    "type": [
+      "Water",
+      "Ground"
+    ]
+  },
+  {
+    "id": 424,
+    "name": {
+      "english": "Ambipom",
+      "japanese": "エテボース",
+      "french": "Capidextre"
+    },
+    "type": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 425,
+    "name": {
+      "english": "Drifloon",
+      "japanese": "フワンテ",
+      "french": "Baudrive"
+    },
+    "type": [
+      "Ghost",
+      "Flying"
+    ]
+  },
+  {
+    "id": 426,
+    "name": {
+      "english": "Drifblim",
+      "japanese": "フワライド",
+      "french": "Grodrive"
+    },
+    "type": [
+      "Ghost",
+      "Flying"
+    ]
+  },
+  {
+    "id": 427,
+    "name": {
+      "english": "Buneary",
+      "japanese": "ミミロル",
+      "french": "Laporeille"
+    },
+    "type": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 428,
+    "name": {
+      "english": "Lopunny",
+      "japanese": "ミミロップ",
+      "french": "Lockpin"
+    },
+    "type": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 429,
+    "name": {
+      "english": "Mismagius",
+      "japanese": "ムウマージ",
+      "french": "Magirêve"
+    },
+    "type": [
+      "Ghost"
+    ]
+  },
+  {
+    "id": 430,
+    "name": {
+      "english": "Honchkrow",
+      "japanese": "ドンカラス",
+      "french": "Corboss"
+    },
+    "type": [
+      "Dark",
+      "Flying"
+    ]
+  },
+  {
+    "id": 431,
+    "name": {
+      "english": "Glameow",
+      "japanese": "ニャルマー",
+      "french": "Chaglam"
+    },
+    "type": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 432,
+    "name": {
+      "english": "Purugly",
+      "japanese": "ブニャット",
+      "french": "Chaffreux"
+    },
+    "type": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 433,
+    "name": {
+      "english": "Chingling",
+      "japanese": "リーシャン",
+      "french": "Korillon"
+    },
+    "type": [
+      "Psychic"
+    ]
+  },
+  {
+    "id": 434,
+    "name": {
+      "english": "Stunky",
+      "japanese": "スカンプー",
+      "french": "Moufouette"
+    },
+    "type": [
+      "Poison",
+      "Dark"
+    ]
+  },
+  {
+    "id": 435,
+    "name": {
+      "english": "Skuntank",
+      "japanese": "スカタンク",
+      "french": "Moufflair"
+    },
+    "type": [
+      "Poison",
+      "Dark"
+    ]
+  },
+  {
+    "id": 436,
+    "name": {
+      "english": "Bronzor",
+      "japanese": "ドーミラー",
+      "french": "Archéomire"
+    },
+    "type": [
+      "Steel",
+      "Psychic"
+    ]
+  },
+  {
+    "id": 437,
+    "name": {
+      "english": "Bronzong",
+      "japanese": "ドータクン",
+      "french": "Archéodong"
+    },
+    "type": [
+      "Steel",
+      "Psychic"
+    ]
+  },
+  {
+    "id": 438,
+    "name": {
+      "english": "Bonsly",
+      "japanese": "ウソハチ",
+      "french": "Manzaï"
+    },
+    "type": [
+      "Rock"
+    ]
+  },
+  {
+    "id": 439,
+    "name": {
+      "english": "Mime Jr.",
+      "japanese": "マネネ",
+      "french": "Mime Jr"
+    },
+    "type": [
+      "Psychic",
+      "Fairy"
+    ]
+  },
+  {
+    "id": 440,
+    "name": {
+      "english": "Happiny",
+      "japanese": "ピンプク",
+      "french": "Ptiravi"
+    },
+    "type": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 441,
+    "name": {
+      "english": "Chatot",
+      "japanese": "ペラップ",
+      "french": "Pijako"
+    },
+    "type": [
+      "Normal",
+      "Flying"
+    ]
+  },
+  {
+    "id": 442,
+    "name": {
+      "english": "Spiritomb",
+      "japanese": "ミカルゲ",
+      "french": "Spiritomb"
+    },
+    "type": [
+      "Ghost",
+      "Dark"
+    ]
+  },
+  {
+    "id": 443,
+    "name": {
+      "english": "Gible",
+      "japanese": "フカマル",
+      "french": "Griknot"
+    },
+    "type": [
+      "Dragon",
+      "Ground"
+    ]
+  },
+  {
+    "id": 444,
+    "name": {
+      "english": "Gabite",
+      "japanese": "ガバイト",
+      "french": "Carmache"
+    },
+    "type": [
+      "Dragon",
+      "Ground"
+    ]
+  },
+  {
+    "id": 445,
+    "name": {
+      "english": "Garchomp",
+      "japanese": "ガブリアス",
+      "french": "Carchacrok"
+    },
+    "type": [
+      "Dragon",
+      "Ground"
+    ]
+  },
+  {
+    "id": 446,
+    "name": {
+      "english": "Munchlax",
+      "japanese": "ゴンベ",
+      "french": "Goinfrex"
+    },
+    "type": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 447,
+    "name": {
+      "english": "Riolu",
+      "japanese": "リオル",
+      "french": "Riolu"
+    },
+    "type": [
+      "Fighting"
+    ]
+  },
+  {
+    "id": 448,
+    "name": {
+      "english": "Lucario",
+      "japanese": "ルカリオ",
+      "french": "Lucario"
+    },
+    "type": [
+      "Fighting",
+      "Steel"
+    ]
+  },
+  {
+    "id": 449,
+    "name": {
+      "english": "Hippopotas",
+      "japanese": "ヒポポタス",
+      "french": "Hippopotas"
+    },
+    "type": [
+      "Ground"
+    ]
+  },
+  {
+    "id": 450,
+    "name": {
+      "english": "Hippowdon",
+      "japanese": "カバルドン",
+      "french": "Hippodocus"
+    },
+    "type": [
+      "Ground"
+    ]
+  },
+  {
+    "id": 451,
+    "name": {
+      "english": "Skorupi",
+      "japanese": "スコルピ",
+      "french": "Rapion"
+    },
+    "type": [
+      "Poison",
+      "Bug"
+    ]
+  },
+  {
+    "id": 452,
+    "name": {
+      "english": "Drapion",
+      "japanese": "ドラピオン",
+      "french": "Drascore"
+    },
+    "type": [
+      "Poison",
+      "Dark"
+    ]
+  },
+  {
+    "id": 453,
+    "name": {
+      "english": "Croagunk",
+      "japanese": "グレッグル",
+      "french": "Cradopaud"
+    },
+    "type": [
+      "Poison",
+      "Fighting"
+    ]
+  },
+  {
+    "id": 454,
+    "name": {
+      "english": "Toxicroak",
+      "japanese": "ドクロッグ",
+      "french": "Coatox"
+    },
+    "type": [
+      "Poison",
+      "Fighting"
+    ]
+  },
+  {
+    "id": 455,
+    "name": {
+      "english": "Carnivine",
+      "japanese": "マスキッパ",
+      "french": "Vortente"
+    },
+    "type": [
+      "Grass"
+    ]
+  },
+  {
+    "id": 456,
+    "name": {
+      "english": "Finneon",
+      "japanese": "ケイコウオ",
+      "french": "Écayon"
+    },
+    "type": [
+      "Water"
+    ]
+  },
+  {
+    "id": 457,
+    "name": {
+      "english": "Lumineon",
+      "japanese": "ネオラント",
+      "french": "Luminéon"
+    },
+    "type": [
+      "Water"
+    ]
+  },
+  {
+    "id": 458,
+    "name": {
+      "english": "Mantyke",
+      "japanese": "タマンタ",
+      "french": "Babimanta"
+    },
+    "type": [
+      "Water",
+      "Flying"
+    ]
+  },
+  {
+    "id": 459,
+    "name": {
+      "english": "Snover",
+      "japanese": "ユキカブリ",
+      "french": "Blizzi"
+    },
+    "type": [
+      "Grass",
+      "Ice"
+    ]
+  },
+  {
+    "id": 460,
+    "name": {
+      "english": "Abomasnow",
+      "japanese": "ユキノオー",
+      "french": "Blizzaroi"
+    },
+    "type": [
+      "Grass",
+      "Ice"
+    ]
+  },
+  {
+    "id": 461,
+    "name": {
+      "english": "Weavile",
+      "japanese": "マニューラ",
+      "french": "Dimoret"
+    },
+    "type": [
+      "Dark",
+      "Ice"
+    ]
+  },
+  {
+    "id": 462,
+    "name": {
+      "english": "Magnezone",
+      "japanese": "ジバコイル",
+      "french": "Magnézone"
+    },
+    "type": [
+      "Electric",
+      "Steel"
+    ]
+  },
+  {
+    "id": 463,
+    "name": {
+      "english": "Lickilicky",
+      "japanese": "ベロベルト",
+      "french": "Coudlangue"
+    },
+    "type": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 464,
+    "name": {
+      "english": "Rhyperior",
+      "japanese": "ドサイドン",
+      "french": "Rhinastoc"
+    },
+    "type": [
+      "Ground",
+      "Rock"
+    ]
+  },
+  {
+    "id": 465,
+    "name": {
+      "english": "Tangrowth",
+      "japanese": "モジャンボ",
+      "french": "Bouldeneu"
+    },
+    "type": [
+      "Grass"
+    ]
+  },
+  {
+    "id": 466,
+    "name": {
+      "english": "Electivire",
+      "japanese": "エレキブル",
+      "french": "Élekable"
+    },
+    "type": [
+      "Electric"
+    ]
+  },
+  {
+    "id": 467,
+    "name": {
+      "english": "Magmortar",
+      "japanese": "ブーバーン",
+      "french": "Maganon"
+    },
+    "type": [
+      "Fire"
+    ]
+  },
+  {
+    "id": 468,
+    "name": {
+      "english": "Togekiss",
+      "japanese": "トゲキッス",
+      "french": "Togekiss"
+    },
+    "type": [
+      "Fairy",
+      "Flying"
+    ]
+  },
+  {
+    "id": 469,
+    "name": {
+      "english": "Yanmega",
+      "japanese": "メガヤンマ",
+      "french": "Yanmega"
+    },
+    "type": [
+      "Bug",
+      "Flying"
+    ]
+  },
+  {
+    "id": 470,
+    "name": {
+      "english": "Leafeon",
+      "japanese": "リーフィア",
+      "french": "Phyllali"
+    },
+    "type": [
+      "Grass"
+    ]
+  },
+  {
+    "id": 471,
+    "name": {
+      "english": "Glaceon",
+      "japanese": "グレイシア",
+      "french": "Givrali"
+    },
+    "type": [
+      "Ice"
+    ]
+  },
+  {
+    "id": 472,
+    "name": {
+      "english": "Gliscor",
+      "japanese": "グライオン",
+      "french": "Scorvol"
+    },
+    "type": [
+      "Ground",
+      "Flying"
+    ]
+  },
+  {
+    "id": 473,
+    "name": {
+      "english": "Mamoswine",
+      "japanese": "マンムー",
+      "french": "Mammochon"
+    },
+    "type": [
+      "Ice",
+      "Ground"
+    ]
+  },
+  {
+    "id": 474,
+    "name": {
+      "english": "Porygon-Z",
+      "japanese": "ポリゴンＺ",
+      "french": "Porygon-Z"
+    },
+    "type": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 475,
+    "name": {
+      "english": "Gallade",
+      "japanese": "エルレイド",
+      "french": "Gallame"
+    },
+    "type": [
+      "Psychic",
+      "Fighting"
+    ]
+  },
+  {
+    "id": 476,
+    "name": {
+      "english": "Probopass",
+      "japanese": "ダイノーズ",
+      "french": "Tarinorme"
+    },
+    "type": [
+      "Rock",
+      "Steel"
+    ]
+  },
+  {
+    "id": 477,
+    "name": {
+      "english": "Dusknoir",
+      "japanese": "ヨノワール",
+      "french": "Noctunoir"
+    },
+    "type": [
+      "Ghost"
+    ]
+  },
+  {
+    "id": 478,
+    "name": {
+      "english": "Froslass",
+      "japanese": "ユキメノコ",
+      "french": "Momartik"
+    },
+    "type": [
+      "Ice",
+      "Ghost"
+    ]
+  },
+  {
+    "id": 479,
+    "name": {
+      "english": "Rotom",
+      "japanese": "ロトム",
+      "french": "Motisma"
+    },
+    "type": [
+      "Electric",
+      "Ghost"
+    ]
+  },
+  {
+    "id": 480,
+    "name": {
+      "english": "Uxie",
+      "japanese": "ユクシー",
+      "french": "Créhelf"
+    },
+    "type": [
+      "Psychic"
+    ]
+  },
+  {
+    "id": 481,
+    "name": {
+      "english": "Mesprit",
+      "japanese": "エムリット",
+      "french": "Créfollet"
+    },
+    "type": [
+      "Psychic"
+    ]
+  },
+  {
+    "id": 482,
+    "name": {
+      "english": "Azelf",
+      "japanese": "アグノム",
+      "french": "Créfadet"
+    },
+    "type": [
+      "Psychic"
+    ]
+  },
+  {
+    "id": 483,
+    "name": {
+      "english": "Dialga",
+      "japanese": "ディアルガ",
+      "french": "Dialga"
+    },
+    "type": [
+      "Steel",
+      "Dragon"
+    ]
+  },
+  {
+    "id": 484,
+    "name": {
+      "english": "Palkia",
+      "japanese": "パルキア",
+      "french": "Palkia"
+    },
+    "type": [
+      "Water",
+      "Dragon"
+    ]
+  },
+  {
+    "id": 485,
+    "name": {
+      "english": "Heatran",
+      "japanese": "ヒードラン",
+      "french": "Heatran"
+    },
+    "type": [
+      "Fire",
+      "Steel"
+    ]
+  },
+  {
+    "id": 486,
+    "name": {
+      "english": "Regigigas",
+      "japanese": "レジギガス",
+      "french": "Regigigas"
+    },
+    "type": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 487,
+    "name": {
+      "english": "Giratina",
+      "japanese": "ギラティナ",
+      "french": "Giratina"
+    },
+    "type": [
+      "Ghost",
+      "Dragon"
+    ]
+  },
+  {
+    "id": 488,
+    "name": {
+      "english": "Cresselia",
+      "japanese": "クレセリア",
+      "french": "Cresselia"
+    },
+    "type": [
+      "Psychic"
+    ]
+  },
+  {
+    "id": 489,
+    "name": {
+      "english": "Phione",
+      "japanese": "フィオネ",
+      "french": "Phione"
+    },
+    "type": [
+      "Water"
+    ]
+  },
+  {
+    "id": 490,
+    "name": {
+      "english": "Manaphy",
+      "japanese": "マナフィ",
+      "french": "Manaphy"
+    },
+    "type": [
+      "Water"
+    ]
+  },
+  {
+    "id": 491,
+    "name": {
+      "english": "Darkrai",
+      "japanese": "ダークライ",
+      "french": "Darkrai"
+    },
+    "type": [
+      "Dark"
+    ]
+  },
+  {
+    "id": 492,
+    "name": {
+      "english": "Shaymin",
+      "japanese": "シェイミ",
+      "french": "Shaymin"
+    },
+    "type": [
+      "Grass"
+    ]
+  },
+  {
+    "id": 493,
+    "name": {
+      "english": "Arceus",
+      "japanese": "アルセウス",
+      "french": "Arceus"
+    },
+    "type": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 494,
+    "name": {
+      "english": "Victini",
+      "japanese": "ビクティニ",
+      "french": "Victini"
+    },
+    "type": [
+      "Psychic",
+      "Fire"
+    ]
+  },
+  {
+    "id": 495,
+    "name": {
+      "english": "Snivy",
+      "japanese": "ツタージャ",
+      "french": "Vipélierre"
+    },
+    "type": [
+      "Grass"
+    ]
+  },
+  {
+    "id": 496,
+    "name": {
+      "english": "Servine",
+      "japanese": "ジャノビー",
+      "french": "Lianaja"
+    },
+    "type": [
+      "Grass"
+    ]
+  },
+  {
+    "id": 497,
+    "name": {
+      "english": "Serperior",
+      "japanese": "ジャローダ",
+      "french": "Majaspic"
+    },
+    "type": [
+      "Grass"
+    ]
+  },
+  {
+    "id": 498,
+    "name": {
+      "english": "Tepig",
+      "japanese": "ポカブ",
+      "french": "Gruikui"
+    },
+    "type": [
+      "Fire"
+    ]
+  },
+  {
+    "id": 499,
+    "name": {
+      "english": "Pignite",
+      "japanese": "チャオブー",
+      "french": "Grotichon"
+    },
+    "type": [
+      "Fire",
+      "Fighting"
+    ]
+  },
+  {
+    "id": 500,
+    "name": {
+      "english": "Emboar",
+      "japanese": "エンブオー",
+      "french": "Roitiflam"
+    },
+    "type": [
+      "Fire",
+      "Fighting"
+    ]
+  },
+  {
+    "id": 501,
+    "name": {
+      "english": "Oshawott",
+      "japanese": "ミジュマル",
+      "french": "Moustillon"
+    },
+    "type": [
+      "Water"
+    ]
+  },
+  {
+    "id": 502,
+    "name": {
+      "english": "Dewott",
+      "japanese": "フタチマル",
+      "french": "Mateloutre"
+    },
+    "type": [
+      "Water"
+    ]
+  },
+  {
+    "id": 503,
+    "name": {
+      "english": "Samurott",
+      "japanese": "ダイケンキ",
+      "french": "Clamiral"
+    },
+    "type": [
+      "Water"
+    ]
+  },
+  {
+    "id": 504,
+    "name": {
+      "english": "Patrat",
+      "japanese": "ミネズミ",
+      "french": "Ratentif"
+    },
+    "type": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 505,
+    "name": {
+      "english": "Watchog",
+      "japanese": "ミルホッグ",
+      "french": "Miradar"
+    },
+    "type": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 506,
+    "name": {
+      "english": "Lillipup",
+      "japanese": "ヨーテリー",
+      "french": "Ponchiot"
+    },
+    "type": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 507,
+    "name": {
+      "english": "Herdier",
+      "japanese": "ハーデリア",
+      "french": "Ponchien"
+    },
+    "type": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 508,
+    "name": {
+      "english": "Stoutland",
+      "japanese": "ムーランド",
+      "french": "Mastouffe"
+    },
+    "type": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 509,
+    "name": {
+      "english": "Purrloin",
+      "japanese": "チョロネコ",
+      "french": "Chacripan"
+    },
+    "type": [
+      "Dark"
+    ]
+  },
+  {
+    "id": 510,
+    "name": {
+      "english": "Liepard",
+      "japanese": "レパルダス",
+      "french": "Léopardus"
+    },
+    "type": [
+      "Dark"
+    ]
+  },
+  {
+    "id": 511,
+    "name": {
+      "english": "Pansage",
+      "japanese": "ヤナップ",
+      "french": "Feuillajou"
+    },
+    "type": [
+      "Grass"
+    ]
+  },
+  {
+    "id": 512,
+    "name": {
+      "english": "Simisage",
+      "japanese": "ヤナッキー",
+      "french": "Feuiloutan"
+    },
+    "type": [
+      "Grass"
+    ]
+  },
+  {
+    "id": 513,
+    "name": {
+      "english": "Pansear",
+      "japanese": "バオップ",
+      "french": "Flamajou"
+    },
+    "type": [
+      "Fire"
+    ]
+  },
+  {
+    "id": 514,
+    "name": {
+      "english": "Simisear",
+      "japanese": "バオッキー",
+      "french": "Flamoutan"
+    },
+    "type": [
+      "Fire"
+    ]
+  },
+  {
+    "id": 515,
+    "name": {
+      "english": "Panpour",
+      "japanese": "ヒヤップ",
+      "french": "Flotajou"
+    },
+    "type": [
+      "Water"
+    ]
+  },
+  {
+    "id": 516,
+    "name": {
+      "english": "Simipour",
+      "japanese": "ヒヤッキー",
+      "french": "Flotoutan"
+    },
+    "type": [
+      "Water"
+    ]
+  },
+  {
+    "id": 517,
+    "name": {
+      "english": "Munna",
+      "japanese": "ムンナ",
+      "french": "Munna"
+    },
+    "type": [
+      "Psychic"
+    ]
+  },
+  {
+    "id": 518,
+    "name": {
+      "english": "Musharna",
+      "japanese": "ムシャーナ",
+      "french": "Mushana"
+    },
+    "type": [
+      "Psychic"
+    ]
+  },
+  {
+    "id": 519,
+    "name": {
+      "english": "Pidove",
+      "japanese": "マメパト",
+      "french": "Poichigeon"
+    },
+    "type": [
+      "Normal",
+      "Flying"
+    ]
+  },
+  {
+    "id": 520,
+    "name": {
+      "english": "Tranquill",
+      "japanese": "ハトーボー",
+      "french": "Colombeau"
+    },
+    "type": [
+      "Normal",
+      "Flying"
+    ]
+  },
+  {
+    "id": 521,
+    "name": {
+      "english": "Unfezant",
+      "japanese": "ケンホロウ",
+      "french": "Déflaisan"
+    },
+    "type": [
+      "Normal",
+      "Flying"
+    ]
+  },
+  {
+    "id": 522,
+    "name": {
+      "english": "Blitzle",
+      "japanese": "シママ",
+      "french": "Zébibron"
+    },
+    "type": [
+      "Electric"
+    ]
+  },
+  {
+    "id": 523,
+    "name": {
+      "english": "Zebstrika",
+      "japanese": "ゼブライカ",
+      "french": "Zéblitz"
+    },
+    "type": [
+      "Electric"
+    ]
+  },
+  {
+    "id": 524,
+    "name": {
+      "english": "Roggenrola",
+      "japanese": "ダンゴロ",
+      "french": "Nodulithe"
+    },
+    "type": [
+      "Rock"
+    ]
+  },
+  {
+    "id": 525,
+    "name": {
+      "english": "Boldore",
+      "japanese": "ガントル",
+      "french": "Géolithe"
+    },
+    "type": [
+      "Rock"
+    ]
+  },
+  {
+    "id": 526,
+    "name": {
+      "english": "Gigalith",
+      "japanese": "ギガイアス",
+      "french": "Gigalithe"
+    },
+    "type": [
+      "Rock"
+    ]
+  },
+  {
+    "id": 527,
+    "name": {
+      "english": "Woobat",
+      "japanese": "コロモリ",
+      "french": "Chovsourir"
+    },
+    "type": [
+      "Psychic",
+      "Flying"
+    ]
+  },
+  {
+    "id": 528,
+    "name": {
+      "english": "Swoobat",
+      "japanese": "ココロモリ",
+      "french": "Rhinolove"
+    },
+    "type": [
+      "Psychic",
+      "Flying"
+    ]
+  },
+  {
+    "id": 529,
+    "name": {
+      "english": "Drilbur",
+      "japanese": "モグリュー",
+      "french": "Rototaupe"
+    },
+    "type": [
+      "Ground"
+    ]
+  },
+  {
+    "id": 530,
+    "name": {
+      "english": "Excadrill",
+      "japanese": "ドリュウズ",
+      "french": "Minotaupe"
+    },
+    "type": [
+      "Ground",
+      "Steel"
+    ]
+  },
+  {
+    "id": 531,
+    "name": {
+      "english": "Audino",
+      "japanese": "タブンネ",
+      "french": "Nanméouïe"
+    },
+    "type": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 532,
+    "name": {
+      "english": "Timburr",
+      "japanese": "ドッコラー",
+      "french": "Charpenti"
+    },
+    "type": [
+      "Fighting"
+    ]
+  },
+  {
+    "id": 533,
+    "name": {
+      "english": "Gurdurr",
+      "japanese": "ドテッコツ",
+      "french": "Ouvrifier"
+    },
+    "type": [
+      "Fighting"
+    ]
+  },
+  {
+    "id": 534,
+    "name": {
+      "english": "Conkeldurr",
+      "japanese": "ローブシン",
+      "french": "Bétochef"
+    },
+    "type": [
+      "Fighting"
+    ]
+  },
+  {
+    "id": 535,
+    "name": {
+      "english": "Tympole",
+      "japanese": "オタマロ",
+      "french": "Tritonde"
+    },
+    "type": [
+      "Water"
+    ]
+  },
+  {
+    "id": 536,
+    "name": {
+      "english": "Palpitoad",
+      "japanese": "ガマガル",
+      "french": "Batracné"
+    },
+    "type": [
+      "Water",
+      "Ground"
+    ]
+  },
+  {
+    "id": 537,
+    "name": {
+      "english": "Seismitoad",
+      "japanese": "ガマゲロゲ",
+      "french": "Crapustule"
+    },
+    "type": [
+      "Water",
+      "Ground"
+    ]
+  },
+  {
+    "id": 538,
+    "name": {
+      "english": "Throh",
+      "japanese": "ナゲキ",
+      "french": "Judokrak"
+    },
+    "type": [
+      "Fighting"
+    ]
+  },
+  {
+    "id": 539,
+    "name": {
+      "english": "Sawk",
+      "japanese": "ダゲキ",
+      "french": "Karaclée"
+    },
+    "type": [
+      "Fighting"
+    ]
+  },
+  {
+    "id": 540,
+    "name": {
+      "english": "Sewaddle",
+      "japanese": "クルミル",
+      "french": "Larveyette"
+    },
+    "type": [
+      "Bug",
+      "Grass"
+    ]
+  },
+  {
+    "id": 541,
+    "name": {
+      "english": "Swadloon",
+      "japanese": "クルマユ",
+      "french": "Couverdure"
+    },
+    "type": [
+      "Bug",
+      "Grass"
+    ]
+  },
+  {
+    "id": 542,
+    "name": {
+      "english": "Leavanny",
+      "japanese": "ハハコモリ",
+      "french": "Manternel"
+    },
+    "type": [
+      "Bug",
+      "Grass"
+    ]
+  },
+  {
+    "id": 543,
+    "name": {
+      "english": "Venipede",
+      "japanese": "フシデ",
+      "french": "Venipatte"
+    },
+    "type": [
+      "Bug",
+      "Poison"
+    ]
+  },
+  {
+    "id": 544,
+    "name": {
+      "english": "Whirlipede",
+      "japanese": "ホイーガ",
+      "french": "Scobolide"
+    },
+    "type": [
+      "Bug",
+      "Poison"
+    ]
+  },
+  {
+    "id": 545,
+    "name": {
+      "english": "Scolipede",
+      "japanese": "ペンドラー",
+      "french": "Brutapode"
+    },
+    "type": [
+      "Bug",
+      "Poison"
+    ]
+  },
+  {
+    "id": 546,
+    "name": {
+      "english": "Cottonee",
+      "japanese": "モンメン",
+      "french": "Doudouvet"
+    },
+    "type": [
+      "Grass",
+      "Fairy"
+    ]
+  },
+  {
+    "id": 547,
+    "name": {
+      "english": "Whimsicott",
+      "japanese": "エルフーン",
+      "french": "Farfaduvet"
+    },
+    "type": [
+      "Grass",
+      "Fairy"
+    ]
+  },
+  {
+    "id": 548,
+    "name": {
+      "english": "Petilil",
+      "japanese": "チュリネ",
+      "french": "Chlorobule"
+    },
+    "type": [
+      "Grass"
+    ]
+  },
+  {
+    "id": 549,
+    "name": {
+      "english": "Lilligant",
+      "japanese": "ドレディア",
+      "french": "Fragilady"
+    },
+    "type": [
+      "Grass"
+    ]
+  },
+  {
+    "id": 550,
+    "name": {
+      "english": "Basculin",
+      "japanese": "バスラオ",
+      "french": "Bargantua"
+    },
+    "type": [
+      "Water"
+    ]
+  },
+  {
+    "id": 551,
+    "name": {
+      "english": "Sandile",
+      "japanese": "メグロコ",
+      "french": "Mascaïman"
+    },
+    "type": [
+      "Ground",
+      "Dark"
+    ]
+  },
+  {
+    "id": 552,
+    "name": {
+      "english": "Krokorok",
+      "japanese": "ワルビル",
+      "french": "Escroco"
+    },
+    "type": [
+      "Ground",
+      "Dark"
+    ]
+  },
+  {
+    "id": 553,
+    "name": {
+      "english": "Krookodile",
+      "japanese": "ワルビアル",
+      "french": "Crocorible"
+    },
+    "type": [
+      "Ground",
+      "Dark"
+    ]
+  },
+  {
+    "id": 554,
+    "name": {
+      "english": "Darumaka",
+      "japanese": "ダルマッカ",
+      "french": "Darumarond"
+    },
+    "type": [
+      "Fire"
+    ]
+  },
+  {
+    "id": 555,
+    "name": {
+      "english": "Darmanitan",
+      "japanese": "ヒヒダルマ",
+      "french": "Darumacho"
+    },
+    "type": [
+      "Fire"
+    ]
+  },
+  {
+    "id": 556,
+    "name": {
+      "english": "Maractus",
+      "japanese": "マラカッチ",
+      "french": "Maracachi"
+    },
+    "type": [
+      "Grass"
+    ]
+  },
+  {
+    "id": 557,
+    "name": {
+      "english": "Dwebble",
+      "japanese": "イシズマイ",
+      "french": "Crabicoque"
+    },
+    "type": [
+      "Bug",
+      "Rock"
+    ]
+  },
+  {
+    "id": 558,
+    "name": {
+      "english": "Crustle",
+      "japanese": "イワパレス",
+      "french": "Crabaraque"
+    },
+    "type": [
+      "Bug",
+      "Rock"
+    ]
+  },
+  {
+    "id": 559,
+    "name": {
+      "english": "Scraggy",
+      "japanese": "ズルッグ",
+      "french": "Baggiguane"
+    },
+    "type": [
+      "Dark",
+      "Fighting"
+    ]
+  },
+  {
+    "id": 560,
+    "name": {
+      "english": "Scrafty",
+      "japanese": "ズルズキン",
+      "french": "Baggaïd"
+    },
+    "type": [
+      "Dark",
+      "Fighting"
+    ]
+  },
+  {
+    "id": 561,
+    "name": {
+      "english": "Sigilyph",
+      "japanese": "シンボラー",
+      "french": "Cryptéro"
+    },
+    "type": [
+      "Psychic",
+      "Flying"
+    ]
+  },
+  {
+    "id": 562,
+    "name": {
+      "english": "Yamask",
+      "japanese": "デスマス",
+      "french": "Tutafeh"
+    },
+    "type": [
+      "Ghost"
+    ]
+  },
+  {
+    "id": 563,
+    "name": {
+      "english": "Cofagrigus",
+      "japanese": "デスカーン",
+      "french": "Tutankafer"
+    },
+    "type": [
+      "Ghost"
+    ]
+  },
+  {
+    "id": 564,
+    "name": {
+      "english": "Tirtouga",
+      "japanese": "プロトーガ",
+      "french": "Carapagos"
+    },
+    "type": [
+      "Water",
+      "Rock"
+    ]
+  },
+  {
+    "id": 565,
+    "name": {
+      "english": "Carracosta",
+      "japanese": "アバゴーラ",
+      "french": "Mégapagos"
+    },
+    "type": [
+      "Water",
+      "Rock"
+    ]
+  },
+  {
+    "id": 566,
+    "name": {
+      "english": "Archen",
+      "japanese": "アーケン",
+      "french": "Arkéapti"
+    },
+    "type": [
+      "Rock",
+      "Flying"
+    ]
+  },
+  {
+    "id": 567,
+    "name": {
+      "english": "Archeops",
+      "japanese": "アーケオス",
+      "french": "Aéroptéryx"
+    },
+    "type": [
+      "Rock",
+      "Flying"
+    ]
+  },
+  {
+    "id": 568,
+    "name": {
+      "english": "Trubbish",
+      "japanese": "ヤブクロン",
+      "french": "Miamiasme"
+    },
+    "type": [
+      "Poison"
+    ]
+  },
+  {
+    "id": 569,
+    "name": {
+      "english": "Garbodor",
+      "japanese": "ダストダス",
+      "french": "Miasmax"
+    },
+    "type": [
+      "Poison"
+    ]
+  },
+  {
+    "id": 570,
+    "name": {
+      "english": "Zorua",
+      "japanese": "ゾロア",
+      "french": "Zorua"
+    },
+    "type": [
+      "Dark"
+    ]
+  },
+  {
+    "id": 571,
+    "name": {
+      "english": "Zoroark",
+      "japanese": "ゾロアーク",
+      "french": "Zoroark"
+    },
+    "type": [
+      "Dark"
+    ]
+  },
+  {
+    "id": 572,
+    "name": {
+      "english": "Minccino",
+      "japanese": "チラーミィ",
+      "french": "Chinchidou"
+    },
+    "type": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 573,
+    "name": {
+      "english": "Cinccino",
+      "japanese": "チラチーノ",
+      "french": "Pashmilla"
+    },
+    "type": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 574,
+    "name": {
+      "english": "Gothita",
+      "japanese": "ゴチム",
+      "french": "Scrutella"
+    },
+    "type": [
+      "Psychic"
+    ]
+  },
+  {
+    "id": 575,
+    "name": {
+      "english": "Gothorita",
+      "japanese": "ゴチミル",
+      "french": "Mesmérella"
+    },
+    "type": [
+      "Psychic"
+    ]
+  },
+  {
+    "id": 576,
+    "name": {
+      "english": "Gothitelle",
+      "japanese": "ゴチルゼル",
+      "french": "Sidérella"
+    },
+    "type": [
+      "Psychic"
+    ]
+  },
+  {
+    "id": 577,
+    "name": {
+      "english": "Solosis",
+      "japanese": "ユニラン",
+      "french": "Nucléos"
+    },
+    "type": [
+      "Psychic"
+    ]
+  },
+  {
+    "id": 578,
+    "name": {
+      "english": "Duosion",
+      "japanese": "ダブラン",
+      "french": "Méios"
+    },
+    "type": [
+      "Psychic"
+    ]
+  },
+  {
+    "id": 579,
+    "name": {
+      "english": "Reuniclus",
+      "japanese": "ランクルス",
+      "french": "Symbios"
+    },
+    "type": [
+      "Psychic"
+    ]
+  },
+  {
+    "id": 580,
+    "name": {
+      "english": "Ducklett",
+      "japanese": "コアルヒー",
+      "french": "Couaneton"
+    },
+    "type": [
+      "Water",
+      "Flying"
+    ]
+  },
+  {
+    "id": 581,
+    "name": {
+      "english": "Swanna",
+      "japanese": "スワンナ",
+      "french": "Lakmécygne"
+    },
+    "type": [
+      "Water",
+      "Flying"
+    ]
+  },
+  {
+    "id": 582,
+    "name": {
+      "english": "Vanillite",
+      "japanese": "バニプッチ",
+      "french": "Sorbébé"
+    },
+    "type": [
+      "Ice"
+    ]
+  },
+  {
+    "id": 583,
+    "name": {
+      "english": "Vanillish",
+      "japanese": "バニリッチ",
+      "french": "Sorboul"
+    },
+    "type": [
+      "Ice"
+    ]
+  },
+  {
+    "id": 584,
+    "name": {
+      "english": "Vanilluxe",
+      "japanese": "バイバニラ",
+      "french": "Sorbouboul"
+    },
+    "type": [
+      "Ice"
+    ]
+  },
+  {
+    "id": 585,
+    "name": {
+      "english": "Deerling",
+      "japanese": "シキジカ",
+      "french": "Vivaldaim"
+    },
+    "type": [
+      "Normal",
+      "Grass"
+    ]
+  },
+  {
+    "id": 586,
+    "name": {
+      "english": "Sawsbuck",
+      "japanese": "メブキジカ",
+      "french": "Haydaim"
+    },
+    "type": [
+      "Normal",
+      "Grass"
+    ]
+  },
+  {
+    "id": 587,
+    "name": {
+      "english": "Emolga",
+      "japanese": "エモンガ",
+      "french": "Emolga"
+    },
+    "type": [
+      "Electric",
+      "Flying"
+    ]
+  },
+  {
+    "id": 588,
+    "name": {
+      "english": "Karrablast",
+      "japanese": "カブルモ",
+      "french": "Carabing"
+    },
+    "type": [
+      "Bug"
+    ]
+  },
+  {
+    "id": 589,
+    "name": {
+      "english": "Escavalier",
+      "japanese": "シュバルゴ",
+      "french": "Lançargot"
+    },
+    "type": [
+      "Bug",
+      "Steel"
+    ]
+  },
+  {
+    "id": 590,
+    "name": {
+      "english": "Foongus",
+      "japanese": "タマゲタケ",
+      "french": "Trompignon"
+    },
+    "type": [
+      "Grass",
+      "Poison"
+    ]
+  },
+  {
+    "id": 591,
+    "name": {
+      "english": "Amoonguss",
+      "japanese": "モロバレル",
+      "french": "Gaulet"
+    },
+    "type": [
+      "Grass",
+      "Poison"
+    ]
+  },
+  {
+    "id": 592,
+    "name": {
+      "english": "Frillish",
+      "japanese": "プルリル",
+      "french": "Viskuse"
+    },
+    "type": [
+      "Water",
+      "Ghost"
+    ]
+  },
+  {
+    "id": 593,
+    "name": {
+      "english": "Jellicent",
+      "japanese": "ブルンゲル",
+      "french": "Moyade"
+    },
+    "type": [
+      "Water",
+      "Ghost"
+    ]
+  },
+  {
+    "id": 594,
+    "name": {
+      "english": "Alomomola",
+      "japanese": "ママンボウ",
+      "french": "Mamanbo"
+    },
+    "type": [
+      "Water"
+    ]
+  },
+  {
+    "id": 595,
+    "name": {
+      "english": "Joltik",
+      "japanese": "バチュル",
+      "french": "Statitik"
+    },
+    "type": [
+      "Bug",
+      "Electric"
+    ]
+  },
+  {
+    "id": 596,
+    "name": {
+      "english": "Galvantula",
+      "japanese": "デンチュラ",
+      "french": "Mygavolt"
+    },
+    "type": [
+      "Bug",
+      "Electric"
+    ]
+  },
+  {
+    "id": 597,
+    "name": {
+      "english": "Ferroseed",
+      "japanese": "テッシード",
+      "french": "Grindur"
+    },
+    "type": [
+      "Grass",
+      "Steel"
+    ]
+  },
+  {
+    "id": 598,
+    "name": {
+      "english": "Ferrothorn",
+      "japanese": "ナットレイ",
+      "french": "Noacier"
+    },
+    "type": [
+      "Grass",
+      "Steel"
+    ]
+  },
+  {
+    "id": 599,
+    "name": {
+      "english": "Klink",
+      "japanese": "ギアル",
+      "french": "Tic"
+    },
+    "type": [
+      "Steel"
+    ]
+  },
+  {
+    "id": 600,
+    "name": {
+      "english": "Klang",
+      "japanese": "ギギアル",
+      "french": "Clic"
+    },
+    "type": [
+      "Steel"
+    ]
+  },
+  {
+    "id": 601,
+    "name": {
+      "english": "Klinklang",
+      "japanese": "ギギギアル",
+      "french": "Cliticlic"
+    },
+    "type": [
+      "Steel"
+    ]
+  },
+  {
+    "id": 602,
+    "name": {
+      "english": "Tynamo",
+      "japanese": "シビシラス",
+      "french": "Anchwatt"
+    },
+    "type": [
+      "Electric"
+    ]
+  },
+  {
+    "id": 603,
+    "name": {
+      "english": "Eelektrik",
+      "japanese": "シビビール",
+      "french": "Lampéroie"
+    },
+    "type": [
+      "Electric"
+    ]
+  },
+  {
+    "id": 604,
+    "name": {
+      "english": "Eelektross",
+      "japanese": "シビルドン",
+      "french": "Ohmassacre"
+    },
+    "type": [
+      "Electric"
+    ]
+  },
+  {
+    "id": 605,
+    "name": {
+      "english": "Elgyem",
+      "japanese": "リグレー",
+      "french": "Lewsor"
+    },
+    "type": [
+      "Psychic"
+    ]
+  },
+  {
+    "id": 606,
+    "name": {
+      "english": "Beheeyem",
+      "japanese": "オーベム",
+      "french": "Neitram"
+    },
+    "type": [
+      "Psychic"
+    ]
+  },
+  {
+    "id": 607,
+    "name": {
+      "english": "Litwick",
+      "japanese": "ヒトモシ",
+      "french": "Funécire"
+    },
+    "type": [
+      "Ghost",
+      "Fire"
+    ]
+  },
+  {
+    "id": 608,
+    "name": {
+      "english": "Lampent",
+      "japanese": "ランプラー",
+      "french": "Mélancolux"
+    },
+    "type": [
+      "Ghost",
+      "Fire"
+    ]
+  },
+  {
+    "id": 609,
+    "name": {
+      "english": "Chandelure",
+      "japanese": "シャンデラ",
+      "french": "Lugulabre"
+    },
+    "type": [
+      "Ghost",
+      "Fire"
+    ]
+  },
+  {
+    "id": 610,
+    "name": {
+      "english": "Axew",
+      "japanese": "キバゴ",
+      "french": "Coupenotte"
+    },
+    "type": [
+      "Dragon"
+    ]
+  },
+  {
+    "id": 611,
+    "name": {
+      "english": "Fraxure",
+      "japanese": "オノンド",
+      "french": "Incisache"
+    },
+    "type": [
+      "Dragon"
+    ]
+  },
+  {
+    "id": 612,
+    "name": {
+      "english": "Haxorus",
+      "japanese": "オノノクス",
+      "french": "Tranchodon"
+    },
+    "type": [
+      "Dragon"
+    ]
+  },
+  {
+    "id": 613,
+    "name": {
+      "english": "Cubchoo",
+      "japanese": "クマシュン",
+      "french": "Polarhume"
+    },
+    "type": [
+      "Ice"
+    ]
+  },
+  {
+    "id": 614,
+    "name": {
+      "english": "Beartic",
+      "japanese": "ツンベアー",
+      "french": "Polagriffe"
+    },
+    "type": [
+      "Ice"
+    ]
+  },
+  {
+    "id": 615,
+    "name": {
+      "english": "Cryogonal",
+      "japanese": "フリージオ",
+      "french": "Hexagel"
+    },
+    "type": [
+      "Ice"
+    ]
+  },
+  {
+    "id": 616,
+    "name": {
+      "english": "Shelmet",
+      "japanese": "チョボマキ",
+      "french": "Escargaume"
+    },
+    "type": [
+      "Bug"
+    ]
+  },
+  {
+    "id": 617,
+    "name": {
+      "english": "Accelgor",
+      "japanese": "アギルダー",
+      "french": "Limaspeed"
+    },
+    "type": [
+      "Bug"
+    ]
+  },
+  {
+    "id": 618,
+    "name": {
+      "english": "Stunfisk",
+      "japanese": "マッギョ",
+      "french": "Limonde"
+    },
+    "type": [
+      "Ground",
+      "Electric"
+    ]
+  },
+  {
+    "id": 619,
+    "name": {
+      "english": "Mienfoo",
+      "japanese": "コジョフー",
+      "french": "Kungfouine"
+    },
+    "type": [
+      "Fighting"
+    ]
+  },
+  {
+    "id": 620,
+    "name": {
+      "english": "Mienshao",
+      "japanese": "コジョンド",
+      "french": "Shaofouine"
+    },
+    "type": [
+      "Fighting"
+    ]
+  },
+  {
+    "id": 621,
+    "name": {
+      "english": "Druddigon",
+      "japanese": "クリムガン",
+      "french": "Drakkarmin"
+    },
+    "type": [
+      "Dragon"
+    ]
+  },
+  {
+    "id": 622,
+    "name": {
+      "english": "Golett",
+      "japanese": "ゴビット",
+      "french": "Gringolem"
+    },
+    "type": [
+      "Ground",
+      "Ghost"
+    ]
+  },
+  {
+    "id": 623,
+    "name": {
+      "english": "Golurk",
+      "japanese": "ゴルーグ",
+      "french": "Golemastoc"
+    },
+    "type": [
+      "Ground",
+      "Ghost"
+    ]
+  },
+  {
+    "id": 624,
+    "name": {
+      "english": "Pawniard",
+      "japanese": "コマタナ",
+      "french": "Scalpion"
+    },
+    "type": [
+      "Dark",
+      "Steel"
+    ]
+  },
+  {
+    "id": 625,
+    "name": {
+      "english": "Bisharp",
+      "japanese": "キリキザン",
+      "french": "Scalproie"
+    },
+    "type": [
+      "Dark",
+      "Steel"
+    ]
+  },
+  {
+    "id": 626,
+    "name": {
+      "english": "Bouffalant",
+      "japanese": "バッフロン",
+      "french": "Frison"
+    },
+    "type": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 627,
+    "name": {
+      "english": "Rufflet",
+      "japanese": "ワシボン",
+      "french": "Furaiglon"
+    },
+    "type": [
+      "Normal",
+      "Flying"
+    ]
+  },
+  {
+    "id": 628,
+    "name": {
+      "english": "Braviary",
+      "japanese": "ウォーグル",
+      "french": "Gueriaigle"
+    },
+    "type": [
+      "Normal",
+      "Flying"
+    ]
+  },
+  {
+    "id": 629,
+    "name": {
+      "english": "Vullaby",
+      "japanese": "バルチャイ",
+      "french": "Vostourno"
+    },
+    "type": [
+      "Dark",
+      "Flying"
+    ]
+  },
+  {
+    "id": 630,
+    "name": {
+      "english": "Mandibuzz",
+      "japanese": "バルジーナ",
+      "french": "Vaututrice"
+    },
+    "type": [
+      "Dark",
+      "Flying"
+    ]
+  },
+  {
+    "id": 631,
+    "name": {
+      "english": "Heatmor",
+      "japanese": "クイタラン",
+      "french": "Aflamanoir"
+    },
+    "type": [
+      "Fire"
+    ]
+  },
+  {
+    "id": 632,
+    "name": {
+      "english": "Durant",
+      "japanese": "アイアント",
+      "french": "Fermite"
+    },
+    "type": [
+      "Bug",
+      "Steel"
+    ]
+  },
+  {
+    "id": 633,
+    "name": {
+      "english": "Deino",
+      "japanese": "モノズ",
+      "french": "Solochi"
+    },
+    "type": [
+      "Dark",
+      "Dragon"
+    ]
+  },
+  {
+    "id": 634,
+    "name": {
+      "english": "Zweilous",
+      "japanese": "ジヘッド",
+      "french": "Diamat"
+    },
+    "type": [
+      "Dark",
+      "Dragon"
+    ]
+  },
+  {
+    "id": 635,
+    "name": {
+      "english": "Hydreigon",
+      "japanese": "サザンドラ",
+      "french": "Trioxhydre"
+    },
+    "type": [
+      "Dark",
+      "Dragon"
+    ]
+  },
+  {
+    "id": 636,
+    "name": {
+      "english": "Larvesta",
+      "japanese": "メラルバ",
+      "french": "Pyronille"
+    },
+    "type": [
+      "Bug",
+      "Fire"
+    ]
+  },
+  {
+    "id": 637,
+    "name": {
+      "english": "Volcarona",
+      "japanese": "ウルガモス",
+      "french": "Pyrax"
+    },
+    "type": [
+      "Bug",
+      "Fire"
+    ]
+  },
+  {
+    "id": 638,
+    "name": {
+      "english": "Cobalion",
+      "japanese": "コバルオン",
+      "french": "Cobaltium"
+    },
+    "type": [
+      "Steel",
+      "Fighting"
+    ]
+  },
+  {
+    "id": 639,
+    "name": {
+      "english": "Terrakion",
+      "japanese": "テラキオン",
+      "french": "Terrakium"
+    },
+    "type": [
+      "Rock",
+      "Fighting"
+    ]
+  },
+  {
+    "id": 640,
+    "name": {
+      "english": "Virizion",
+      "japanese": "ビリジオン",
+      "french": "Viridium"
+    },
+    "type": [
+      "Grass",
+      "Fighting"
+    ]
+  },
+  {
+    "id": 641,
+    "name": {
+      "english": "Tornadus",
+      "japanese": "トルネロス",
+      "french": "Boréas"
+    },
+    "type": [
+      "Flying"
+    ]
+  },
+  {
+    "id": 642,
+    "name": {
+      "english": "Thundurus",
+      "japanese": "ボルトロス",
+      "french": "Fulguris"
+    },
+    "type": [
+      "Electric",
+      "Flying"
+    ]
+  },
+  {
+    "id": 643,
+    "name": {
+      "english": "Reshiram",
+      "japanese": "レシラム",
+      "french": "Reshiram"
+    },
+    "type": [
+      "Dragon",
+      "Fire"
+    ]
+  },
+  {
+    "id": 644,
+    "name": {
+      "english": "Zekrom",
+      "japanese": "ゼクロム",
+      "french": "Zekrom"
+    },
+    "type": [
+      "Dragon",
+      "Electric"
+    ]
+  },
+  {
+    "id": 645,
+    "name": {
+      "english": "Landorus",
+      "japanese": "ランドロス",
+      "french": "Démétéros"
+    },
+    "type": [
+      "Ground",
+      "Flying"
+    ]
+  },
+  {
+    "id": 646,
+    "name": {
+      "english": "Kyurem",
+      "japanese": "キュレム",
+      "french": "Kyurem"
+    },
+    "type": [
+      "Dragon",
+      "Ice"
+    ]
+  },
+  {
+    "id": 647,
+    "name": {
+      "english": "Keldeo",
+      "japanese": "ケルディオ",
+      "french": "Keldeo"
+    },
+    "type": [
+      "Water",
+      "Fighting"
+    ]
+  },
+  {
+    "id": 648,
+    "name": {
+      "english": "Meloetta",
+      "japanese": "メロエッタ",
+      "french": "Meloetta"
+    },
+    "type": [
+      "Normal",
+      "Psychic"
+    ]
+  },
+  {
+    "id": 649,
+    "name": {
+      "english": "Genesect",
+      "japanese": "ゲノセクト",
+      "french": "Genesect"
+    },
+    "type": [
+      "Bug",
+      "Steel"
+    ]
+  },
+  {
+    "id": 650,
+    "name": {
+      "english": "Chespin",
+      "japanese": "ハリマロン",
+      "french": "Marisson"
+    },
+    "type": [
+      "Grass"
+    ]
+  },
+  {
+    "id": 651,
+    "name": {
+      "english": "Quilladin",
+      "japanese": "ハリボーグ",
+      "french": "Boguérisse"
+    },
+    "type": [
+      "Grass"
+    ]
+  },
+  {
+    "id": 652,
+    "name": {
+      "english": "Chesnaught",
+      "japanese": "ブリガロン",
+      "french": "Blindépique"
+    },
+    "type": [
+      "Grass",
+      "Fighting"
+    ]
+  },
+  {
+    "id": 653,
+    "name": {
+      "english": "Fennekin",
+      "japanese": "フォッコ",
+      "french": "Feunnec"
+    },
+    "type": [
+      "Fire"
+    ]
+  },
+  {
+    "id": 654,
+    "name": {
+      "english": "Braixen",
+      "japanese": "テールナー",
+      "french": "Roussil"
+    },
+    "type": [
+      "Fire"
+    ]
+  },
+  {
+    "id": 655,
+    "name": {
+      "english": "Delphox",
+      "japanese": "マフォクシー",
+      "french": "Goupelin"
+    },
+    "type": [
+      "Fire",
+      "Psychic"
+    ]
+  },
+  {
+    "id": 656,
+    "name": {
+      "english": "Froakie",
+      "japanese": "ケロマツ",
+      "french": "Grenousse"
+    },
+    "type": [
+      "Water"
+    ]
+  },
+  {
+    "id": 657,
+    "name": {
+      "english": "Frogadier",
+      "japanese": "ゲコガシラ",
+      "french": "Croâporal"
+    },
+    "type": [
+      "Water"
+    ]
+  },
+  {
+    "id": 658,
+    "name": {
+      "english": "Greninja",
+      "japanese": "ゲッコウガ",
+      "french": "Amphinobi"
+    },
+    "type": [
+      "Water",
+      "Dark"
+    ]
+  },
+  {
+    "id": 659,
+    "name": {
+      "english": "Bunnelby",
+      "japanese": "ホルビー",
+      "french": "Sapereau"
+    },
+    "type": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 660,
+    "name": {
+      "english": "Diggersby",
+      "japanese": "ホルード",
+      "french": "Excavarenne"
+    },
+    "type": [
+      "Normal",
+      "Ground"
+    ]
+  },
+  {
+    "id": 661,
+    "name": {
+      "english": "Fletchling",
+      "japanese": "ヤヤコマ",
+      "french": "Passerouge"
+    },
+    "type": [
+      "Normal",
+      "Flying"
+    ]
+  },
+  {
+    "id": 662,
+    "name": {
+      "english": "Fletchinder",
+      "japanese": "ヒノヤコマ",
+      "french": "Braisillon"
+    },
+    "type": [
+      "Fire",
+      "Flying"
+    ]
+  },
+  {
+    "id": 663,
+    "name": {
+      "english": "Talonflame",
+      "japanese": "ファイアロー",
+      "french": "Flambusard"
+    },
+    "type": [
+      "Fire",
+      "Flying"
+    ]
+  },
+  {
+    "id": 664,
+    "name": {
+      "english": "Scatterbug",
+      "japanese": "コフキムシ",
+      "french": "Lépidonille"
+    },
+    "type": [
+      "Bug"
+    ]
+  },
+  {
+    "id": 665,
+    "name": {
+      "english": "Spewpa",
+      "japanese": "コフーライ",
+      "french": "Pérégrain"
+    },
+    "type": [
+      "Bug"
+    ]
+  },
+  {
+    "id": 666,
+    "name": {
+      "english": "Vivillon",
+      "japanese": "ビビヨン",
+      "french": "Prismillon"
+    },
+    "type": [
+      "Bug",
+      "Flying"
+    ]
+  },
+  {
+    "id": 667,
+    "name": {
+      "english": "Litleo",
+      "japanese": "シシコ",
+      "french": "Hélionceau"
+    },
+    "type": [
+      "Fire",
+      "Normal"
+    ]
+  },
+  {
+    "id": 668,
+    "name": {
+      "english": "Pyroar",
+      "japanese": "カエンジシ",
+      "french": "Némélios"
+    },
+    "type": [
+      "Fire",
+      "Normal"
+    ]
+  },
+  {
+    "id": 669,
+    "name": {
+      "english": "Flabébé",
+      "japanese": "フラベベ",
+      "french": "Flabébé"
+    },
+    "type": [
+      "Fairy"
+    ]
+  },
+  {
+    "id": 670,
+    "name": {
+      "english": "Floette",
+      "japanese": "フラエッテ",
+      "french": "FLOETTE"
+    },
+    "type": [
+      "Fairy"
+    ]
+  },
+  {
+    "id": 671,
+    "name": {
+      "english": "Florges",
+      "japanese": "フラージェス",
+      "french": "Florges"
+    },
+    "type": [
+      "Fairy"
+    ]
+  },
+  {
+    "id": 672,
+    "name": {
+      "english": "Skiddo",
+      "japanese": "メェークル",
+      "french": "Cabriolaine"
+    },
+    "type": [
+      "Grass"
+    ]
+  },
+  {
+    "id": 673,
+    "name": {
+      "english": "Gogoat",
+      "japanese": "ゴーゴート",
+      "french": "Chevroum"
+    },
+    "type": [
+      "Grass"
+    ]
+  },
+  {
+    "id": 674,
+    "name": {
+      "english": "Pancham",
+      "japanese": "ヤンチャム",
+      "french": "Pandespiègle"
+    },
+    "type": [
+      "Fighting"
+    ]
+  },
+  {
+    "id": 675,
+    "name": {
+      "english": "Pangoro",
+      "japanese": "ゴロンダ",
+      "french": "Pandarbare"
+    },
+    "type": [
+      "Fighting",
+      "Dark"
+    ]
+  },
+  {
+    "id": 676,
+    "name": {
+      "english": "Furfrou",
+      "japanese": "トリミアン",
+      "french": "Couafarel"
+    },
+    "type": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 677,
+    "name": {
+      "english": "Espurr",
+      "japanese": "ニャスパー",
+      "french": "Psystigri"
+    },
+    "type": [
+      "Psychic"
+    ]
+  },
+  {
+    "id": 678,
+    "name": {
+      "english": "Meowstic",
+      "japanese": "ニャオニクス",
+      "french": "Mistigrix"
+    },
+    "type": [
+      "Psychic"
+    ]
+  },
+  {
+    "id": 679,
+    "name": {
+      "english": "Honedge",
+      "japanese": "ヒトツキ",
+      "french": "Monorpale"
+    },
+    "type": [
+      "Steel",
+      "Ghost"
+    ]
+  },
+  {
+    "id": 680,
+    "name": {
+      "english": "Doublade",
+      "japanese": "ニダンギル",
+      "french": "Dimoclès"
+    },
+    "type": [
+      "Steel",
+      "Ghost"
+    ]
+  },
+  {
+    "id": 681,
+    "name": {
+      "english": "Aegislash",
+      "japanese": "ギルガルド",
+      "french": "Exagide"
+    },
+    "type": [
+      "Steel",
+      "Ghost"
+    ]
+  },
+  {
+    "id": 682,
+    "name": {
+      "english": "Spritzee",
+      "japanese": "シュシュプ",
+      "french": "Fluvetin"
+    },
+    "type": [
+      "Fairy"
+    ]
+  },
+  {
+    "id": 683,
+    "name": {
+      "english": "Aromatisse",
+      "japanese": "フレフワン",
+      "french": "Cocotine"
+    },
+    "type": [
+      "Fairy"
+    ]
+  },
+  {
+    "id": 684,
+    "name": {
+      "english": "Swirlix",
+      "japanese": "ペロッパフ",
+      "french": "Sucroquin"
+    },
+    "type": [
+      "Fairy"
+    ]
+  },
+  {
+    "id": 685,
+    "name": {
+      "english": "Slurpuff",
+      "japanese": "ペロリーム",
+      "french": "Cupcanaille"
+    },
+    "type": [
+      "Fairy"
+    ]
+  },
+  {
+    "id": 686,
+    "name": {
+      "english": "Inkay",
+      "japanese": "マーイーカ",
+      "french": "Sepiatop"
+    },
+    "type": [
+      "Dark",
+      "Psychic"
+    ]
+  },
+  {
+    "id": 687,
+    "name": {
+      "english": "Malamar",
+      "japanese": "カラマネロ",
+      "french": "Sepiatroce"
+    },
+    "type": [
+      "Dark",
+      "Psychic"
+    ]
+  },
+  {
+    "id": 688,
+    "name": {
+      "english": "Binacle",
+      "japanese": "カメテテ",
+      "french": "Opermine"
+    },
+    "type": [
+      "Rock",
+      "Water"
+    ]
+  },
+  {
+    "id": 689,
+    "name": {
+      "english": "Barbaracle",
+      "japanese": "ガメノデス",
+      "french": "Golgopathe"
+    },
+    "type": [
+      "Rock",
+      "Water"
+    ]
+  },
+  {
+    "id": 690,
+    "name": {
+      "english": "Skrelp",
+      "japanese": "クズモー",
+      "french": "Venalgue"
+    },
+    "type": [
+      "Poison",
+      "Water"
+    ]
+  },
+  {
+    "id": 691,
+    "name": {
+      "english": "Dragalge",
+      "japanese": "ドラミドロ",
+      "french": "Kravarech"
+    },
+    "type": [
+      "Poison",
+      "Dragon"
+    ]
+  },
+  {
+    "id": 692,
+    "name": {
+      "english": "Clauncher",
+      "japanese": "ウデッポウ",
+      "french": "Flingouste"
+    },
+    "type": [
+      "Water"
+    ]
+  },
+  {
+    "id": 693,
+    "name": {
+      "english": "Clawitzer",
+      "japanese": "ブロスター",
+      "french": "Gamblast"
+    },
+    "type": [
+      "Water"
+    ]
+  },
+  {
+    "id": 694,
+    "name": {
+      "english": "Helioptile",
+      "japanese": "エリキテル",
+      "french": "Galvaran"
+    },
+    "type": [
+      "Electric",
+      "Normal"
+    ]
+  },
+  {
+    "id": 695,
+    "name": {
+      "english": "Heliolisk",
+      "japanese": "エレザード",
+      "french": "Iguolta"
+    },
+    "type": [
+      "Electric",
+      "Normal"
+    ]
+  },
+  {
+    "id": 696,
+    "name": {
+      "english": "Tyrunt",
+      "japanese": "チゴラス",
+      "french": "Ptyranidur"
+    },
+    "type": [
+      "Rock",
+      "Dragon"
+    ]
+  },
+  {
+    "id": 697,
+    "name": {
+      "english": "Tyrantrum",
+      "japanese": "ガチゴラス",
+      "french": "Rexillius"
+    },
+    "type": [
+      "Rock",
+      "Dragon"
+    ]
+  },
+  {
+    "id": 698,
+    "name": {
+      "english": "Amaura",
+      "japanese": "アマルス",
+      "french": "Amagara"
+    },
+    "type": [
+      "Rock",
+      "Ice"
+    ]
+  },
+  {
+    "id": 699,
+    "name": {
+      "english": "Aurorus",
+      "japanese": "アマルルガ",
+      "french": "Dragmara"
+    },
+    "type": [
+      "Rock",
+      "Ice"
+    ]
+  },
+  {
+    "id": 700,
+    "name": {
+      "english": "Sylveon",
+      "japanese": "ニンフィア",
+      "french": "Nymphali"
+    },
+    "type": [
+      "Fairy"
+    ]
+  },
+  {
+    "id": 701,
+    "name": {
+      "english": "Hawlucha",
+      "japanese": "ルチャブル",
+      "french": "Brutalibré"
+    },
+    "type": [
+      "Fighting",
+      "Flying"
+    ]
+  },
+  {
+    "id": 702,
+    "name": {
+      "english": "Dedenne",
+      "japanese": "デデンネ",
+      "french": "DEDENNE"
+    },
+    "type": [
+      "Electric",
+      "Fairy"
+    ]
+  },
+  {
+    "id": 703,
+    "name": {
+      "english": "Carbink",
+      "japanese": "メレシー",
+      "french": "Strassie"
+    },
+    "type": [
+      "Rock",
+      "Fairy"
+    ]
+  },
+  {
+    "id": 704,
+    "name": {
+      "english": "Goomy",
+      "japanese": "ヌメラ",
+      "french": "Mucuscule"
+    },
+    "type": [
+      "Dragon"
+    ]
+  },
+  {
+    "id": 705,
+    "name": {
+      "english": "Sliggoo",
+      "japanese": "ヌメイル",
+      "french": "Colimucus"
+    },
+    "type": [
+      "Dragon"
+    ]
+  },
+  {
+    "id": 706,
+    "name": {
+      "english": "Goodra",
+      "japanese": "ヌメルゴン",
+      "french": "Muplodocus"
+    },
+    "type": [
+      "Dragon"
+    ]
+  },
+  {
+    "id": 707,
+    "name": {
+      "english": "Klefki",
+      "japanese": "クレッフィ",
+      "french": "Trousselin"
+    },
+    "type": [
+      "Steel",
+      "Fairy"
+    ]
+  },
+  {
+    "id": 708,
+    "name": {
+      "english": "Phantump",
+      "japanese": "ボクレー",
+      "french": "Brocélôme"
+    },
+    "type": [
+      "Ghost",
+      "Grass"
+    ]
+  },
+  {
+    "id": 709,
+    "name": {
+      "english": "Trevenant",
+      "japanese": "オーロット",
+      "french": "Desséliande"
+    },
+    "type": [
+      "Ghost",
+      "Grass"
+    ]
+  },
+  {
+    "id": 710,
+    "name": {
+      "english": "Pumpkaboo",
+      "japanese": "バケッチャ",
+      "french": "Pitrouille"
+    },
+    "type": [
+      "Ghost",
+      "Grass"
+    ]
+  },
+  {
+    "id": 711,
+    "name": {
+      "english": "Gourgeist",
+      "japanese": "パンプジン",
+      "french": "Banshitrouye"
+    },
+    "type": [
+      "Ghost",
+      "Grass"
+    ]
+  },
+  {
+    "id": 712,
+    "name": {
+      "english": "Bergmite",
+      "japanese": "カチコール",
+      "french": "Grelaçon"
+    },
+    "type": [
+      "Ice"
+    ]
+  },
+  {
+    "id": 713,
+    "name": {
+      "english": "Avalugg",
+      "japanese": "クレベース",
+      "french": "Séracrawl"
+    },
+    "type": [
+      "Ice"
+    ]
+  },
+  {
+    "id": 714,
+    "name": {
+      "english": "Noibat",
+      "japanese": "オンバット",
+      "french": "Sonistrelle"
+    },
+    "type": [
+      "Flying",
+      "Dragon"
+    ]
+  },
+  {
+    "id": 715,
+    "name": {
+      "english": "Noivern",
+      "japanese": "オンバーン",
+      "french": "Bruyverne"
+    },
+    "type": [
+      "Flying",
+      "Dragon"
+    ]
+  },
+  {
+    "id": 716,
+    "name": {
+      "english": "Xerneas",
+      "japanese": "ゼルネアス",
+      "french": "Xerneas"
+    },
+    "type": [
+      "Fairy"
+    ]
+  },
+  {
+    "id": 717,
+    "name": {
+      "english": "Yveltal",
+      "japanese": "イベルタル",
+      "french": "Yveltal"
+    },
+    "type": [
+      "Dark",
+      "Flying"
+    ]
+  },
+  {
+    "id": 718,
+    "name": {
+      "english": "Zygarde",
+      "japanese": "ジガルデ",
+      "french": "Zygarde"
+    },
+    "type": [
+      "Dragon",
+      "Ground"
+    ]
+  },
+  {
+    "id": 719,
+    "name": {
+      "english": "Diancie",
+      "japanese": "ディアンシー",
+      "french": "Diancie"
+    },
+    "type": [
+      "Rock",
+      "Fairy"
+    ]
+  },
+  {
+    "id": 720,
+    "name": {
+      "english": "Hoopa",
+      "japanese": "フーパ",
+      "french": "Hoopa"
+    },
+    "type": [
+      "Psychic",
+      "Ghost"
+    ]
+  },
+  {
+    "id": 721,
+    "name": {
+      "english": "Volcanion",
+      "japanese": "ボルケニオン",
+      "french": "Volcanion"
+    },
+    "type": [
+      "Fire",
+      "Water"
+    ]
+  },
+  {
+    "id": 722,
+    "name": {
+      "english": "Rowlet",
+      "japanese": "モクロー",
+      "french": "Brindibou"
+    },
+    "type": [
+      "Grass",
+      "Flying"
+    ]
+  },
+  {
+    "id": 723,
+    "name": {
+      "english": "Dartrix",
+      "japanese": "フクスロー",
+      "french": "Efflèche"
+    },
+    "type": [
+      "Grass",
+      "Flying"
+    ]
+  },
+  {
+    "id": 724,
+    "name": {
+      "english": "Decidueye",
+      "japanese": "ジュナイパー",
+      "french": "Archéduc"
+    },
+    "type": [
+      "Grass",
+      "Ghost"
+    ]
+  },
+  {
+    "id": 725,
+    "name": {
+      "english": "Litten",
+      "japanese": "ニャビー",
+      "french": "Flamiaou"
+    },
+    "type": [
+      "Fire"
+    ]
+  },
+  {
+    "id": 726,
+    "name": {
+      "english": "Torracat",
+      "japanese": "ニャヒート",
+      "french": "Matoufeu"
+    },
+    "type": [
+      "Fire"
+    ]
+  },
+  {
+    "id": 727,
+    "name": {
+      "english": "Incineroar",
+      "japanese": "ガオガエン",
+      "french": "Félinferno"
+    },
+    "type": [
+      "Fire",
+      "Dark"
+    ]
+  },
+  {
+    "id": 728,
+    "name": {
+      "english": "Popplio",
+      "japanese": "アシマリ",
+      "french": "Otaquin"
+    },
+    "type": [
+      "Water"
+    ]
+  },
+  {
+    "id": 729,
+    "name": {
+      "english": "Brionne",
+      "japanese": "オシャマリ",
+      "french": "Otarlette"
+    },
+    "type": [
+      "Water"
+    ]
+  },
+  {
+    "id": 730,
+    "name": {
+      "english": "Primarina",
+      "japanese": "アシレーヌ",
+      "french": "Oratoria"
+    },
+    "type": [
+      "Water",
+      "Fairy"
+    ]
+  },
+  {
+    "id": 731,
+    "name": {
+      "english": "Pikipek",
+      "japanese": "ツツケラ",
+      "french": "Picassaut"
+    },
+    "type": [
+      "Normal",
+      "Flying"
+    ]
+  },
+  {
+    "id": 732,
+    "name": {
+      "english": "Trumbeak",
+      "japanese": "ケララッパ",
+      "french": "Piclairon"
+    },
+    "type": [
+      "Normal",
+      "Flying"
+    ]
+  },
+  {
+    "id": 733,
+    "name": {
+      "english": "Toucannon",
+      "japanese": "ドデカバシ",
+      "french": "Bazoucan"
+    },
+    "type": [
+      "Normal",
+      "Flying"
+    ]
+  },
+  {
+    "id": 734,
+    "name": {
+      "english": "Yungoos",
+      "japanese": "ヤングース",
+      "french": "Manglouton"
+    },
+    "type": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 735,
+    "name": {
+      "english": "Gumshoos",
+      "japanese": "デカグース",
+      "french": "Argouste"
+    },
+    "type": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 736,
+    "name": {
+      "english": "Grubbin",
+      "japanese": "アゴジムシ",
+      "french": "Larvibule"
+    },
+    "type": [
+      "Bug"
+    ]
+  },
+  {
+    "id": 737,
+    "name": {
+      "english": "Charjabug",
+      "japanese": "デンヂムシ",
+      "french": "Chrysapile"
+    },
+    "type": [
+      "Bug",
+      "Electric"
+    ]
+  },
+  {
+    "id": 738,
+    "name": {
+      "english": "Vikavolt",
+      "japanese": "クワガノン",
+      "french": "Lucanon"
+    },
+    "type": [
+      "Bug",
+      "Electric"
+    ]
+  },
+  {
+    "id": 739,
+    "name": {
+      "english": "Crabrawler",
+      "japanese": "マケンカニ",
+      "french": "Crabagarre"
+    },
+    "type": [
+      "Fighting"
+    ]
+  },
+  {
+    "id": 740,
+    "name": {
+      "english": "Crabominable",
+      "japanese": "ケケンカニ",
+      "french": "Crabominable"
+    },
+    "type": [
+      "Fighting",
+      "Ice"
+    ]
+  },
+  {
+    "id": 741,
+    "name": {
+      "english": "Oricorio",
+      "japanese": "オドリドリ",
+      "french": "Plumeline"
+    },
+    "type": [
+      "Fire",
+      "Flying"
+    ]
+  },
+  {
+    "id": 742,
+    "name": {
+      "english": "Cutiefly",
+      "japanese": "アブリー",
+      "french": "Bombydou"
+    },
+    "type": [
+      "Bug",
+      "Fairy"
+    ]
+  },
+  {
+    "id": 743,
+    "name": {
+      "english": "Ribombee",
+      "japanese": "アブリボン",
+      "french": "Rubombelle"
+    },
+    "type": [
+      "Bug",
+      "Fairy"
+    ]
+  },
+  {
+    "id": 744,
+    "name": {
+      "english": "Rockruff",
+      "japanese": "イワンコ",
+      "french": "Rocabot"
+    },
+    "type": [
+      "Rock"
+    ]
+  },
+  {
+    "id": 745,
+    "name": {
+      "english": "Lycanroc",
+      "japanese": "ルガルガン",
+      "french": "Lougaroc"
+    },
+    "type": [
+      "Rock"
+    ]
+  },
+  {
+    "id": 746,
+    "name": {
+      "english": "Wishiwashi",
+      "japanese": "ヨワシ",
+      "french": "Froussardine"
+    },
+    "type": [
+      "Water"
+    ]
+  },
+  {
+    "id": 747,
+    "name": {
+      "english": "Mareanie",
+      "japanese": "ヒドイデ",
+      "french": "Vorastérie"
+    },
+    "type": [
+      "Poison",
+      "Water"
+    ]
+  },
+  {
+    "id": 748,
+    "name": {
+      "english": "Toxapex",
+      "japanese": "ドヒドイデ",
+      "french": "Prédastérie"
+    },
+    "type": [
+      "Poison",
+      "Water"
+    ]
+  },
+  {
+    "id": 749,
+    "name": {
+      "english": "Mudbray",
+      "japanese": "ドロバンコ",
+      "french": "Tiboudet"
+    },
+    "type": [
+      "Ground"
+    ]
+  },
+  {
+    "id": 750,
+    "name": {
+      "english": "Mudsdale",
+      "japanese": "バンバドロ",
+      "french": "Bourrinos"
+    },
+    "type": [
+      "Ground"
+    ]
+  },
+  {
+    "id": 751,
+    "name": {
+      "english": "Dewpider",
+      "japanese": "シズクモ",
+      "french": "Araqua"
+    },
+    "type": [
+      "Water",
+      "Bug"
+    ]
+  },
+  {
+    "id": 752,
+    "name": {
+      "english": "Araquanid",
+      "japanese": "オニシズクモ",
+      "french": "Tarenbulle"
+    },
+    "type": [
+      "Water",
+      "Bug"
+    ]
+  },
+  {
+    "id": 753,
+    "name": {
+      "english": "Fomantis",
+      "japanese": "カリキリ",
+      "french": "Mimantis"
+    },
+    "type": [
+      "Grass"
+    ]
+  },
+  {
+    "id": 754,
+    "name": {
+      "english": "Lurantis",
+      "japanese": "ラランテス",
+      "french": "Floramantis"
+    },
+    "type": [
+      "Grass"
+    ]
+  },
+  {
+    "id": 755,
+    "name": {
+      "english": "Morelull",
+      "japanese": "ネマシュ",
+      "french": "Spododo"
+    },
+    "type": [
+      "Grass",
+      "Fairy"
+    ]
+  },
+  {
+    "id": 756,
+    "name": {
+      "english": "Shiinotic",
+      "japanese": "マシェード",
+      "french": "Lampignon"
+    },
+    "type": [
+      "Grass",
+      "Fairy"
+    ]
+  },
+  {
+    "id": 757,
+    "name": {
+      "english": "Salandit",
+      "japanese": "ヤトウモリ",
+      "french": "Tritox"
+    },
+    "type": [
+      "Poison",
+      "Fire"
+    ]
+  },
+  {
+    "id": 758,
+    "name": {
+      "english": "Salazzle",
+      "japanese": "エンニュート",
+      "french": "Malamandre"
+    },
+    "type": [
+      "Poison",
+      "Fire"
+    ]
+  },
+  {
+    "id": 759,
+    "name": {
+      "english": "Stufful",
+      "japanese": "ヌイコグマ",
+      "french": "Nounourson"
+    },
+    "type": [
+      "Normal",
+      "Fighting"
+    ]
+  },
+  {
+    "id": 760,
+    "name": {
+      "english": "Bewear",
+      "japanese": "キテルグマ",
+      "french": "Chelours"
+    },
+    "type": [
+      "Normal",
+      "Fighting"
+    ]
+  },
+  {
+    "id": 761,
+    "name": {
+      "english": "Bounsweet",
+      "japanese": "アマカジ",
+      "french": "Croquine"
+    },
+    "type": [
+      "Grass"
+    ]
+  },
+  {
+    "id": 762,
+    "name": {
+      "english": "Steenee",
+      "japanese": "アママイコ",
+      "french": "Candine"
+    },
+    "type": [
+      "Grass"
+    ]
+  },
+  {
+    "id": 763,
+    "name": {
+      "english": "Tsareena",
+      "japanese": "アマージョ",
+      "french": "Sucreine"
+    },
+    "type": [
+      "Grass"
+    ]
+  },
+  {
+    "id": 764,
+    "name": {
+      "english": "Comfey",
+      "japanese": "キュワワー",
+      "french": "Guérilande"
+    },
+    "type": [
+      "Fairy"
+    ]
+  },
+  {
+    "id": 765,
+    "name": {
+      "english": "Oranguru",
+      "japanese": "ヤレユータン",
+      "french": "Gouroutan"
+    },
+    "type": [
+      "Normal",
+      "Psychic"
+    ]
+  },
+  {
+    "id": 766,
+    "name": {
+      "english": "Passimian",
+      "japanese": "ナゲツケサル",
+      "french": "Quartermac"
+    },
+    "type": [
+      "Fighting"
+    ]
+  },
+  {
+    "id": 767,
+    "name": {
+      "english": "Wimpod",
+      "japanese": "コソクムシ",
+      "french": "Sovkipou"
+    },
+    "type": [
+      "Bug",
+      "Water"
+    ]
+  },
+  {
+    "id": 768,
+    "name": {
+      "english": "Golisopod",
+      "japanese": "グソクムシャ",
+      "french": "Sarmuraï"
+    },
+    "type": [
+      "Bug",
+      "Water"
+    ]
+  },
+  {
+    "id": 769,
+    "name": {
+      "english": "Sandygast",
+      "japanese": "スナバァ",
+      "french": "Bacabouh"
+    },
+    "type": [
+      "Ghost",
+      "Ground"
+    ]
+  },
+  {
+    "id": 770,
+    "name": {
+      "english": "Palossand",
+      "japanese": "シロデスナ",
+      "french": "Trépassable"
+    },
+    "type": [
+      "Ghost",
+      "Ground"
+    ]
+  },
+  {
+    "id": 771,
+    "name": {
+      "english": "Pyukumuku",
+      "japanese": "ナマコブシ",
+      "french": "Concombaffe"
+    },
+    "type": [
+      "Water"
+    ]
+  },
+  {
+    "id": 772,
+    "name": {
+      "english": "Type: Null",
+      "japanese": "タイプ：ヌル",
+      "french": "Silvallié"
+    },
+    "type": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 773,
+    "name": {
+      "english": "Silvally",
+      "japanese": "シルヴァディ",
+      "french": "Météno"
+    },
+    "type": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 774,
+    "name": {
+      "english": "Minior",
+      "japanese": "メテノ",
+      "french": "Dodoala"
+    },
+    "type": [
+      "Rock",
+      "Flying"
+    ]
+  },
+  {
+    "id": 775,
+    "name": {
+      "english": "Komala",
+      "japanese": "ネッコアラ",
+      "french": "Boumata"
+    },
+    "type": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 776,
+    "name": {
+      "english": "Turtonator",
+      "japanese": "バクガメス",
+      "french": "Togedemaru"
+    },
+    "type": [
+      "Fire",
+      "Dragon"
+    ]
+  },
+  {
+    "id": 777,
+    "name": {
+      "english": "Togedemaru",
+      "japanese": "トゲデマル",
+      "french": "Mimiqui"
+    },
+    "type": [
+      "Electric",
+      "Steel"
+    ]
+  },
+  {
+    "id": 778,
+    "name": {
+      "english": "Mimikyu",
+      "japanese": "ミミッキュ",
+      "french": "Denticrisse"
+    },
+    "type": [
+      "Ghost",
+      "Fairy"
+    ]
+  },
+  {
+    "id": 779,
+    "name": {
+      "english": "Bruxish",
+      "japanese": "ハギギシリ",
+      "french": "Draïeul"
+    },
+    "type": [
+      "Water",
+      "Psychic"
+    ]
+  },
+  {
+    "id": 780,
+    "name": {
+      "english": "Drampa",
+      "japanese": "ジジーロン",
+      "french": "Sinistrail"
+    },
+    "type": [
+      "Normal",
+      "Dragon"
+    ]
+  },
+  {
+    "id": 781,
+    "name": {
+      "english": "Dhelmise",
+      "japanese": "ダダリン",
+      "french": "Bébécaille"
+    },
+    "type": [
+      "Ghost",
+      "Grass"
+    ]
+  },
+  {
+    "id": 782,
+    "name": {
+      "english": "Jangmo-o",
+      "japanese": "ジャラコ",
+      "french": "Bébécaille"
+    },
+    "type": [
+      "Dragon"
+    ]
+  },
+  {
+    "id": 783,
+    "name": {
+      "english": "Hakamo-o",
+      "japanese": "ジャランゴ",
+      "french": "Écaïd"
+    },
+    "type": [
+      "Dragon",
+      "Fighting"
+    ]
+  },
+  {
+    "id": 784,
+    "name": {
+      "english": "Kommo-o",
+      "japanese": "ジャラランガ",
+      "french": "Ékaïser"
+    },
+    "type": [
+      "Dragon",
+      "Fighting"
+    ]
+  },
+  {
+    "id": 785,
+    "name": {
+      "english": "Tapu Koko",
+      "japanese": "カプ・コケコ",
+      "french": "Tokorico"
+    },
+    "type": [
+      "Electric",
+      "Fairy"
+    ]
+  },
+  {
+    "id": 786,
+    "name": {
+      "english": "Tapu Lele",
+      "japanese": "カプ・テテフ",
+      "french": "Tokopiyon"
+    },
+    "type": [
+      "Psychic",
+      "Fairy"
+    ]
+  },
+  {
+    "id": 787,
+    "name": {
+      "english": "Tapu Bulu",
+      "japanese": "カプ・ブルル",
+      "french": "Tokotoro"
+    },
+    "type": [
+      "Grass",
+      "Fairy"
+    ]
+  },
+  {
+    "id": 788,
+    "name": {
+      "english": "Tapu Fini",
+      "japanese": "カプ・レヒレ",
+      "french": "Tokopisco"
+    },
+    "type": [
+      "Water",
+      "Fairy"
+    ]
+  },
+  {
+    "id": 789,
+    "name": {
+      "english": "Cosmog",
+      "japanese": "コスモッグ",
+      "french": "Cosmog"
+    },
+    "type": [
+      "Psychic"
+    ]
+  },
+  {
+    "id": 790,
+    "name": {
+      "english": "Cosmoem",
+      "japanese": "コスモウム",
+      "french": "Cosmovum"
+    },
+    "type": [
+      "Psychic"
+    ]
+  },
+  {
+    "id": 791,
+    "name": {
+      "english": "Solgaleo",
+      "japanese": "ソルガレオ",
+      "french": "Solgaleo"
+    },
+    "type": [
+      "Psychic",
+      "Steel"
+    ]
+  },
+  {
+    "id": 792,
+    "name": {
+      "english": "Lunala",
+      "japanese": "ルナアーラ",
+      "french": "Lunala"
+    },
+    "type": [
+      "Psychic",
+      "Ghost"
+    ]
+  },
+  {
+    "id": 793,
+    "name": {
+      "english": "Nihilego",
+      "japanese": "ウツロイド",
+      "french": "Zéroïd"
+    },
+    "type": [
+      "Rock",
+      "Poison"
+    ]
+  },
+  {
+    "id": 794,
+    "name": {
+      "english": "Buzzwole",
+      "japanese": "マッシブーン",
+      "french": "Mouscoto"
+    },
+    "type": [
+      "Bug",
+      "Fighting"
+    ]
+  },
+  {
+    "id": 795,
+    "name": {
+      "english": "Pheromosa",
+      "japanese": "フェローチェ",
+      "french": "Cancrelove"
+    },
+    "type": [
+      "Bug",
+      "Fighting"
+    ]
+  },
+  {
+    "id": 796,
+    "name": {
+      "english": "Xurkitree",
+      "japanese": "デンジュモク",
+      "french": "Câblifère"
+    },
+    "type": [
+      "Electric"
+    ]
+  },
+  {
+    "id": 797,
+    "name": {
+      "english": "Celesteela",
+      "japanese": "テッカグヤ",
+      "french": "Bamboiselle"
+    },
+    "type": [
+      "Steel",
+      "Flying"
+    ]
+  },
+  {
+    "id": 798,
+    "name": {
+      "english": "Kartana",
+      "japanese": "カミツルギ",
+      "french": "Katagami"
+    },
+    "type": [
+      "Grass",
+      "Steel"
+    ]
+  },
+  {
+    "id": 799,
+    "name": {
+      "english": "Guzzlord",
+      "japanese": "アクジキング",
+      "french": "Engloutyran"
+    },
+    "type": [
+      "Dark",
+      "Dragon"
+    ]
+  },
+  {
+    "id": 800,
+    "name": {
+      "english": "Necrozma",
+      "japanese": "ネクロズマ",
+      "french": "Necrozma"
+    },
+    "type": [
+      "Psychic"
+    ]
+  },
+  {
+    "id": 801,
+    "name": {
+      "english": "Magearna",
+      "japanese": "マギアナ",
+      "french": "Magearna"
+    },
+    "type": [
+      "Steel",
+      "Fairy"
+    ]
+  },
+  {
+    "id": 802,
+    "name": {
+      "english": "Marshadow",
+      "japanese": "マーシャドー",
+      "french": "Marshadow"
+    },
+    "type": [
+      "Fighting",
+      "Ghost"
+    ]
+  },
+  {
+    "id": 803,
+    "name": {
+      "english": "Poipole",
+      "japanese": "ベベノム",
+      "french": "Vémini"
+    },
+    "type": [
+      "Poison"
+    ]
+  },
+  {
+    "id": 804,
+    "name": {
+      "english": "Naganadel",
+      "japanese": "アーゴヨン",
+      "french": "Mandrillon"
+    },
+    "type": [
+      "Poison",
+      "Dragon"
+    ]
+  },
+  {
+    "id": 805,
+    "name": {
+      "english": "Stakataka",
+      "japanese": "ツンデツンデ",
+      "french": "Ama-Ama"
+    },
+    "type": [
+      "Rock",
+      "Steel"
+    ]
+  },
+  {
+    "id": 806,
+    "name": {
+      "english": "Blacephalon",
+      "japanese": "ズガドーン",
+      "french": "Pierroteknik"
+    },
+    "type": [
+      "Fire",
+      "Ghost"
+    ]
+  },
+  {
+    "id": 807,
+    "name": {
+      "english": "Zeraora",
+      "japanese": "ゼラオラ",
+      "french": "Zeraora"
+    },
+    "type": [
+      "Electric"
+    ]
+  },
+  {
+    "id": 808,
+    "name": {
+      "english": "Meltan",
+      "japanese": "メルタン",
+      "french": "Meltan"
+    },
+    "type": [
+      "Steel"
+    ]
+  },
+  {
+    "id": 809,
+    "name": {
+      "english": "Melmetal",
+      "japanese": "メルメタル",
+      "french": "Melmetal"
+    },
+    "type": [
+      "Steel"
+    ]
+  },
+  {
+    "id": 810,
+    "name": {
+      "english": "Grookey",
+      "japanese": "サルノリ",
+      "french": "Ouistempo"
+    },
+    "type": [
+      "Grass"
+    ]
+  },
+  {
+    "id": 811,
+    "name": {
+      "english": "Thwackey",
+      "japanese": "バチンキー",
+      "french": "Badabouin"
+    },
+    "type": [
+      "Grass"
+    ]
+  },
+  {
+    "id": 812,
+    "name": {
+      "english": "Rillaboom",
+      "japanese": "ゴリランダー",
+      "french": "Gorythmic"
+    },
+    "type": [
+      "Grass"
+    ]
+  },
+  {
+    "id": 813,
+    "name": {
+      "english": "Scorbunny",
+      "japanese": "ヒバニー",
+      "french": "Flambino"
+    },
+    "type": [
+      "Fire"
+    ]
+  },
+  {
+    "id": 814,
+    "name": {
+      "english": "Raboot",
+      "japanese": "ラビフット",
+      "french": "Lapyro"
+    },
+    "type": [
+      "Fire"
+    ]
+  },
+  {
+    "id": 815,
+    "name": {
+      "english": "Cinderace",
+      "japanese": "エースバーン",
+      "french": "Pyrobut"
+    },
+    "type": [
+      "Fire"
+    ]
+  },
+  {
+    "id": 816,
+    "name": {
+      "english": "Sobble",
+      "japanese": "メッソン",
+      "french": "Larméléon"
+    },
+    "type": [
+      "Water"
+    ]
+  },
+  {
+    "id": 817,
+    "name": {
+      "english": "Drizzile",
+      "japanese": "ジメレオン",
+      "french": "Arrozard"
+    },
+    "type": [
+      "Water"
+    ]
+  },
+  {
+    "id": 818,
+    "name": {
+      "english": "Inteleon",
+      "japanese": "インテレオン",
+      "french": "Lézargus"
+    },
+    "type": [
+      "Water"
+    ]
+  },
+  {
+    "id": 819,
+    "name": {
+      "english": "Skwovet",
+      "japanese": "ホシガリス",
+      "french": "Rongourmand"
+    },
+    "type": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 820,
+    "name": {
+      "english": "Greedent",
+      "japanese": "ヨクバリス",
+      "french": "Rongrigou"
+    },
+    "type": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 821,
+    "name": {
+      "english": "Rookidee",
+      "japanese": "ココガラ",
+      "french": "Minisange"
+    },
+    "type": [
+      "Flying"
+    ]
+  },
+  {
+    "id": 822,
+    "name": {
+      "english": "Corvisquire",
+      "japanese": "アオガラス",
+      "french": "Bleuseille"
+    },
+    "type": [
+      "Flying"
+    ]
+  },
+  {
+    "id": 823,
+    "name": {
+      "english": "Corviknight",
+      "japanese": "アーマーガア",
+      "french": "Corvaillus"
+    },
+    "type": [
+      "Flying",
+      "Steel"
+    ]
+  },
+  {
+    "id": 824,
+    "name": {
+      "english": "Blipbug",
+      "japanese": "サッチムシ",
+      "french": "Larvadar"
+    },
+    "type": [
+      "Bug"
+    ]
+  },
+  {
+    "id": 825,
+    "name": {
+      "english": "Dottler",
+      "japanese": "レドームシ",
+      "french": "Coléodôme"
+    },
+    "type": [
+      "Bug",
+      "Psychic"
+    ]
+  },
+  {
+    "id": 826,
+    "name": {
+      "english": "Orbeetle",
+      "japanese": "イオルブ",
+      "french": "Astronelle"
+    },
+    "type": [
+      "Bug",
+      "Psychic"
+    ]
+  },
+  {
+    "id": 827,
+    "name": {
+      "english": "Nickit",
+      "japanese": "クスネ",
+      "french": "Goupilou"
+    },
+    "type": [
+      "Dark"
+    ]
+  },
+  {
+    "id": 828,
+    "name": {
+      "english": "Thievul",
+      "japanese": "フォクスライ",
+      "french": "Roublenard"
+    },
+    "type": [
+      "Dark"
+    ]
+  },
+  {
+    "id": 829,
+    "name": {
+      "english": "Gossifleur",
+      "japanese": "ヒメンカ",
+      "french": "Tournicoton"
+    },
+    "type": [
+      "Grass"
+    ]
+  },
+  {
+    "id": 830,
+    "name": {
+      "english": "Eldegoss",
+      "japanese": "ワタシラガ",
+      "french": "Blancoton"
+    },
+    "type": [
+      "Grass"
+    ]
+  },
+  {
+    "id": 831,
+    "name": {
+      "english": "Wooloo",
+      "japanese": "ウールー",
+      "french": "Moumouton"
+    },
+    "type": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 832,
+    "name": {
+      "english": "Dubwool",
+      "japanese": "バイウールー",
+      "french": "Moumouflon"
+    },
+    "type": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 833,
+    "name": {
+      "english": "Chewtle",
+      "japanese": "カムカメ",
+      "french": "Khélocrok"
+    },
+    "type": [
+      "Water"
+    ]
+  },
+  {
+    "id": 834,
+    "name": {
+      "english": "Drednaw",
+      "japanese": "カジリガメ",
+      "french": "Torgamord"
+    },
+    "type": [
+      "Water",
+      "Rock"
+    ]
+  },
+  {
+    "id": 835,
+    "name": {
+      "english": "Yamper",
+      "japanese": "ワンパチ",
+      "french": "Voltoutou"
+    },
+    "type": [
+      "Electric"
+    ]
+  },
+  {
+    "id": 836,
+    "name": {
+      "english": "Boltund",
+      "japanese": "パルスワン",
+      "french": "Fulgudog"
+    },
+    "type": [
+      "Electric"
+    ]
+  },
+  {
+    "id": 837,
+    "name": {
+      "english": "Rolycoly",
+      "japanese": "タンドン",
+      "french": "Charbi"
+    },
+    "type": [
+      "Rock"
+    ]
+  },
+  {
+    "id": 838,
+    "name": {
+      "english": "Carkol",
+      "japanese": "トロッゴン",
+      "french": "Wagomine"
+    },
+    "type": [
+      "Rock",
+      "Fire"
+    ]
+  },
+  {
+    "id": 839,
+    "name": {
+      "english": "Coalossal",
+      "japanese": "セキタンザン",
+      "french": "Monthracite"
+    },
+    "type": [
+      "Rock",
+      "Fire"
+    ]
+  },
+  {
+    "id": 840,
+    "name": {
+      "english": "Applin",
+      "japanese": "カジッチュ",
+      "french": "Verpom"
+    },
+    "type": [
+      "Grass",
+      "Dragon"
+    ]
+  },
+  {
+    "id": 841,
+    "name": {
+      "english": "Flapple",
+      "japanese": "アップリュー",
+      "french": "Pomdrapi"
+    },
+    "type": [
+      "Grass",
+      "Dragon"
+    ]
+  },
+  {
+    "id": 842,
+    "name": {
+      "english": "Appletun",
+      "japanese": "タルップル",
+      "french": "Dratatin"
+    },
+    "type": [
+      "Grass",
+      "Dragon"
+    ]
+  },
+  {
+    "id": 843,
+    "name": {
+      "english": "Silicobra",
+      "japanese": "スナヘビ",
+      "french": "Dunaja"
+    },
+    "type": [
+      "Ground"
+    ]
+  },
+  {
+    "id": 844,
+    "name": {
+      "english": "Sandaconda",
+      "japanese": "サダイジャ",
+      "french": "Dunaconda"
+    },
+    "type": [
+      "Ground"
+    ]
+  },
+  {
+    "id": 845,
+    "name": {
+      "english": "Cramorant",
+      "japanese": "ウッウ",
+      "french": "Nigosier"
+    },
+    "type": [
+      "Flying",
+      "Water"
+    ]
+  },
+  {
+    "id": 846,
+    "name": {
+      "english": "Arrokuda",
+      "japanese": "サシカマス",
+      "french": "Embrochet"
+    },
+    "type": [
+      "Water"
+    ]
+  },
+  {
+    "id": 847,
+    "name": {
+      "english": "Barraskewda",
+      "japanese": "カマスジョー",
+      "french": "Hastacuda"
+    },
+    "type": [
+      "Water"
+    ]
+  },
+  {
+    "id": 848,
+    "name": {
+      "english": "Toxel",
+      "japanese": "エレズン",
+      "french": "Toxizap"
+    },
+    "type": [
+      "Electric",
+      "Poison"
+    ]
+  },
+  {
+    "id": 849,
+    "name": {
+      "english": "Toxtricity",
+      "japanese": "ストリンダー",
+      "french": "Salarsen"
+    },
+    "type": [
+      "Electric",
+      "Poison"
+    ]
+  },
+  {
+    "id": 850,
+    "name": {
+      "english": "Sizzlipede",
+      "japanese": "ヤクデ",
+      "french": "Grillepattes"
+    },
+    "type": [
+      "Fire",
+      "Bug"
+    ]
+  },
+  {
+    "id": 851,
+    "name": {
+      "english": "Centiskorch",
+      "japanese": "マルヤクデ",
+      "french": "Scolocendre"
+    },
+    "type": [
+      "Fire",
+      "Bug"
+    ]
+  },
+  {
+    "id": 852,
+    "name": {
+      "english": "Clobbopus",
+      "japanese": "タタッコ",
+      "french": "Poulpaf"
+    },
+    "type": [
+      "Fighting"
+    ]
+  },
+  {
+    "id": 853,
+    "name": {
+      "english": "Grapploct",
+      "japanese": "オトスパス",
+      "french": "Krakos"
+    },
+    "type": [
+      "Fighting"
+    ]
+  },
+  {
+    "id": 854,
+    "name": {
+      "english": "Sinistea",
+      "japanese": "ヤバチャ",
+      "french": "Théffroi"
+    },
+    "type": [
+      "Ghost"
+    ]
+  },
+  {
+    "id": 855,
+    "name": {
+      "english": "Polteageist",
+      "japanese": "ポットデス",
+      "french": "Polthégeist"
+    },
+    "type": [
+      "Ghost"
+    ]
+  },
+  {
+    "id": 856,
+    "name": {
+      "english": "Hatenna",
+      "japanese": "ミブリム",
+      "french": "Bibichut"
+    },
+    "type": [
+      "Psychic"
+    ]
+  },
+  {
+    "id": 857,
+    "name": {
+      "english": "Hattrem",
+      "japanese": "テブリム",
+      "french": "Chapotus"
+    },
+    "type": [
+      "Psychic"
+    ]
+  },
+  {
+    "id": 858,
+    "name": {
+      "english": "Hatterene",
+      "japanese": "ブリムオン",
+      "french": "Sorcilence"
+    },
+    "type": [
+      "Psychic",
+      "Fairy"
+    ]
+  },
+  {
+    "id": 859,
+    "name": {
+      "english": "Impidimp",
+      "japanese": "ベロバー",
+      "french": "Grimalin"
+    },
+    "type": [
+      "Dark",
+      "Fairy"
+    ]
+  },
+  {
+    "id": 860,
+    "name": {
+      "english": "Morgrem",
+      "japanese": "ギモー",
+      "french": "Fourbelin"
+    },
+    "type": [
+      "Dark",
+      "Fairy"
+    ]
+  },
+  {
+    "id": 861,
+    "name": {
+      "english": "Grimmsnarl",
+      "japanese": "オーロンゲ",
+      "french": "Angoliath"
+    },
+    "type": [
+      "Dark",
+      "Fairy"
+    ]
+  },
+  {
+    "id": 862,
+    "name": {
+      "english": "Obstagoon",
+      "japanese": "タチフサグマ",
+      "french": "Ixon"
+    },
+    "type": [
+      "Dark",
+      "Normal"
+    ]
+  },
+  {
+    "id": 863,
+    "name": {
+      "english": "Perrserker",
+      "japanese": "ニャイキング",
+      "french": "Berserkatt"
+    },
+    "type": [
+      "Steel"
+    ]
+  },
+  {
+    "id": 864,
+    "name": {
+      "english": "Cursola",
+      "japanese": "サニゴーン",
+      "french": "Corayôme"
+    },
+    "type": [
+      "Ghost"
+    ]
+  },
+  {
+    "id": 865,
+    "name": {
+      "english": "Sirfetch’d",
+      "japanese": "ネギガナイト",
+      "french": "Palarticho"
+    },
+    "type": [
+      "Fighting"
+    ]
+  },
+  {
+    "id": 866,
+    "name": {
+      "english": "Mr. Rime",
+      "japanese": "バリコオル",
+      "french": "M. Glaquette"
+    },
+    "type": [
+      "Ice",
+      "Psychic"
+    ]
+  },
+  {
+    "id": 867,
+    "name": {
+      "english": "Runerigus",
+      "japanese": "デスバーン",
+      "french": "Tutétékri"
+    },
+    "type": [
+      "Ground",
+      "Ghost"
+    ]
+  },
+  {
+    "id": 868,
+    "name": {
+      "english": "Milcery",
+      "japanese": "マホミル",
+      "french": "Crèmy"
+    },
+    "type": [
+      "Fairy"
+    ]
+  },
+  {
+    "id": 869,
+    "name": {
+      "english": "Alcremie",
+      "japanese": "マホイップ",
+      "french": "Charmilly"
+    },
+    "type": [
+      "Fairy"
+    ]
+  },
+  {
+    "id": 870,
+    "name": {
+      "english": "Falinks",
+      "japanese": "タイレーツ",
+      "french": "Hexadron"
+    },
+    "type": [
+      "Fighting"
+    ]
+  },
+  {
+    "id": 871,
+    "name": {
+      "english": "Pincurchin",
+      "japanese": "バチンウニ",
+      "french": "Wattapik"
+    },
+    "type": [
+      "Electric"
+    ]
+  },
+  {
+    "id": 872,
+    "name": {
+      "english": "Snom",
+      "japanese": "ユキハミ",
+      "french": "Frissonille"
+    },
+    "type": [
+      "Ice",
+      "Bug"
+    ]
+  },
+  {
+    "id": 873,
+    "name": {
+      "english": "Frosmoth",
+      "japanese": "モスノウ",
+      "french": "Beldeneige"
+    },
+    "type": [
+      "Ice",
+      "Bug"
+    ]
+  },
+  {
+    "id": 874,
+    "name": {
+      "english": "Stonjourner",
+      "japanese": "イシヘンジン",
+      "french": "Dolman"
+    },
+    "type": [
+      "Rock"
+    ]
+  },
+  {
+    "id": 875,
+    "name": {
+      "english": "Eiscue",
+      "japanese": "コオリッポ",
+      "french": "Bekaglaçon"
+    },
+    "type": [
+      "Ice"
+    ]
+  },
+  {
+    "id": 876,
+    "name": {
+      "english": "Indeedee",
+      "japanese": "イエッサン",
+      "french": "Wimessir"
+    },
+    "type": [
+      "Psychic",
+      "Normal"
+    ]
+  },
+  {
+    "id": 877,
+    "name": {
+      "english": "Morpeko",
+      "japanese": "モルペコ",
+      "french": "Morpeko"
+    },
+    "type": [
+      "Electric",
+      "Dark"
+    ]
+  },
+  {
+    "id": 878,
+    "name": {
+      "english": "Cufant",
+      "japanese": "ゾウドウ",
+      "french": "Charibari"
+    },
+    "type": [
+      "Steel"
+    ]
+  },
+  {
+    "id": 879,
+    "name": {
+      "english": "Copperajah",
+      "japanese": "ダイオウドウ",
+      "french": "Pachyradjah"
+    },
+    "type": [
+      "Steel"
+    ]
+  },
+  {
+    "id": 880,
+    "name": {
+      "english": "Dracozolt",
+      "japanese": "パッチラゴン",
+      "french": "Galvagon"
+    },
+    "type": [
+      "Electric",
+      "Dragon"
+    ]
+  },
+  {
+    "id": 881,
+    "name": {
+      "english": "Arctozolt",
+      "japanese": "パッチルドン",
+      "french": "Galvagla"
+    },
+    "type": [
+      "Electric",
+      "Ice"
+    ]
+  },
+  {
+    "id": 882,
+    "name": {
+      "english": "Dracovish",
+      "japanese": "ウオノラゴン",
+      "french": "Hydragon"
+    },
+    "type": [
+      "Water",
+      "Dragon"
+    ]
+  },
+  {
+    "id": 883,
+    "name": {
+      "english": "Arctovish",
+      "japanese": "ウオチルドン",
+      "french": "Hydragla"
+    },
+    "type": [
+      "Water",
+      "Ice"
+    ]
+  },
+  {
+    "id": 884,
+    "name": {
+      "english": "Duraludon",
+      "japanese": "ジュラルドン",
+      "french": "Duralugon"
+    },
+    "type": [
+      "Steel",
+      "Dragon"
+    ]
+  },
+  {
+    "id": 885,
+    "name": {
+      "english": "Dreepy",
+      "japanese": "ドラメシヤ",
+      "french": "Fantyrm"
+    },
+    "type": [
+      "Dragon",
+      "Ghost"
+    ]
+  },
+  {
+    "id": 886,
+    "name": {
+      "english": "Drakloak",
+      "japanese": "ドロンチ",
+      "french": "Dispareptil"
+    },
+    "type": [
+      "Dragon",
+      "Ghost"
+    ]
+  },
+  {
+    "id": 887,
+    "name": {
+      "english": "Dragapult",
+      "japanese": "ドラパルト",
+      "french": "Lanssorien"
+    },
+    "type": [
+      "Dragon",
+      "Ghost"
+    ]
+  },
+  {
+    "id": 888,
+    "name": {
+      "english": "Zacian",
+      "japanese": "ザシアン",
+      "french": "Zacian"
+    },
+    "type": [
+      "Fairy"
+    ]
+  },
+  {
+    "id": 889,
+    "name": {
+      "english": "Zamazenta",
+      "japanese": "ザマゼンタ",
+      "french": "Zamazenta"
+    },
+    "type": [
+      "Fighting"
+    ]
+  },
+  {
+    "id": 890,
+    "name": {
+      "english": "Eternatus",
+      "japanese": "ムゲンダイナ",
+      "french": "Éthernatos"
+    },
+    "type": [
+      "Poison",
+      "Dragon"
+    ]
+  },
+  {
+    "id": 891,
+    "name": {
+      "english": "Kubfu",
+      "japanese": "",
+      "french": ""
+    },
+    "type": [
+      "Fighting"
+    ]
+  },
+  {
+    "id": 892,
+    "name": {
+      "english": "Urshifu",
+      "japanese": "",
+      "french": ""
+    },
+    "type": [
+      "Fighting",
+      "Dark"
+    ]
+  },
+  {
+    "id": 893,
+    "name": {
+      "english": "Zarude",
+      "japanese": "",
+      "french": ""
+    },
+    "type": [
+      "Dark",
+      "Grass"
+    ]
+  },
+  {
+    "id": 894,
+    "name": {
+      "english": "Regieleki",
+      "japanese": "",
+      "french": ""
+    },
+    "type": [
+      "Electric"
+    ]
+  },
+  {
+    "id": 895,
+    "name": {
+      "english": "Regidrago",
+      "japanese": "",
+      "french": ""
+    },
+    "type": [
+      "",
+      ""
+    ]
+  },
+  {
+    "id": 896,
+    "name": {
+      "english": "Glastrier",
+      "japanese": "",
+      "french": ""
+    },
+    "type": [
+      "Ice"
+    ]
+  },
+  {
+    "id": 897,
+    "name": {
+      "english": "Spectrier",
+      "japanese": "",
+      "french": ""
+    },
+    "type": [
+      "Ghost"
+    ]
+  },
+  {
+    "id": 898,
+    "name": {
+      "english": "Calyrex",
+      "japanese": "",
+      "french": ""
+    },
+    "type": [
+      "Psychic",
+      "Grass"
+    ]
+  },
+  {
+    "id": 899,
+    "name": {
+      "english": "Wyrdeer",
+      "japanese": "",
+      "french": ""
+    },
+    "type": [
+      "Normal",
+      "Psychic"
+    ]
+  },
+  {
+    "id": 900,
+    "name": {
+      "english": "Kleavor",
+      "japanese": "",
+      "french": ""
+    },
+    "type": [
+      "Bug",
+      "Rock"
+    ]
+  },
+  {
+    "id": 901,
+    "name": {
+      "english": "Ursaluna",
+      "japanese": "",
+      "french": ""
+    },
+    "type": [
+      "Ground",
+      "Normal"
+    ]
+  },
+  {
+    "id": 902,
+    "name": {
+      "english": "Basculegion",
+      "japanese": "",
+      "french": ""
+    },
+    "type": [
+      "Water",
+      "Ghost"
+    ]
+  },
+  {
+    "id": 903,
+    "name": {
+      "english": "Sneasler",
+      "japanese": "",
+      "french": ""
+    },
+    "type": [
+      "Fighting",
+      "Poison"
+    ]
+  },
+  {
+    "id": 904,
+    "name": {
+      "english": "Overqwill",
+      "japanese": "",
+      "french": ""
+    },
+    "type": [
+      "Dark",
+      "Poison"
+    ]
+  },
+  {
+    "id": 905,
+    "name": {
+      "english": "Enamorus",
+      "japanese": "",
+      "french": ""
+    },
+    "type": [
+      "Fairy",
+      "Flying"
+    ]
+  }
+]

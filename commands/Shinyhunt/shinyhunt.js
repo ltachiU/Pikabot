@@ -2,6 +2,25 @@ const fs = require('fs');
 const { prefix } = require('../../config/config.js');
 const { findKey, checkPokemon } = require('../../files/scripts/functions.js');
 
+
+function findShinyhunt(obj, user) {
+	const keys = Object.keys(obj);
+	for(let i=0; i<keys.length; i++) { // Check if is in shinyhunt
+		let current = obj[keys[i]];
+		if(current.includes(user))
+			return keys[i];
+
+		if(i==keys.length-1)
+			return false;
+	}
+}
+
+function verify(obj, key) { // If do not have -> return false
+	if(obj && obj.includes(key))
+		return true
+	return false
+}
+
 module.exports = {
 	name: "shinyhunt",
 	category: "Shinyhunt",
@@ -13,35 +32,32 @@ module.exports = {
 		var pokemon = args[0];
 
 		let data = fs.readFileSync('files/database/shinyhunt.json', 'utf-8');
-		var obj = JSON.parse(data);
-		let key = findKey(obj, user);
+		let obj = JSON.parse(data);
 
-		// View
+		const shinyhunt = findShinyhunt(obj, user); // Current shinyhunt
 		if(!pokemon) {
-			if(!key) {
+			if(!shinyhunt) 
 				return message.channel.send(`Você ainda não definiu seu shinyhunt \nDigite \`${prefix}sh <pokemon>\``);
-			}
-			return message.channel.send(`Você está em uma shinyhunt de \`${key}\``);
+			return message.channel.send(`Você está em uma shinyhunt de \`${shinyhunt}\``);
 		}
 		pokemon = pokemon.toLowerCase();
 			
-		if(!checkPokemon(pokemon))
+		if(!checkPokemon(pokemon)) // If pokemon do not exist
 			return message.channel.send(`Não conheço nenhum pokemon chamado \`${pokemon}\` \nDigite o nome do pokemon em inglês, por favor`);
-
-		if(key==pokemon)
+		if(pokemon==shinyhunt) // If is the same
 			return message.channel.send("Você já está em uma shinyhunt desse pokemon");
 
-		// Just check if is in some shinyhunt
-		if(key) {
-			const index = obj[key].indexOf(user);
-			obj[key].splice(index); // Removing from array
-		};
 
-		// Add
-		if(!obj.hasOwnProperty(pokemon))
-			obj[pokemon] = [user]; // Adding in another
+		if(obj[shinyhunt]) { // If user has shinyhunt
+			let index = obj[shinyhunt].indexOf(user);
+			obj[shinyhunt].splice(index); // Removing user from current shinyhunt array
+		}
+
+		if(obj.hasOwnProperty(pokemon)) // If pokemon array alredy exist
+			obj[pokemon].push(user);// Adding user to existent pokemon array
 		else
-			obj[pokemon].push(user);
+			obj[pokemon] = [user]; // Adding new pokemon arra
+
 
 		let json = JSON.stringify(obj, null, 1);
 		fs.writeFileSync(`files/database/shinyhunt.json`, json);
@@ -50,3 +66,4 @@ module.exports = {
 
 	}
 };
+

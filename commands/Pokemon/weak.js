@@ -88,12 +88,12 @@ module.exports = {
 			.addFields(
 				{ name: "Weak", value: weak.join(", ") },
 				{ name: "Neutral", value: neutral.join(", ") },
-				{ name: "Resist", value: resist.join(", ") }
 			)
 			.setColor(ee.color);
 		
 		// Só adicioanr se tiver imunidade
 		(immune.length>0) ? embed.addField("Immune", immune.join(", ")) : false;
+		(resist.length>0) ? embed.addField("Resist", resist.join(", ")) : false;
 
 		message.channel.send({ embeds: [embed] });
 

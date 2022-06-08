@@ -3,7 +3,7 @@ const ee = require('../../config/embed.json');
 
 module.exports = {
 	name: "servers",
-	category: "Bot",
+	category: "",
 	aliases: [],
 	usage: "servers",
 	description: "Mostra os servers em que eu estou",

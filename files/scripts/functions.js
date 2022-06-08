@@ -16,7 +16,7 @@ module.exports = {
 
 	findKey: function(obj, check) {
 		const keys = Object.keys(obj);
-
+		
 		if(keys.includes(check))
 			return true;
 		else
@@ -56,16 +56,13 @@ module.exports = {
 		return false;
 	},
 
-	/**
-	 * 
-     * @Pokemon
-	 * 
-     * */
+	/** @Pokemon */
+	
 	checkPokemon: function(pokemon) {
-		const obj = require('../database/pokemons.json');
+		const pokedex = require('../database/statics/pokedex.json');
 
-		for(let i=0; i < obj.length; i++) {
-			if(obj[i]['name']['english']==pokemon.charAt(0).toUpperCase() + pokemon.slice(1)) // Capitalize
+		for(let i=0; i < pokedex.length; i++) {
+			if(pokedex[i]['name']['english']==pokemon.charAt(0).toUpperCase() + pokemon.slice(1)) // Capitalize
 				return true;
 		}
 		return false;

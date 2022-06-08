@@ -1,6 +1,6 @@
 module.exports = {
 		name: "say",
-		category: "Administration",
+		category: "",
 		aliases: [],
 		usage: "say <text>",
 		description: ":parrot:",

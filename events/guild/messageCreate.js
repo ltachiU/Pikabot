@@ -56,8 +56,11 @@ module.exports = async (client, message) => {
 		if(!checkChannel(server, channel)) return;
 
 		let shinyhunters = "";
-		for(let i=0; i<users.length; i++)
+		for(let i=0; i<users.length; i++){
 			shinyhunters = shinyhunters+`<@${users[i]}>, `;
+		}
+
+			
 		return message.channel.send(`${shinyhunters}vem aqui seu corno!`);
 	});
 
