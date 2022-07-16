@@ -16,14 +16,12 @@ module.exports = async (client, guild) => {
 	let channel = (guild.systemChannel) ? guild.systemChannel : defaultChannel;
 
 	let embed = new MessageEmbed()
-		.setTitle("Muito Obrigado por me adicionar! :)")
-		.setDescription(`Para saber meus comandos digite \`${prefix}help\`
-			\nUse o comando \`${prefix}add\` no canal desajado, para adicionar-lo à lista de canais em que posso avisar os shinyhunts!
-			\nUse o comando \`${prefix}sh <pokemon>\` para setar seu shinyhunt
-			\nCom o shinyhunt setado, basta digitar o nome do pokemon, que eu irei chamar para você capturá-lo!`)
+		.setTitle("Thanks for addingme on your server! :)")
+		.setDescription(`I'm Pikabot, to see my commands type \`${prefix}help\`
+			\nUse the \`${prefix}add\` command to add a channel to the channel that I can send message!
+			\nUse the \`${prefix}sh <pokemon>\` command to set your shinyhunt
+			\nWhen the shinyhunthunt is set, just type the pokémon name and I will call you! Only on set channels!`)
 		.setColor(ee.color)
 		.setTimestamp();
 	return channel.send({ embeds: [embed] });
 };
-
-

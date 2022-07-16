@@ -5,8 +5,7 @@ module.exports = {
 	name: "servers",
 	category: "",
 	aliases: [],
-	usage: "servers",
-	description: "Mostra os servers em que eu estou",
+	usage: "",
 	whitelistOnly: true,
 	run: async (client, message) => {
 		var servers = "";

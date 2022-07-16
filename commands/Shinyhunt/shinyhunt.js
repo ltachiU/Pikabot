@@ -3,10 +3,10 @@ const { prefix } = require('../../config/config.js');
 const { findKey, checkPokemon } = require('../../files/scripts/functions.js');
 
 
-function findShinyhunt(obj, user) {
-	const keys = Object.keys(obj);
+function findShinyhunt(data, user) {
+	const keys = dataect.keys(data);
 	for(let i=0; i<keys.length; i++) { // Check if is in shinyhunt
-		let current = obj[keys[i]];
+		let current = data[keys[i]];
 		if(current.includes(user))
 			return keys[i];
 
@@ -15,8 +15,8 @@ function findShinyhunt(obj, user) {
 	}
 }
 
-function verify(obj, key) { // If do not have -> return false
-	if(obj && obj.includes(key))
+function verify(data, key) { // If do not have -> return false
+	if(data && data.includes(key))
 		return true
 	return false
 }
@@ -26,43 +26,42 @@ module.exports = {
 	category: "Shinyhunt",
 	aliases: ["sh"],
 	usage: "sh [pokemon]",
-	description: "Adiciona um pokemon à sua shinyhunt, toda vez que alguem falar o nome desse pokemon eu vou te chamar para você poder capturar ele.",
+	description: "Add a pokémon as shinyhunt, I call you to catch it",
 	run: async (client, message, args) => {
 		const user = message.author.id;
 		var pokemon = args[0];
 
-		let data = fs.readFileSync('files/database/shinyhunt.json', 'utf-8');
-		let obj = JSON.parse(data);
+		let data = JSON.parse(fs.readFileSync('files/database/shinyhunt.json', 'utf-8'));
 
-		const shinyhunt = findShinyhunt(obj, user); // Current shinyhunt
+		const shinyhunt = findShinyhunt(data, user); // Current shinyhunt
 		if(!pokemon) {
 			if(!shinyhunt) 
-				return message.channel.send(`Você ainda não definiu seu shinyhunt \nDigite \`${prefix}sh <pokemon>\``);
-			return message.channel.send(`Você está em uma shinyhunt de \`${shinyhunt}\``);
+				return message.channel.send(`You don't have a shinyhunt \nType \`${prefix}sh <pokemon>\``);
+			return message.channel.send(`Your shinyhunt is \`${shinyhunt}\``);
 		}
 		pokemon = pokemon.toLowerCase();
 			
 		if(!checkPokemon(pokemon)) // If pokemon do not exist
-			return message.channel.send(`Não conheço nenhum pokemon chamado \`${pokemon}\` \nDigite o nome do pokemon em inglês, por favor`);
+			return message.channel.send(`What is \`${pokemon}\`? \nType a pokémon name, please`);
 		if(pokemon==shinyhunt) // If is the same
-			return message.channel.send("Você já está em uma shinyhunt desse pokemon");
+			return message.channel.send("You alredy is shinyhunting this pokémon");
 
 
-		if(obj[shinyhunt]) { // If user has shinyhunt
-			let index = obj[shinyhunt].indexOf(user);
-			obj[shinyhunt].splice(index); // Removing user from current shinyhunt array
+		if(data[shinyhunt]) { // If user has shinyhunt
+			let index = data[shinyhunt].indexOf(user);
+			data[shinyhunt].splice(index); // Removing user from current shinyhunt array
 		}
 
-		if(obj.hasOwnProperty(pokemon)) // If pokemon array alredy exist
-			obj[pokemon].push(user);// Adding user to existent pokemon array
+		if(data.hasOwnProperty(pokemon)) // If pokemon array alredy exist
+			data[pokemon].push(user);// Adding user to existent pokemon array
 		else
-			obj[pokemon] = [user]; // Adding new pokemon arra
+			data[pokemon] = [user]; // Adding new pokemon array
 
 
-		let json = JSON.stringify(obj, null, 1);
+		let json = JSON.stringify(data, null, 1);
 		fs.writeFileSync(`files/database/shinyhunt.json`, json);
 
-		return message.channel.send(`Agora você será notificado quando um \`${pokemon}\` aparecer`);
+		return message.channel.send(`Now you are shinyhunting \`${pokemon}\`, if someone type its name, I will call you to catch it`);
 
 	}
 };

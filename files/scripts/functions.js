@@ -62,8 +62,8 @@ module.exports = {
 		const pokedex = require('../database/statics/pokedex.json');
 
 		for(let i=0; i < pokedex.length; i++) {
-			if(pokedex[i]['name']['english']==pokemon.charAt(0).toUpperCase() + pokemon.slice(1)) // Capitalize
-				return true;
+			if(pokedex[i]['name']['english'].toLowerCase()==pokemon.toLowerCase())
+				return pokedex[i];
 		}
 		return false;
 	},

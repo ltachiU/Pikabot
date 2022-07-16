@@ -17,5 +17,6 @@ module.exports = async (client) => {
 		console.log(`${i+1}. ${allevents[i]} Ready`); // Events ready
 	}
 	console.log(`\n- Loaded ${allevents.length} Events -`);
+
 	console.log("\nLogging into the BOT...");
 };

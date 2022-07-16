@@ -5,7 +5,8 @@ module.exports = (client) => {
 	readdirSync("./commands/").forEach((dir) => {
 		const commands = readdirSync(`./commands/${dir}/`).filter((file) => file.endsWith(".js"));
 		for (let file of commands) {
-			let pull = require(`../commands/${dir}/${file}`);
+			// let pull = require(`../commands/${dir}/${file}`);
+			try{ var pull = require(`../commands/${dir}/${file}`); } catch(err){ console.log(err) };
 			if(pull.name) {
 				client.commands.set(pull.name, pull);
 				allcommands.push(file);

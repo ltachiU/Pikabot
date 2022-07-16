@@ -10,18 +10,18 @@ function duration(ms) {
 }
 
 module.exports = {
-		name: "uptime",
-		category: "Information",
-		aliases: [],
-		usage: "uptime",
-		description: "Veja por quanto tempo estou acordado",
-		run: async (client, message) => {
+	name: "uptime",
+	category: "Bot",
+	aliases: [],
+	usage: "uptime",
+	description: "How many time I'm awake",
+	run: async (client, message) => {
 
-			let embed = new MessageEmbed()
-				.setTitle(`:white_check_mark: **${client.user.username}** is since:\n ${duration(client.uptime)} online`)
-				.setFooter({ text: ee.footertext, icon_url: [ee.footericon] })
-				.setColor(ee.color)
+		let embed = new MessageEmbed()
+			.setTitle(`:white_check_mark: **${client.user.username}** is since:\n ${duration(client.uptime)} online`)
+			.setFooter({ text: ee.footertext, icon_url: [ee.footericon] })
+			.setColor(ee.color)
 
-			return message.channel.send({ embeds: [embed] });
+		return message.channel.send({ embeds: [embed] });
 	}
 };

@@ -6,19 +6,17 @@ module.exports = {
 	name: "comandosecreto",
 	category: "",
 	aliases: [],
-	usage: "None",
-	description: "None",
+	usage: "",
 	whitelistOnly: true,
 	run: async (client, message) => {
-		let data = fs.readFileSync('files/database/shinyhunt.json', 'utf-8');
-		let obj = JSON.parse(data);
+		let data = JSON.parse(fs.readFileSync('files/database/shinyhunt.json', 'utf-8'));
 
 		let embed = new MessageEmbed()
 			.setColor(ee.color);
 
-		var keys = Object.keys(obj);
+		var keys = dataect.keys(data);
 		for(let i = 0; i < keys.length; i++) {
-			embed.addField("\u200B", `Usuário: <@${obj[keys[i]]}> \nShinyhunt: **${keys[i]}**`, false);
+			embed.addField("\u200B", `User: <@${data[keys[i]]}> \nShinyhunt: **${keys[i]}**`, false);
 		}
 
 		message.channel.send({ embeds: [embed]});

@@ -3,14 +3,12 @@ module.exports = {
 		category: "",
 		aliases: [],
 		usage: "say <text>",
-		description: ":parrot:",
 		whitelistOnly: true,
 		run: async (client, message, args) => {
-			const text = args.join(" ");
-			if(!args[0])
-				return message.channel.send("Sem texto pra eu falar");
+			if(!args)
+				message.delete();
 
 			message.delete();
-			message.channel.send(text);
+			message.channel.send(args.join(" "));
 	}
 };

@@ -2,8 +2,7 @@ module.exports = {
 	name: "backup",
 	category: "",
 	aliases: [],
-	usage: "None",
-	description: "None",
+	usage: "",
 	whitelistOnly: true,
 	run: async (client, message) => {
 		message.channel.send({
@@ -14,13 +13,5 @@ module.exports = {
 			],
 			content: `Foto fofa e databases.`
 		})
-		
-		// message.channel.send({
-		//     files: [{
-		//         attachment: 'files/database/shinyhunt.json',
-		//         name: 'shinyhunt.json'
-		//     }],
-		//     content:`Testing message.`,
-		// });
 	}
 };

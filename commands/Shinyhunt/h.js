@@ -3,55 +3,55 @@ const ee = require("../../config/embed.json");
 
 const fs = require('fs');
 const pokedex = require("../../files/database/statics/pokedex.json");
-const { capitalize } = require('../../files/scripts/text-formatting.js');
 const { similar, findIndicesOfMax } = require('../../files/scripts/functions.js');
+
+const { PERMISSIONS_INTEGER } = require("../../config/config.js");
+
 
 module.exports = {
 	name: "h",
 	category: "",
 	aliases: [],
-	usage: "None",
-	description: "None",
+	usage: "",
 	whitelistOnly: true,
 	run: async (client, message, hint) => {
+		let data = JSON.parse(fs.readFileSync('files/database/shinyhunt.json', 'utf-8'));
 
-		let shinyhunts = fs.readFileSync('files/database/shinyhunt.json', 'utf-8');
-		let obj = JSON.parse(shinyhunts);
+		// Same values and index
+		// I know, there is a better way to do that, but I can do that later
+		var pokemons = [], values = [];
 
-
-		// Desse jeito os valores e pokemons vão ser o mesmo index
-		var pokemons = [];
-		var values = [];
-
-		hintFormated = capitalize(hint.replace(/[<>@&!'",.\/\\]/g, ""));
 		for(let i = 0; i < pokedex.length; i++) {
-			let pokemon = pokedex[i]['name']['english']; // Adicionar pokemon ao array
-			let value = similar(hintFormated, pokemon); // Adicionar porcentagem ao array
+			let pokemon = pokedex[i]['name']['english']; // Add all pokemons in array
+			let value = similar(hint.replace(/[.\/\\]/g, "").toLowerCase(), pokemon.toLowerCase()); // Add all percents in array
 
-			pokemons.push(pokemon);
-			values.push(value);
+			pokemons.push(pokemon); values.push(value);
 		};
 
-		const indices = findIndicesOfMax(values, 3); // Pegar index dos três maiores valores
-		var finalResult = ""
-		for (let i = 0; i < indices.length; i++) {
-			var shinyhunters = " ";
-			const users = obj[pokemons[indices[i]].toLowerCase()];
 
-			if(users!=undefined) {
-				console.log(shinyhunters)
-				for(let i=0; i<users.length; i++)
-					shinyhunters = shinyhunters+`<@${users[i]}> `;
+		const indices = findIndicesOfMax(values, 3); // Get first 3 index
+		var results = "";
+
+		for (let i=0; i<3; i++) {
+			var shinyhunters = " ";
+			const users = data[pokemons[indices[i]].toLowerCase()];
+
+			// console.log(shinyhunters)
+			if(users) { // If have shinyhunters for this pokemon
+				for(let i=0; i<users.length; i++) // Add all shinyhunters
+					shinyhunters +=`<@${users[i]}> `;
 			}
 
-			finalResult = finalResult+`**${pokemons[indices[i]]}** (${values[indices[i]]}%) ${shinyhunters}\n`
+			let percent = values[indices[i]];
+			if(i==0 || percent<=40) // Add first hint, if next hint is lower or equal to 40 add more hint
+				results+=`**${pokemons[indices[i]]}** (${percent}%) ${shinyhunters}\n`;
 		};
 
-		let embed = new MessageEmbed() // setando variavel antes pra completar com o FOR
-			.setAuthor({ name: 'Pikabot#7873', iconURL: client.user.displayAvatarURL(), url: 'https://discord.com/oauth2/authorize?client_id=894390284698411099&permissions=8&scope=bot' })
-			.setDescription(`Resultados para **${hint}** \n${finalResult}`)
-			.setColor(ee.color);
 
+		let embed = new MessageEmbed() // setando variavel antes pra completar com o FOR
+			.setAuthor({ name: 'Pikabot#7873', url: `https://discord.com/oauth2/authorize/?permissions=${PERMISSIONS_INTEGER}&scope=bot&client_id=${client.user.id}` })
+			.setDescription(`Results for **${hint}** \n${results}`)
+			.setColor(ee.color);
 		message.channel.send({ embeds: [embed]});
 
 

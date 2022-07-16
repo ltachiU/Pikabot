@@ -1,12 +1,10 @@
 const fs = require('fs');
 module.exports = async (client, guild) => {
-	// Getting json
-	let data = fs.readFileSync('files/database/servers.json', 'utf-8');
-	let obj = JSON.parse(data);
+	let data = JSON.parse(fs.readFileSync('files/database/servers.json', 'utf-8')); // Getting json
 
-	delete obj[guild.id]
+	delete data[guild.id]
 
-	let json = JSON.stringify(obj, null, 1);
+	let json = JSON.stringify(data, null, 1);
 	fs.writeFileSync('files/database/channels.json', json); // Saving
 };
 

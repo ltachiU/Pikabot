@@ -4,8 +4,8 @@ const whitelist = [
 	"602303260572778516", // Nashi
 ];
 
-function whitelistCheck(usuario) {
-	if(whitelist.includes(usuario))
+function whitelistCheck(user) {
+	if(whitelist.includes(user))
 		return true;
 	else
 		return false;

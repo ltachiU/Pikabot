@@ -1,68 +1,61 @@
 const fs = require('fs');
+const { prefix } = require('../../config/config.js');
 const { whitelistCheck } = require('../../files/scripts/whitelist-check.js');
 
 module.exports = {
 	name: "channel",
 	category: "Shinyhunt",
-	aliases: ["canal"],
+	aliases: [],
 	usage: "channel <add | remove>",
-	description: "Adiciona ou remove o canal atual, da lista de canais que posso enviar mensagens.",
+	description: "Add or remove the current channel",
 	run: async (client, message,args) => {
 		const server = message.guild.id;
 		const channel = message.channel.id;
 
 		if(!message.member.permissions.has('MANAGE_MESSAGES') && !whitelistCheck(message.author.id))
-			return message.channel.send("Você não tem permissão pra usar esse comando! \nSeu boboca");
+			return message.channel.send("You don't have permission to use this command, Idiot");
 
-		let data = fs.readFileSync('files/database/channels.json', 'utf-8');
-		let obj = JSON.parse(data);
-
+		let data = JSON.parse(fs.readFileSync('files/database/channels.json', 'utf-8'));
 
 		if(!args[0])
-			return message.channel.send("Por favor, digite se você deseja que o canal atual seja adicionado (`add`) ou removido (`remove`) da lista de canais do servidor que eu posso enviar mensagens");
+			return message.reply(`To add the current channel type ${prefix}channel add \nTo remove type ${prefix}channel remove`)
 
-		let argument = args[0].toLowerCase()
-		if(argument=="add") {
-			// Se servidor ainda não foi adicionado ao json
-			if(!obj.hasOwnProperty(server)) {
-				obj[server] = ({ "channels":[channel] }); // Adicionando objeto ao json
+		let arg = args[0].toLowerCase()
+		if(arg=="add") {
+			// If channel is not added
+			if(!data.hasOwnProperty(server))
+				data[server] = ({ "channels":[] }); // Adding array
 
-				let json = JSON.stringify(obj, null, 1);
-
-				fs.writeFileSync(`files/database/channels.json`, json);
-				return message.channel.send("Canal adicionado!");
-			};
+			// Check if channel is added
+			if(data[server]['channels'].includes(channel))
+				message.channel.send("This channel alredy is added! Idiot");
 			
-			// Checando se canal já foi adicionado
-			if(obj[server]['channels'].includes(channel))
-				return message.channel.send("Esse canal já foi adicionado! \nBobão");
+			data[server]['channels'].push(channel); // Add
 
-			// Adicionar
-			obj[server]['channels'].push(channel);
-			let json = JSON.stringify(obj, null, 1);
+			message.channel.send("Channel added!");
 
-			fs.writeFileSync(`files/database/channels.json`, json);
-			return message.channel.send("Canal adicionado!");
+		} else if(["remove", "rem", "delete", "del"].includes(arg)) {
+			if(!data.hasOwnProperty(server))
+				message.channel.send("This server has no channels added!");
 
-		} else if(argument=="remove") {
-			if(!obj.hasOwnProperty(server))
-				return message.channel.send("Esse servidor não possui nenhum canal vinculado!");
+			// Checking if channel alredy is added
+			if(!data[server]['channels'].includes(channel)) 
+				message.channel.send("This channel is not added!");
 
-			// Checando se canal já foi adicionado
-			if(!obj[server]['channels'].includes(channel)) 
-				return message.channel.send("Esse canal não está adicionado!");
+			const index = data[server]['channels'].findIndex(x => x === channel) // Get current channel index
+			data[server]['channels'].splice(index); // Remove
 
-			// Pegar index do canal atual
-			const index = obj[server]['channels'].findIndex(x => x === channel)
-			obj[server]['channels'].splice(index); // Deleta
-
-			let json = JSON.stringify(obj, null, 1);
-			fs.writeFileSync(`files/database/channels.json`, json);
 			
-			return message.channel.send("Esse canal foi removido! \nNão vou mais enviar mensagens aqui!");
+			message.channel.send("This channel was removed! \nI will not send messages here!");
+
 		} else {
-			return message.channel.send("Por favor, digite se você deseja que o canal atual seja adicionado (`add`) ou removido (`remove`) da lista de canais do servidor que eu posso enviar mensagens");
+			return message.reply(`To add the current channel type ${prefix}channel add \n To remove type ${prefix}channel remove`)
 		}
+
+		// Save
+		let json = JSON.stringify(data, null, 1);
+		fs.writeFileSync(`files/database/channels.json`, json);
+			
 
 	},
 }
