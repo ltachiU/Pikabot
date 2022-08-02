@@ -1,7 +1,6 @@
 require('dotenv').config({ path:'config/.env' })
 module.exports = {
-	TOKEN: process.env.TOKEN_TESTES,
-	prefix: "-",
+	prefix: "^",
 
 	PERMISSIONS_INTEGER: 1523307641961,
 	NECESSARY_PERMISSIONS: [

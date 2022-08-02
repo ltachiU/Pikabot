@@ -34,6 +34,5 @@ client.categories = fs.readdirSync("./commands/"); // Categories
 });
 
 // Login into the bot
-const { TOKEN } = require('./config/config.js');
-client.login(TOKEN)
+client.login('MTAwMzg5NTY1MTgwNzAwMjc1NA.GFBw67.AhxOwirlPQwN-G-t1BXcP6G2umMhT-NqMTptB0')
 
