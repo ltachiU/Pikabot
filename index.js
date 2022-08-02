@@ -34,5 +34,5 @@ client.categories = fs.readdirSync("./commands/"); // Categories
 });
 
 // Login into the bot
-client.login('MTAwMzg5NTY1MTgwNzAwMjc1NA.GFBw67.AhxOwirlPQwN-G-t1BXcP6G2umMhT-NqMTptB0')
+client.login(process.env.token)
 
